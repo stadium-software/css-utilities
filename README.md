@@ -30,7 +30,7 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [Primary](#primary)
     - [Secondary](#secondary)
     - [Tertiary](#tertiary)
-  - [Miscelanrous UI elements](#miscelanrous-ui-elements)
+  - [Miscelaneous UI elements](#miscelaneous-ui-elements)
     - [Divider](#divider)
 
 # Setup
@@ -183,6 +183,8 @@ upper-case
 captitalize
 ```
 
+[Back to top](#table-of-contents)
+
 ### Word spacing
 Word spacing classes allow for increasing or decreasing the spaces between words
 
@@ -198,6 +200,8 @@ word-spacing-3
 word-spacing--1
 ```
 
+[Back to top](#table-of-contents)
+
 ### Letter spacing
 Letter spacing classes allow for increasing or decreasing the spaces between letters
 1. Append a pixel value to the base class name between -3 and 3
@@ -212,6 +216,8 @@ letter-spacing-4
 letter-spacing--1
 ```
 
+[Back to top](#table-of-contents)
+
 ### Line height
 Line height classes allow for increasing or decreasing the line-height attribute of displayed text
 1. Calculated as percentage of font-size
@@ -223,6 +229,8 @@ Line height classes allow for increasing or decreasing the line-height attribute
 line-height-140
 ```
 
+[Back to top](#table-of-contents)
+
 ### Breaking words
 This class prevents word overflow by hyphenating long words
 
@@ -232,6 +240,8 @@ Only works with width-restricted elements
 ```css
 break-word
 ```
+
+[Back to top](#table-of-contents)
 
 ### Code block or preformatted text
 Provides for the display of code or other preformatted text. In preformatted text line breaks are preserved. 
@@ -249,6 +259,8 @@ code-block
 --utils-code-min-width: 100px;
 --utils-code-padding: .3em;
 ```
+
+[Back to top](#table-of-contents)
 
 ## Buttons
 Provides for three button types. Adding 'disabled' to the classes list invokes the disabled button style for that type. 
@@ -307,6 +319,8 @@ primary disabled
 --utils-primary-disabled-button-opacity: 0.6;
 ```
 
+[Back to top](#table-of-contents)
+
 ### Secondary
 Secondary buttons 
 
@@ -359,6 +373,8 @@ secondary disabled
 --utils-secondary-disabled-button-box-shadow: none;
 --utils-secondary-disabled-button-opacity: 0.6;
 ```
+
+[Back to top](#table-of-contents)
 
 ### Tertiary
 Tertiary buttons 
@@ -413,8 +429,11 @@ tertiary disabled
 --utils-tertiary-disabled-button-opacity: 0.6;
 ```
 
-## Miscelanrous UI elements
+[Back to top](#table-of-contents)
+
+## Miscelaneous UI elements
 
 ### Divider
 A divider is represented as a horizontal line
 
+[Back to top](#table-of-contents)
