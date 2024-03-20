@@ -79,8 +79,25 @@ Customise any of these by changing the related [*variables*](utils-variables.css
 ```css
 h1
 ```
+**h1 variables**
+```css
+--utils-h1-font-size: 32px;
+--utils-h1-font-weight: 600;
+--utils-h1-line-height: 1.5;
+--utils-h1-margin-top: 1em;
+--utils-h1-margin-bottom: .5em;
+```
+
 ```css
 h2
+```
+**h2 variables**
+```css
+--utils-h2-font-size: 24px;
+--utils-h2-font-weight: 600;
+--utils-h2-line-height: 1.5;
+--utils-h2-margin-top: 1em;
+--utils-h2-margin-bottom: .5em;
 ```
 ```css
 h3
@@ -94,18 +111,7 @@ subtitle
 
 **Available variables**
 ```css
-/*TITLES & HEADINGS*/
---utils-h1-font-size: 32px;
---utils-h1-font-weight: 600;
---utils-h1-line-height: 1.5;
---utils-h1-margin-top: 1em;
---utils-h1-margin-bottom: .5em;
 
---utils-h2-font-size: 24px;
---utils-h2-font-weight: 600;
---utils-h2-line-height: 1.5;
---utils-h2-margin-top: 1em;
---utils-h2-margin-bottom: .5em;
 
 --utils-h3-font-size: 18px;
 --utils-h3-font-weight: 600;
