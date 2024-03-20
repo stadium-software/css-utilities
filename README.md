@@ -64,19 +64,19 @@ All classes are in lower case
 ## Typography
 
 ### h1, h2, h3, page-title, subtitle
-1. Affects text display
+1. Affect text display
 2. Apply class as shown
 
 ### large-text, small-text
-1. Affects text display
+1. Affect text display
 2. Apply class as shown
 
 ### italic, bold, underline
-1. Affects text display
+1. Affect text display
 2. Apply class as shown
 
 ### captitalize, uppercase, lowercase
-1. Affects text display
+1. Affect text display
 2. Apply class as shown
 
 ### word-spacing-x
