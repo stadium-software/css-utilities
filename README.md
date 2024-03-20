@@ -1,6 +1,6 @@
 # CSS Utilities
 
-This module contains CSS classes that can beadded to the classes property of controls in applications to quickly achieve a number of effects. 
+This module contains a set of CSS classes that can be added to the classes property of controls in applications to quickly apply a number of frequently-used styles. 
 
 ## Version
 1.0 initial release
