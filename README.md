@@ -16,9 +16,9 @@ This module contains a set of CSS classes that can be added to the classes prope
   - [Upgrading the module](#upgrading-the-module)
 - [Supported classes](#supported-classes)
   - [Typography](#typography)
-    - [Titles](#titles)
-    - [large-text, small-text](#large-text-small-text)
-    - [italic, bold, underline](#italic-bold-underline)
+    - [Titles \& headings](#titles--headings)
+    - [Large \& small text](#large--small-text)
+    - [Italic, bold and underline](#italic-bold-and-underline)
     - [captitalize, uppercase, lowercase](#captitalize-uppercase-lowercase)
     - [word-spacing-x](#word-spacing-x)
     - [letter-spacing-x](#letter-spacing-x)
@@ -66,7 +66,7 @@ All classes are in lower case
 
 ## Typography
 
-### Titles
+### Titles & headings
 1. Affect text display
 2. Apply class as shown
 ```css
@@ -87,13 +87,32 @@ subtitle
 
 [Back to top](#table-of-contents)
 
-### large-text, small-text
+### Large & small text
 1. Affect text display
 2. Apply class as shown
+```css
+large-text
+```
+```css
+small-text
+```
 
-### italic, bold, underline
+[Back to top](#table-of-contents)
+
+### Italic, bold and underline
 1. Affect text display
 2. Apply class as shown
+```css
+italic
+```
+```css
+bold
+```
+```css
+underline
+```
+
+[Back to top](#table-of-contents)
 
 ### captitalize, uppercase, lowercase
 1. Affect text display
