@@ -58,7 +58,7 @@ This module contains a set of CSS classes that can be added to the classes prope
 ## Upgrading the module
 To upgrade the CSS in this module, follow the [steps outlined in this repo](https://github.com/stadium-software/samples-upgrading)
 
-[Back to top](#version)
+[Back to top](#table-of-contents)
 
 # Supported classes
 
@@ -85,7 +85,7 @@ page-title
 subtitle
 ```
 
-[Back to top](#version)
+[Back to top](#table-of-contents)
 
 ### large-text, small-text
 1. Affect text display
