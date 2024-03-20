@@ -76,6 +76,8 @@ To upgrade the CSS in this module, follow the [steps outlined in this repo](http
 Titles and heading classes affect various aspects of the text display
 
 Customise any of these by changing the related [*variables*](utils-variables.css)
+
+**Class**
 ```css
 h1
 ```
@@ -88,6 +90,7 @@ h1
 --utils-h1-margin-bottom: .5em;
 ```
 
+**Class**
 ```css
 h2
 ```
@@ -99,32 +102,39 @@ h2
 --utils-h2-margin-top: 1em;
 --utils-h2-margin-bottom: .5em;
 ```
+
+**Class**
 ```css
 h3
 ```
+**h3 variables**
 ```css
-page-title
-```
-```css
-subtitle
-```
-
-**Available variables**
-```css
-
-
 --utils-h3-font-size: 18px;
 --utils-h3-font-weight: 600;
 --utils-h3-line-height: 1.5;
 --utils-h3-margin-top: 1em;
 --utils-h3-margin-bottom: .5em;
+```
 
+**Class**
+```css
+page-title
+```
+**page-title variables**
+```css
 --utils-page-title-font-size: 22px;
 --utils-page-title-font-weight: 600;
 --utils-page-title-line-height: 1.5;
 --utils-page-title-margin-top: 1em;
 --utils-page-title-margin-bottom: .5em;
+```
 
+**Class**
+```css
+subtitle
+```
+**subtitle variables**
+```css
 --utils-subtitle-font-size: 18px;
 --utils-subtitle-font-weight: 600;
 --utils-subtitle-line-height: 1.5;
