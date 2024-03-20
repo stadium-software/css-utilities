@@ -63,12 +63,10 @@ To upgrade the CSS in this module, follow the [steps outlined in this repo](http
 
 # Supported classes
 
-All classes are in lower case
-
 ## How to implement a utility class
 1. First, make sure you have [applied the module](#applying-the-module)
 2. Find a class you want to add in the list below
-3. Add it to the classes property of a control (in lower case)
+3. Add the class to the classes property of a control in lower case
 
 ![Implementing a class on a Control](images/Utils-Implement.png)
 
@@ -77,8 +75,7 @@ All classes are in lower case
 ### Titles & headings
 Titles and heading classes affect text display
 
-1. Customise by changing the related [*variables*](utils-variables.css)
-2. Apply a class as shown
+Customise any of these by changing the related [*variables*](utils-variables.css)
 ```css
 h1
 ```
@@ -95,7 +92,7 @@ page-title
 subtitle
 ```
 
-**Variables**
+**Available variables**
 ```css
 /*TITLES & HEADINGS*/
 --utils-h1-font-size: 32px;
@@ -133,8 +130,6 @@ subtitle
 
 ### Large & small text
 Large & small text classes affect text display
-
-Apply a class as shown
 ```css
 large-text
 ```
@@ -145,8 +140,7 @@ small-text
 [Back to top](#table-of-contents)
 
 ### Text styles
-1. Affect text display
-2. Apply class as shown
+Text style classes affect text display
 ```css
 italic
 ```
