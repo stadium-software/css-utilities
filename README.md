@@ -29,6 +29,7 @@ This module contains CSS classes that can beadded to the classes property of con
     - [secondary](#secondary)
     - [tertiary](#tertiary)
   - [Code-Block](#code-block)
+    - [code-block](#code-block-1)
 
 # Setup
 
@@ -66,6 +67,13 @@ All classes are in lower case
 ### h1, h2, h3, page-title, subtitle
 1. Affect text display
 2. Apply class as shown
+```css
+h1
+h2
+h3
+page-title
+subtitle
+```
 
 ### large-text, small-text
 1. Affect text display
@@ -133,4 +141,6 @@ Provides for three button styles. The display of each type can be customised in 
 ## Code-Block
 
 Provides for the display of code or other preformatted text. In preformatted text line breaks are preserved. 
+
+### code-block
 
