@@ -13,7 +13,7 @@ This module contains a set of CSS classes that can be added to the classes prope
   - [Application Setup](#application-setup)
   - [Applying the module](#applying-the-module)
   - [Upgrading the module](#upgrading-the-module)
-  - [How to implement a utility class](#how-to-implement-a-utility-class)
+  - [Implementing a utility class](#implementing-a-utility-class)
   - [Customising Class Display](#customising-class-display)
 - [Supported classes](#supported-classes)
   - [Typography](#typography)
@@ -52,7 +52,7 @@ To upgrade the CSS in this module, follow the [steps outlined in this repo](http
 
 [Back to top](#table-of-contents)
 
-## How to implement a utility class
+## Implementing a utility class
 1. First, make sure you have [applied the module](#applying-the-module)
 2. Find a class you want to add in the list below
 3. Add the class to the classes property of a control in lower case
@@ -70,8 +70,6 @@ To upgrade the CSS in this module, follow the [steps outlined in this repo](http
 
 ### Titles & headings
 Titles and heading classes affect various aspects of text display
-
-Customise any of these by changing the related [*variables*](utils-variables.css)
 
 **Class name**
 ```css
@@ -191,11 +189,11 @@ Word spacing classes allow for increasing or decreasing the spaces between words
 1. Append a pixel value to the base class name between -3 and 10
 2. Increments by 1 (-1, 0, 1, etc.)
 
-**Example for 'word-spacing: 3px;'**
+**Example class for 'word-spacing: 3px;'**
 ```css
 word-spacing-3
 ```
-**Example for 'word-spacing: -1px;'**
+**Example class for 'word-spacing: -1px;'**
 ```css
 word-spacing--1
 ```
@@ -205,11 +203,11 @@ Letter spacing classes allow for increasing or decreasing the spaces between let
 1. Append a pixel value to the base class name between -3 and 3
 2. Increment by 1 (-1, 0, 1, etc.)
 
-**Example for 'letter-spacing: 4px;'**
+**Example class for 'letter-spacing: 4px;'**
 ```css
 letter-spacing-4
 ```
-**Example for 'letter-spacing: -1px;'**
+**Example class for 'letter-spacing: -1px;'**
 ```css
 letter-spacing--1
 ```
@@ -220,7 +218,7 @@ Line height classes allow for increasing or decreasing the line-height attribute
 2. Append a value to the base class name between 50 and 250 (the equivalent of line-height:0.5 to 2.5;)
 3. Increments by 10 (50, 60, 70, etc.)
 
-**Example for 'line-height: 140%;' (the equivalent of 'line-height:1.4;')**
+**Example class for 'line-height: 140%;' (the equivalent of 'line-height:1.4;')**
 ```css
 line-height-140
 ```
