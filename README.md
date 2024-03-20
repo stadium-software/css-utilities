@@ -75,10 +75,10 @@ All classes are in lower case
 ## Typography
 
 ### Titles & headings
-Titles and headings affect text display
+Titles and heading classes affect text display
 
 1. Customise by changing the related [*variables*](utils-variables.css)
-2. Apply class as shown
+2. Apply a class as shown
 ```css
 h1
 ```
@@ -132,8 +132,9 @@ subtitle
 [Back to top](#table-of-contents)
 
 ### Large & small text
-1. Affect text display
-2. Apply class as shown
+Large & small text classes affect text display
+
+Apply a class as shown
 ```css
 large-text
 ```
