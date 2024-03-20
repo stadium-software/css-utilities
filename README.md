@@ -25,12 +25,11 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [Letter spacing](#letter-spacing)
     - [Line height](#line-height)
     - [Breaking words](#breaking-words)
+    - [Code block or preformatted text](#code-block-or-preformatted-text)
   - [Buttons](#buttons)
     - [Primary](#primary)
     - [Secondary](#secondary)
     - [Tertiary](#tertiary)
-  - [Code-Block](#code-block)
-    - [code-block](#code-block-1)
 
 # Setup
 
@@ -184,8 +183,8 @@ captitalize
 ### Word spacing
 Word spacing classes allow for increasing or decreasing the spaces between words
 
-1. Append a pixel value between -3 and 10
-2. Increment by 1 (-1, 0, 1, etc.)
+1. Append a pixel value to the base class name between -3 and 10
+2. Increments by 1 (-1, 0, 1, etc.)
 
 Example for 'word-spacing: 3px;'
 ```css
@@ -198,7 +197,7 @@ word-spacing--1
 
 ### Letter spacing
 Letter spacing classes allow for increasing or decreasing the spaces between letters
-1. Append a pixel value between -3 and 3
+1. Append a pixel value to the base class name between -3 and 3
 2. Increment by 1 (-1, 0, 1, etc.)
 
 Example for 'letter-spacing: 4px;'
@@ -213,8 +212,8 @@ letter-spacing--1
 ### Line height
 Line height classes allow for increasing or decreasing the line-height attribute of displayed text
 1. Calculated as percentage of font-size
-2. Append a value between 50 and 250 (the equivalent of line-height:0.5 to 2.5;)
-3. Increment by 10 (50, 60, 70, etc.)
+2. Append a value to the base class name between 50 and 250 (the equivalent of line-height:0.5 to 2.5;)
+3. Increments by 10 (50, 60, 70, etc.)
 
 Example for 'line-height: 140%;' (the equivalent of 'line-height:1.4;')
 ```css
@@ -229,6 +228,22 @@ Only works with width-restricted elements
 break-word
 ```
 
+### Code block or preformatted text
+Provides for the display of code or other preformatted text. In preformatted text line breaks are preserved. 
+
+```css
+code-block
+```
+**Code-block variables**
+```css
+--utils-code-background-color: #ddd;
+--utils-code-font-color: #333;
+--utils-code-font-size: 14px;
+--utils-code-max-width: 100%;
+--utils-code-min-width: 100px;
+--utils-code-padding: .3em;
+```
+
 ## Buttons
 Provides for three button styles. The display of each type can be customised in the [*utils-variables.css*](utils-variables.css) file
 
@@ -238,21 +253,8 @@ Primary buttons
 primary
 ```
 
-### Secondary
-Secondary buttons 
+**Primary button variables**
 ```css
-secondary
-```
-
-### Tertiary
-Tertiary buttons 
-```css
-tertiary
-```
-
-**Available variables**
-```css
-/*BUTTONS*/
 --utils-primary-button-background-color: #3399ff;
 --utils-primary-button-border-color: #2196f3;
 --utils-primary-button-border-width: 1px;
@@ -276,7 +278,15 @@ tertiary
 --utils-primary-hover-button-text-decoration: none;
 --utils-primary-hover-button-padding: 10px 16px;
 --utils-primary-hover-button-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+```
 
+### Secondary
+Secondary buttons 
+```css
+secondary
+```
+**Secondary button variables**
+```css
 --utils-secondary-button-background-color: rgb(255, 255, 255);
 --utils-secondary-button-border-color: #2196f3;
 --utils-secondary-button-border-width: 1px;
@@ -300,7 +310,15 @@ tertiary
 --utils-secondary-hover-button-text-decoration: none;
 --utils-secondary-hover-button-padding: 10px 16px;
 --utils-secondary-hover-button-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+```
 
+### Tertiary
+Tertiary buttons 
+```css
+tertiary
+```
+**Tertiary button variables**
+```css
 --utils-tertiary-button-background-color: transparent;
 --utils-tertiary-button-border-color: white;
 --utils-tertiary-button-border-width: 1px;
@@ -325,10 +343,3 @@ tertiary
 --utils-tertiary-hover-button-padding: 10px 16px;
 --utils-tertiary-hover-button-box-shadow: none;
 ```
-
-## Code-Block
-
-Provides for the display of code or other preformatted text. In preformatted text line breaks are preserved. 
-
-### code-block
-
