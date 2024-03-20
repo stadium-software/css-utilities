@@ -23,12 +23,12 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [Text casing](#text-casing)
     - [Word spacing](#word-spacing)
     - [Letter spacing](#letter-spacing)
-    - [line-height-xx](#line-height-xx)
-    - [break-word](#break-word)
+    - [Line height](#line-height)
+    - [Breaking words](#breaking-words)
   - [Buttons](#buttons)
-    - [primary](#primary)
-    - [secondary](#secondary)
-    - [tertiary](#tertiary)
+    - [Primary](#primary)
+    - [Secondary](#secondary)
+    - [Tertiary](#tertiary)
   - [Code-Block](#code-block)
     - [code-block](#code-block-1)
 
@@ -75,8 +75,7 @@ All classes are in lower case
 ## Typography
 
 ### Titles & headings
-1. Affect text display
-2. Apply class as shown
+Titles and headings affect text display
 ```css
 h1
 ```
@@ -163,28 +162,45 @@ Example for 'letter-spacing: -1px;'
 letter-spacing--1
 ```
 
-### line-height-xx
+### Line height
 1. Affects the line-height property
 2. Calculated as percentage of font-size
 3. Append a value between 50 and 250 (the equivalent of line-height:0.5 to 2.5;)
 4. Increment by 10 (50, 60, 70, etc.)
 
-Example for line-height: 140%;
+Example for 'line-height: 140%;' (the equivalent of 'line-height:1.4;')
 ```css
 line-height-140
 ```
 
-### break-word
+### Breaking words
 1. Prevents word overflow
 2. Apply as shown to width-restricted elements
+```css
+break-word
+```
 
 ## Buttons
 
 Provides for three button styles. The display of each type can be customised in the [*utils-variables.css*](utils-variables.css) file
 
-### primary
-### secondary
-### tertiary
+### Primary
+Primary buttons 
+```css
+primary
+```
+
+### Secondary
+Secondary buttons 
+```css
+secondary
+```
+
+### Tertiary
+Tertiary buttons 
+```css
+tertiary
+```
 
 ## Code-Block
 
