@@ -16,7 +16,7 @@ This module contains a set of CSS classes that can be added to the classes prope
   - [Upgrading the module](#upgrading-the-module)
 - [Supported classes](#supported-classes)
   - [Typography](#typography)
-    - [h1, h2, h3, page-title, subtitle](#h1-h2-h3-page-title-subtitle)
+    - [Titles](#titles)
     - [large-text, small-text](#large-text-small-text)
     - [italic, bold, underline](#italic-bold-underline)
     - [captitalize, uppercase, lowercase](#captitalize-uppercase-lowercase)
@@ -66,7 +66,7 @@ All classes are in lower case
 
 ## Typography
 
-### h1, h2, h3, page-title, subtitle
+### Titles
 1. Affect text display
 2. Apply class as shown
 ```css
