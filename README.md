@@ -69,7 +69,7 @@ All classes are in lower case
 
 Find a class you want to add 
 
-[Implementing a class on a Control](images/Utils-Implement.png)
+![Implementing a class on a Control](images/Utils-Implement.png)
 
 ## Typography
 
