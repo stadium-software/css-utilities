@@ -77,7 +77,7 @@ All classes are in lower case
 ### Titles & headings
 Titles and headings affect text display
 
-1. Customise by changign the related [*variables*](utils-variables.css)
+1. Customise by changing the related [*variables*](utils-variables.css)
 2. Apply class as shown
 ```css
 h1
@@ -93,6 +93,40 @@ page-title
 ```
 ```css
 subtitle
+```
+
+**Typography variables**
+```css
+/*TYPOGRAPHY*/
+    --utils-h1-font-size: 32px;
+    --utils-h1-font-weight: 600;
+    --utils-h1-line-height: 1.5;
+    --utils-h1-margin-top: 1em;
+    --utils-h1-margin-bottom: .5em;
+    
+    --utils-h2-font-size: 24px;
+    --utils-h2-font-weight: 600;
+    --utils-h2-line-height: 1.5;
+    --utils-h2-margin-top: 1em;
+    --utils-h2-margin-bottom: .5em;
+
+    --utils-h3-font-size: 18px;
+    --utils-h3-font-weight: 600;
+    --utils-h3-line-height: 1.5;
+    --utils-h3-margin-top: 1em;
+    --utils-h3-margin-bottom: .5em;
+
+    --utils-page-title-font-size: 22px;
+    --utils-page-title-font-weight: 600;
+    --utils-page-title-line-height: 1.5;
+    --utils-page-title-margin-top: 1em;
+    --utils-page-title-margin-bottom: .5em;
+
+    --utils-subtitle-font-size: 18px;
+    --utils-subtitle-font-weight: 600;
+    --utils-subtitle-line-height: 1.5;
+    --utils-subtitle-margin-top: 1em;
+    --utils-subtitle-margin-bottom: .5em;
 ```
 
 [Back to top](#table-of-contents)
