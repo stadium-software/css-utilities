@@ -73,11 +73,11 @@ To upgrade the CSS in this module, follow the [steps outlined in this repo](http
 ## Typography
 
 ### Titles & headings
-Titles and heading classes affect various aspects of the text display
+Titles and heading classes affect various aspects of text display
 
 Customise any of these by changing the related [*variables*](utils-variables.css)
 
-**Class**
+**Class name**
 ```css
 h1
 ```
@@ -90,7 +90,7 @@ h1
 --utils-h1-margin-bottom: .5em;
 ```
 
-**Class**
+**Class name**
 ```css
 h2
 ```
@@ -103,7 +103,7 @@ h2
 --utils-h2-margin-bottom: .5em;
 ```
 
-**Class**
+**Class name**
 ```css
 h3
 ```
@@ -116,7 +116,7 @@ h3
 --utils-h3-margin-bottom: .5em;
 ```
 
-**Class**
+**Class name**
 ```css
 page-title
 ```
@@ -129,7 +129,7 @@ page-title
 --utils-page-title-margin-bottom: .5em;
 ```
 
-**Class**
+**Class name**
 ```css
 subtitle
 ```
