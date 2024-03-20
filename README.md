@@ -15,14 +15,14 @@ This module contains a set of CSS classes that can be added to the classes prope
   - [Customising Class Display](#customising-class-display)
   - [Upgrading the module](#upgrading-the-module)
 - [Supported classes](#supported-classes)
-  - [How to implement](#how-to-implement)
+  - [How to implement a utility class](#how-to-implement-a-utility-class)
   - [Typography](#typography)
     - [Titles \& headings](#titles--headings)
     - [Large \& small text](#large--small-text)
-    - [Italic, bold \& underline](#italic-bold--underline)
-    - [captitalisation, uppercase \& lowercase](#captitalisation-uppercase--lowercase)
-    - [word-spacing-x](#word-spacing-x)
-    - [letter-spacing-x](#letter-spacing-x)
+    - [Text styles](#text-styles)
+    - [Text casing](#text-casing)
+    - [Word spacing](#word-spacing)
+    - [Letter spacing](#letter-spacing)
     - [line-height-xx](#line-height-xx)
     - [break-word](#break-word)
   - [Buttons](#buttons)
@@ -65,9 +65,10 @@ To upgrade the CSS in this module, follow the [steps outlined in this repo](http
 
 All classes are in lower case
 
-## How to implement
-
-Find a class you want to add 
+## How to implement a utility class
+1. First, make sure you have [applied the module](#applying-the-module)
+2. Find a class you want to add in the list below
+3. Add it to the classes property of a control (in lower case)
 
 ![Implementing a class on a Control](images/Utils-Implement.png)
 
@@ -106,7 +107,7 @@ small-text
 
 [Back to top](#table-of-contents)
 
-### Italic, bold & underline
+### Text styles
 1. Affect text display
 2. Apply class as shown
 ```css
@@ -121,34 +122,43 @@ underline
 
 [Back to top](#table-of-contents)
 
-### captitalisation, uppercase & lowercase
+### Text casing
 1. Affect text display
 2. Apply class as shown
+```css
+lower-case
+```
+```css
+upper-case
+```
+```css
+captitalize
+```
 
-### word-spacing-x
+### Word spacing
 1. Affects the word-spacing property
 2. Append a pixel value between -3 and 10
 3. Increment by 1 (-1, 0, 1, etc.)
 
-Example for word-spacing: 3px;
+Example for 'word-spacing: 3px;'
 ```css
 word-spacing-3
 ```
-Example for word-spacing: -1px;
+Example for 'word-spacing: -1px;'
 ```css
 word-spacing--1
 ```
 
-### letter-spacing-x
+### Letter spacing
 1. Affects the letter-spacing property
 2. Append a pixel value between -3 and 3
 3. Increment by 1 (-1, 0, 1, etc.)
 
-Example for letter-spacing: 4px;
+Example for 'letter-spacing: 4px;'
 ```css
 letter-spacing-4
 ```
-Example for letter-spacing: -1px;
+Example for 'letter-spacing: -1px;'
 ```css
 letter-spacing--1
 ```
