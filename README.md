@@ -76,6 +76,9 @@ All classes are in lower case
 
 ### Titles & headings
 Titles and headings affect text display
+
+1. Customise by changign the related [*variables*](utils-variables.css)
+2. Apply class as shown
 ```css
 h1
 ```
