@@ -69,9 +69,17 @@ All classes are in lower case
 2. Apply class as shown
 ```css
 h1
+```
+```css
 h2
+```
+```css
 h3
+```
+```css
 page-title
+```
+```css
 subtitle
 ```
 
