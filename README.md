@@ -15,11 +15,12 @@ This module contains a set of CSS classes that can be added to the classes prope
   - [Customising Class Display](#customising-class-display)
   - [Upgrading the module](#upgrading-the-module)
 - [Supported classes](#supported-classes)
+  - [How to implement](#how-to-implement)
   - [Typography](#typography)
     - [Titles \& headings](#titles--headings)
     - [Large \& small text](#large--small-text)
-    - [Italic, bold and underline](#italic-bold-and-underline)
-    - [captitalize, uppercase, lowercase](#captitalize-uppercase-lowercase)
+    - [Italic, bold \& underline](#italic-bold--underline)
+    - [captitalisation, uppercase \& lowercase](#captitalisation-uppercase--lowercase)
     - [word-spacing-x](#word-spacing-x)
     - [letter-spacing-x](#letter-spacing-x)
     - [line-height-xx](#line-height-xx)
@@ -64,6 +65,12 @@ To upgrade the CSS in this module, follow the [steps outlined in this repo](http
 
 All classes are in lower case
 
+## How to implement
+
+Find a class you want to add 
+
+[Implementing a class on a Control](images/Utils-Implement.png)
+
 ## Typography
 
 ### Titles & headings
@@ -99,7 +106,7 @@ small-text
 
 [Back to top](#table-of-contents)
 
-### Italic, bold and underline
+### Italic, bold & underline
 1. Affect text display
 2. Apply class as shown
 ```css
@@ -114,7 +121,7 @@ underline
 
 [Back to top](#table-of-contents)
 
-### captitalize, uppercase, lowercase
+### captitalisation, uppercase & lowercase
 1. Affect text display
 2. Apply class as shown
 
