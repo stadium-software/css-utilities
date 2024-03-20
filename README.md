@@ -14,8 +14,8 @@ This module contains a set of CSS classes that can be added to the classes prope
   - [Applying the module](#applying-the-module)
   - [Customising Class Display](#customising-class-display)
   - [Upgrading the module](#upgrading-the-module)
-- [Supported classes](#supported-classes)
   - [How to implement a utility class](#how-to-implement-a-utility-class)
+- [Supported classes](#supported-classes)
   - [Typography](#typography)
     - [Titles \& headings](#titles--headings)
     - [Large \& small text](#large--small-text)
@@ -61,8 +61,6 @@ To upgrade the CSS in this module, follow the [steps outlined in this repo](http
 
 [Back to top](#table-of-contents)
 
-# Supported classes
-
 ## How to implement a utility class
 1. First, make sure you have [applied the module](#applying-the-module)
 2. Find a class you want to add in the list below
@@ -70,10 +68,12 @@ To upgrade the CSS in this module, follow the [steps outlined in this repo](http
 
 ![Implementing a class on a Control](images/Utils-Implement.png)
 
+# Supported classes
+
 ## Typography
 
 ### Titles & headings
-Titles and heading classes affect text display
+Titles and heading classes affect various aspects of the text display
 
 Customise any of these by changing the related [*variables*](utils-variables.css)
 ```css
@@ -129,7 +129,7 @@ subtitle
 [Back to top](#table-of-contents)
 
 ### Large & small text
-Large & small text classes affect text display
+Large & small text classes affect the size of displayed text 
 ```css
 large-text
 ```
@@ -140,7 +140,7 @@ small-text
 [Back to top](#table-of-contents)
 
 ### Text styles
-Text style classes affect text display
+Text style classes affect the style of displayed text 
 ```css
 italic
 ```
@@ -154,8 +154,7 @@ underline
 [Back to top](#table-of-contents)
 
 ### Text casing
-1. Affect text display
-2. Apply class as shown
+Text casing classes allow for changing the case of displayed text 
 ```css
 lower-case
 ```
@@ -167,9 +166,10 @@ captitalize
 ```
 
 ### Word spacing
-1. Affects the word-spacing property
-2. Append a pixel value between -3 and 10
-3. Increment by 1 (-1, 0, 1, etc.)
+Word spacing classes allow for increasing or decreasing the spaces between words
+
+1. Append a pixel value between -3 and 10
+2. Increment by 1 (-1, 0, 1, etc.)
 
 Example for 'word-spacing: 3px;'
 ```css
@@ -181,9 +181,9 @@ word-spacing--1
 ```
 
 ### Letter spacing
-1. Affects the letter-spacing property
-2. Append a pixel value between -3 and 3
-3. Increment by 1 (-1, 0, 1, etc.)
+Letter spacing classes allow for increasing or decreasing the spaces between letters
+1. Append a pixel value between -3 and 3
+2. Increment by 1 (-1, 0, 1, etc.)
 
 Example for 'letter-spacing: 4px;'
 ```css
@@ -195,10 +195,10 @@ letter-spacing--1
 ```
 
 ### Line height
-1. Affects the line-height property
-2. Calculated as percentage of font-size
-3. Append a value between 50 and 250 (the equivalent of line-height:0.5 to 2.5;)
-4. Increment by 10 (50, 60, 70, etc.)
+Line height classes allow for increasing or decreasing the line-height attribute of displayed text
+1. Calculated as percentage of font-size
+2. Append a value between 50 and 250 (the equivalent of line-height:0.5 to 2.5;)
+3. Increment by 10 (50, 60, 70, etc.)
 
 Example for 'line-height: 140%;' (the equivalent of 'line-height:1.4;')
 ```css
@@ -206,14 +206,14 @@ line-height-140
 ```
 
 ### Breaking words
-1. Prevents word overflow
-2. Apply as shown to width-restricted elements
+This class prevents word overflow by hyphenating long words
+
+Only works with width-restricted elements
 ```css
 break-word
 ```
 
 ## Buttons
-
 Provides for three button styles. The display of each type can be customised in the [*utils-variables.css*](utils-variables.css) file
 
 ### Primary
@@ -232,6 +232,82 @@ secondary
 Tertiary buttons 
 ```css
 tertiary
+```
+
+**Available variables**
+```css
+/*BUTTONS*/
+--utils-primary-button-background-color: #3399ff;
+--utils-primary-button-border-color: #2196f3;
+--utils-primary-button-border-width: 1px;
+--utils-primary-button-border-radius: 3px;
+--utils-primary-button-font-color: white;
+--utils-primary-button-font-size: 14px;
+--utils-primary-button-text-transform: uppercase;
+--utils-primary-button-text-decoration: none;
+--utils-primary-button-padding: 10px 16px;
+--utils-primary-button-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+--utils-primary-button-outline-color: white;
+--utils-primary-button-outline-width: 1px;
+
+--utils-primary-hover-button-background-color: #1976d2;
+--utils-primary-hover-button-border-color: #2196f3;
+--utils-primary-hover-button-border-width: 1px;
+--utils-primary-hover-button-border-radius: 3px;
+--utils-primary-hover-button-font-color: #fff;
+--utils-primary-hover-button-font-size: 14px;
+--utils-primary-hover-button-text-transform: uppercase;
+--utils-primary-hover-button-text-decoration: none;
+--utils-primary-hover-button-padding: 10px 16px;
+--utils-primary-hover-button-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+--utils-secondary-button-background-color: rgb(255, 255, 255);
+--utils-secondary-button-border-color: #2196f3;
+--utils-secondary-button-border-width: 1px;
+--utils-secondary-button-border-radius: 3px;
+--utils-secondary-button-font-color: #3399ff;
+--utils-secondary-button-font-size: 14px;
+--utils-secondary-button-text-transform: uppercase;
+--utils-secondary-button-text-decoration: none;
+--utils-secondary-button-padding: 10px 16px;
+--utils-secondary-button-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+--utils-secondary-button-outline-color: white;
+--utils-secondary-button-outline-width: 1px;
+
+--utils-secondary-hover-button-background-color: rgba(255,255,255,.8);
+--utils-secondary-hover-button-border-color: #2196f3;
+--utils-secondary-hover-button-border-width: 1px;
+--utils-secondary-hover-button-border-radius: 3px;
+--utils-secondary-hover-button-font-color: #3399ff;
+--utils-secondary-hover-button-font-size: 14px;
+--utils-secondary-hover-button-text-transform: uppercase;
+--utils-secondary-hover-button-text-decoration: none;
+--utils-secondary-hover-button-padding: 10px 16px;
+--utils-secondary-hover-button-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+--utils-tertiary-button-background-color: transparent;
+--utils-tertiary-button-border-color: white;
+--utils-tertiary-button-border-width: 1px;
+--utils-tertiary-button-border-radius: 3px;
+--utils-tertiary-button-font-color: #3399ff;
+--utils-tertiary-button-font-size: 14px;
+--utils-tertiary-button-text-transform: uppercase;
+--utils-tertiary-button-text-decoration: none;
+--utils-tertiary-button-padding: 10px 16px;
+--utils-tertiary-button-box-shadow: none;
+--utils-tertiary-button-outline-color: white;
+--utils-tertiary-button-outline-width: 1px;
+
+--utils-tertiary-hover-button-background-color: transparent;
+--utils-tertiary-hover-button-border-color: white;
+--utils-tertiary-hover-button-border-width: 1px;
+--utils-tertiary-hover-button-border-radius: 3px;
+--utils-tertiary-hover-button-font-color: #2196f3;
+--utils-tertiary-hover-button-font-size: 14px;
+--utils-tertiary-hover-button-text-transform: uppercase;
+--utils-tertiary-hover-button-text-decoration: underline;
+--utils-tertiary-hover-button-padding: 10px 16px;
+--utils-tertiary-hover-button-box-shadow: none;
 ```
 
 ## Code-Block
