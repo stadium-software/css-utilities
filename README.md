@@ -145,9 +145,11 @@ subtitle
 
 ### Large & small text
 Large & small text classes affect the size of displayed text 
+**Class name**
 ```css
 large-text
 ```
+**Class name**
 ```css
 small-text
 ```
@@ -156,12 +158,15 @@ small-text
 
 ### Text styles
 Text style classes affect the style of displayed text 
+**Class name**
 ```css
 italic
 ```
+**Class name**
 ```css
 bold
 ```
+**Class name**
 ```css
 underline
 ```
@@ -170,12 +175,15 @@ underline
 
 ### Text casing
 Text casing classes allow for changing the case of displayed text 
+**Class name**
 ```css
 lower-case
 ```
+**Class name**
 ```css
 upper-case
 ```
+**Class name**
 ```css
 captitalize
 ```
@@ -186,11 +194,11 @@ Word spacing classes allow for increasing or decreasing the spaces between words
 1. Append a pixel value to the base class name between -3 and 10
 2. Increments by 1 (-1, 0, 1, etc.)
 
-Example for 'word-spacing: 3px;'
+**Example for 'word-spacing: 3px;'**
 ```css
 word-spacing-3
 ```
-Example for 'word-spacing: -1px;'
+**Example for 'word-spacing: -1px;'**
 ```css
 word-spacing--1
 ```
@@ -200,11 +208,11 @@ Letter spacing classes allow for increasing or decreasing the spaces between let
 1. Append a pixel value to the base class name between -3 and 3
 2. Increment by 1 (-1, 0, 1, etc.)
 
-Example for 'letter-spacing: 4px;'
+**Example for 'letter-spacing: 4px;'**
 ```css
 letter-spacing-4
 ```
-Example for 'letter-spacing: -1px;'
+**Example for 'letter-spacing: -1px;'**
 ```css
 letter-spacing--1
 ```
@@ -215,7 +223,7 @@ Line height classes allow for increasing or decreasing the line-height attribute
 2. Append a value to the base class name between 50 and 250 (the equivalent of line-height:0.5 to 2.5;)
 3. Increments by 10 (50, 60, 70, etc.)
 
-Example for 'line-height: 140%;' (the equivalent of 'line-height:1.4;')
+**Example for 'line-height: 140%;' (the equivalent of 'line-height:1.4;')**
 ```css
 line-height-140
 ```
@@ -224,6 +232,8 @@ line-height-140
 This class prevents word overflow by hyphenating long words
 
 Only works with width-restricted elements
+
+**Class name**
 ```css
 break-word
 ```
@@ -231,6 +241,7 @@ break-word
 ### Code block or preformatted text
 Provides for the display of code or other preformatted text. In preformatted text line breaks are preserved. 
 
+**Class name**
 ```css
 code-block
 ```
@@ -249,6 +260,8 @@ Provides for three button styles. The display of each type can be customised in 
 
 ### Primary
 Primary buttons 
+
+**Class name**
 ```css
 primary
 ```
@@ -282,6 +295,8 @@ primary
 
 ### Secondary
 Secondary buttons 
+
+**Class name**
 ```css
 secondary
 ```
@@ -314,6 +329,8 @@ secondary
 
 ### Tertiary
 Tertiary buttons 
+
+**Class name**
 ```css
 tertiary
 ```
