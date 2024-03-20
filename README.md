@@ -12,9 +12,9 @@ This module contains a set of CSS classes that can be added to the classes prope
 - [Setup](#setup)
   - [Application Setup](#application-setup)
   - [Applying the module](#applying-the-module)
-  - [Customising Class Display](#customising-class-display)
   - [Upgrading the module](#upgrading-the-module)
   - [How to implement a utility class](#how-to-implement-a-utility-class)
+  - [Customising Class Display](#customising-class-display)
 - [Supported classes](#supported-classes)
   - [Typography](#typography)
     - [Titles \& headings](#titles--headings)
@@ -39,8 +39,6 @@ This module contains a set of CSS classes that can be added to the classes prope
 1. Check the Enable Style Sheet checkbox in the application properties
 
 ## Applying the module
-
-**Stadium 6.6 or higher**
 1. Create a folder called "CSS" inside of your Embedded Files in your application
 2. Drag the two CSS files from this repo [*utils-variables.css*](utils-variables.css) and [*utils.css*](utils.css) into that folder
 3. Paste the link tags below into the *head* property of your application
@@ -48,14 +46,6 @@ This module contains a set of CSS classes that can be added to the classes prope
 <link rel="stylesheet" href="{EmbeddedFiles}/CSS/utils.css">
 <link rel="stylesheet" href="{EmbeddedFiles}/CSS/utils-variables.css">
 ``` 
-
-**Versions lower than 6.6**
-1. Copy the CSS from the two css files into the Stylesheet in your application
-
-## Customising Class Display
-1. Open the CSS file called [*utils-variables.css*](utils-variables.css) from this repo
-2. Adjust the variables in the *:root* element as you see fit
-3. Overwrite the file in the CSS folder of your application with the customised file
 
 ## Upgrading the module
 To upgrade the CSS in this module, follow the [steps outlined in this repo](https://github.com/stadium-software/samples-upgrading)
@@ -68,6 +58,11 @@ To upgrade the CSS in this module, follow the [steps outlined in this repo](http
 3. Add the class to the classes property of a control in lower case
 
 ![Implementing a class on a Control](images/Utils-Implement.png)
+
+## Customising Class Display
+1. Open the CSS file called [*utils-variables.css*](utils-variables.css) from this repo
+2. Adjust the variables in the *:root* element as you see fit
+3. Overwrite the file in the CSS folder of your application with the customised file
 
 # Supported classes
 
