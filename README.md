@@ -30,6 +30,8 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [Primary](#primary)
     - [Secondary](#secondary)
     - [Tertiary](#tertiary)
+  - [Miscelanrous UI elements](#miscelanrous-ui-elements)
+    - [Divider](#divider)
 
 # Setup
 
@@ -256,7 +258,7 @@ code-block
 ```
 
 ## Buttons
-Provides for three button styles. The display of each type can be customised in the [*utils-variables.css*](utils-variables.css) file
+Provides for three button types. Adding 'disabled' to the classes list invokes the disabled button style for that type. 
 
 ### Primary
 Primary buttons 
@@ -293,6 +295,25 @@ primary
 --utils-primary-hover-button-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 ```
 
+**Class names**
+```css
+primary disabled
+```
+**Disabled primary button variables**
+```css
+--utils-primary-disabled-button-background-color: #1976d2;
+--utils-primary-disabled-button-border-color: #2196f3;
+--utils-primary-disabled-button-border-width: 1px;
+--utils-primary-disabled-button-border-radius: 3px;
+--utils-primary-disabled-button-font-color: #fff;
+--utils-primary-disabled-button-font-size: 14px;
+--utils-primary-disabled-button-text-transform: uppercase;
+--utils-primary-disabled-button-text-decoration: none;
+--utils-primary-disabled-button-padding: 10px 16px;
+--utils-primary-disabled-button-box-shadow: none;
+--utils-primary-disabled-button-opacity: 0.6;
+```
+
 ### Secondary
 Secondary buttons 
 
@@ -325,6 +346,25 @@ secondary
 --utils-secondary-hover-button-text-decoration: none;
 --utils-secondary-hover-button-padding: 10px 16px;
 --utils-secondary-hover-button-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+```
+
+**Class names**
+```css
+secondary disabled
+```
+**Disabled secondary button variables**
+```css
+--utils-secondary-disabled-button-background-color: rgba(255,255,255,.8);
+--utils-secondary-disabled-button-border-color: #2196f3;
+--utils-secondary-disabled-button-border-width: 1px;
+--utils-secondary-disabled-button-border-radius: 3px;
+--utils-secondary-disabled-button-font-color: #3399ff;
+--utils-secondary-disabled-button-font-size: 14px;
+--utils-secondary-disabled-button-text-transform: uppercase;
+--utils-secondary-disabled-button-text-decoration: none;
+--utils-secondary-disabled-button-padding: 10px 16px;
+--utils-secondary-disabled-button-box-shadow: none;
+--utils-secondary-disabled-button-opacity: 0.6;
 ```
 
 ### Tertiary
@@ -360,3 +400,28 @@ tertiary
 --utils-tertiary-hover-button-padding: 10px 16px;
 --utils-tertiary-hover-button-box-shadow: none;
 ```
+
+**Class names**
+```css
+tertiary disabled
+```
+**Disabled tertiary button variables**
+```css
+--utils-tertiary-disabled-button-background-color: transparent;
+--utils-tertiary-disabled-button-border-color: white;
+--utils-tertiary-disabled-button-border-width: 1px;
+--utils-tertiary-disabled-button-border-radius: 3px;
+--utils-tertiary-disabled-button-font-color: #2196f3;
+--utils-tertiary-disabled-button-font-size: 14px;
+--utils-tertiary-disabled-button-text-transform: uppercase;
+--utils-tertiary-disabled-button-text-decoration: underline;
+--utils-tertiary-disabled-button-padding: 10px 16px;
+--utils-tertiary-disabled-button-box-shadow: none;
+--utils-tertiary-disabled-button-opacity: 0.6;
+```
+
+## Miscelanrous UI elements
+
+### Divider
+A divider is represented as a horizontal line
+
