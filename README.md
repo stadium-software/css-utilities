@@ -87,7 +87,7 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [Overflow auto](#overflow-auto)
     - [Overflow scroll](#overflow-scroll)
   - [Padding](#padding)
-    - [Padd all sides](#padd-all-sides)
+    - [Padding all sides](#padding-all-sides)
     - [Top padding](#top-padding)
     - [Right padding](#right-padding)
     - [Bottom padding](#bottom-padding)
@@ -1286,15 +1286,15 @@ overflow-scroll
 
 ## Padding
 
-Padd is space added between the contents of an element and the border of that element. 
+Padding is space added between the contents of an element and the border of that element. 
 
-### Padd all sides
+### Padding all sides
 
 1. Append a number between 0 and 30 to the base class name
 2. Increments by 1 (7, 8, 9 etc.)
 3. The number will turned into a pixel value
 
-**Example for padd 4px**
+**Example for padding 4px**
 ```css
 padding-4
 ```
@@ -1307,7 +1307,7 @@ padding-4
 2. Increments by 1 (7, 8, 9 etc.)
 3. The number will turned into a pixel value
 
-**Example for top padd 4px**
+**Example for top padding 4px**
 ```css
 padding-top-4
 ```
@@ -1320,7 +1320,7 @@ padding-top-4
 2. Increments by 1 (7, 8, 9 etc.)
 3. The number will turned into a pixel value
 
-**Example for padd 4px**
+**Example for padding 4px**
 ```css
 padding-right-4
 ```
@@ -1333,7 +1333,7 @@ padding-right-4
 2. Increments by 1 (7, 8, 9 etc.)
 3. The number will turned into a pixel value
 
-**Example for bottom padd 4px**
+**Example for bottom padding 4px**
 ```css
 padding-bottom-4
 ```
@@ -1346,7 +1346,7 @@ padding-bottom-4
 2. Increments by 1 (7, 8, 9 etc.)
 3. The number will turned into a pixel value
 
-**Example for left padd 4px**
+**Example for left padding 4px**
 ```css
 padding-left-4
 ```
