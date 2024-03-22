@@ -19,13 +19,23 @@ This module contains a set of CSS classes that can be added to the classes prope
   - [Typography](#typography)
     - [Titles \& headings](#titles--headings)
     - [Large \& small text](#large--small-text)
+    - [Font size 0px](#font-size-0px)
+    - [Font sizes from 9px to 50px](#font-sizes-from-9px-to-50px)
     - [Text styles](#text-styles)
     - [Text casing](#text-casing)
     - [Word spacing](#word-spacing)
     - [Letter spacing](#letter-spacing)
     - [Line height](#line-height)
+    - [Text alignment](#text-alignment)
     - [Breaking words](#breaking-words)
     - [Preformatted text](#preformatted-text)
+  - [Colours](#colours)
+    - [Set a text colour](#set-a-text-colour)
+    - [Set a background colour](#set-a-background-colour)
+    - [Set a border colour](#set-a-border-colour)
+    - [Remove all text colour](#remove-all-text-colour)
+    - [Remove background colour](#remove-background-colour)
+    - [Remove border colour](#remove-border-colour)
   - [Buttons](#buttons)
     - [Primary](#primary)
     - [Secondary](#secondary)
@@ -33,7 +43,83 @@ This module contains a set of CSS classes that can be added to the classes prope
   - [Miscelaneous UI elements](#miscelaneous-ui-elements)
     - [Divider](#divider)
   - [User Interactions \& Cursors](#user-interactions--cursors)
-    - [Preventing text selection](#preventing-text-selection)
+    - [Prevent text selection](#prevent-text-selection)
+    - [Prevent clicking](#prevent-clicking)
+    - [Cursors](#cursors)
+  - [Display \& Layout](#display--layout)
+    - [Relative positioning](#relative-positioning)
+    - [Absolute positioning](#absolute-positioning)
+    - [Fixed positioning](#fixed-positioning)
+    - [Top](#top)
+    - [Right](#right)
+    - [Bottom](#bottom)
+    - [Left](#left)
+    - [Z-Index](#z-index)
+    - [Display block](#display-block)
+    - [Display grid](#display-grid)
+    - [Display flex](#display-flex)
+    - [Absolute center alignment](#absolute-center-alignment)
+    - [Center alignment](#center-alignment)
+    - [Top alignment](#top-alignment)
+    - [Bottom alignment](#bottom-alignment)
+  - [Heights and widths](#heights-and-widths)
+    - [Height](#height)
+    - [Width](#width)
+    - [Height as percentage of parent](#height-as-percentage-of-parent)
+    - [Width as percentage of parent](#width-as-percentage-of-parent)
+    - [Height as percentage of viewport](#height-as-percentage-of-viewport)
+    - [Width as percentage of viewport](#width-as-percentage-of-viewport)
+    - [Third and quarter heights as percentage of parent](#third-and-quarter-heights-as-percentage-of-parent)
+    - [Third and quarter widths as percentage of parent](#third-and-quarter-widths-as-percentage-of-parent)
+    - [Maximum height](#maximum-height)
+    - [Maximum width](#maximum-width)
+    - [Maximum height as percentage of parent](#maximum-height-as-percentage-of-parent)
+    - [Maximum width as percentage of parent](#maximum-width-as-percentage-of-parent)
+    - [Maximum height as percentage of viewport](#maximum-height-as-percentage-of-viewport)
+    - [Maximum width as percentage of viewport](#maximum-width-as-percentage-of-viewport)
+    - [Third and quarter maximum heights as percentage of parent](#third-and-quarter-maximum-heights-as-percentage-of-parent)
+    - [Third and quarter maximum widths as percentage of parent](#third-and-quarter-maximum-widths-as-percentage-of-parent)
+  - [Overflow](#overflow)
+    - [Overflow hidden](#overflow-hidden)
+    - [Overflow auto](#overflow-auto)
+    - [Overflow scroll](#overflow-scroll)
+  - [Padding](#padding)
+    - [Padding all sides](#padding-all-sides)
+    - [Top padding](#top-padding)
+    - [Right padding](#right-padding)
+    - [Bottom padding](#bottom-padding)
+    - [Left padding](#left-padding)
+  - [Margin](#margin)
+    - [Margin all sides](#margin-all-sides)
+    - [Top margin](#top-margin)
+    - [Right margin](#right-margin)
+    - [Bottom margin](#bottom-margin)
+    - [Left margin](#left-margin)
+  - [Gap](#gap)
+  - [Opacity](#opacity)
+    - [Opacity 0 to 1](#opacity-0-to-1)
+  - [Lists](#lists)
+    - [Unordered list](#unordered-list)
+    - [Unordered list tem](#unordered-list-tem)
+    - [Unordered list style type](#unordered-list-style-type)
+    - [Ordered list](#ordered-list)
+  - [Box Shadows](#box-shadows)
+    - [Predefined box shadows](#predefined-box-shadows)
+    - [Bottom box shadow only](#bottom-box-shadow-only)
+    - [Remove all box shadow](#remove-all-box-shadow)
+  - [Borders](#borders)
+    - [Standard border](#standard-border)
+    - [Standard border width](#standard-border-width)
+    - [Standard top border](#standard-top-border)
+    - [Standard top border width](#standard-top-border-width)
+    - [Standard right border](#standard-right-border)
+    - [Standard right border width](#standard-right-border-width)
+    - [Standard bottom border](#standard-bottom-border)
+    - [Standard bottom border width](#standard-bottom-border-width)
+    - [Standard left border](#standard-left-border)
+    - [Transparent border](#transparent-border)
+    - [Border styles](#border-styles)
+    - [Border radius](#border-radius)
 
 # Setup
 
@@ -154,6 +240,28 @@ small-text
 
 [Back to top](#table-of-contents)
 
+### Font size 0px
+
+**Class name**
+```css
+font-size-0
+```
+
+[Back to top](#table-of-contents)
+
+### Font sizes from 9px to 50px
+
+1. Append a number between 9 and 50 to the base class name
+2. Increments by 1 (9, 10, 11, etc.)
+3. The number will become a pixel value
+
+**Example for a 20px font size**
+```css
+font-size-20
+```
+
+[Back to top](#table-of-contents)
+
 ### Text styles
 Text style classes affect the style of displayed text 
 
@@ -193,8 +301,9 @@ captitalize
 ### Word spacing
 Word spacing classes allow for increasing or decreasing the spaces between words
 
-1. Append a pixel value to the base class name between -3 and 10
+1. Append a number between -3 and 10 to the base class name
 2. Increments by 1 (-1, 0, 1, etc.)
+3. The number will become a pixel value
 
 **Example class for 'word-spacing: 3px;'**
 ```css
@@ -236,6 +345,31 @@ line-height-140
 
 [Back to top](#table-of-contents)
 
+### Text alignment
+Various ways of aligning text
+
+**Class name**
+```css
+text-justify
+```
+
+**Class name**
+```css
+text-left
+```
+
+**Class name**
+```css
+text-right
+```
+
+**Class name**
+```css
+text-center
+```
+
+[Back to top](#table-of-contents)
+
 ### Breaking words
 This class prevents word overflow by hyphenating long words
 
@@ -266,6 +400,108 @@ preformatted
 --utils-preformatted-padding: .3em;
 --utils-preformatted-line-height: 1.2;
 --utils-preformatted-letter-spacing: -0.05em;
+```
+
+[Back to top](#table-of-contents)
+
+## Colours
+
+Customisable and reusable colours for text, backgrounds and borders. Text and background colours can be applied to labels, links buttons, form inputs and drop-downs. 
+
+Customise the colour palette by locating and changing the values shown below in the [*utils-variables.css*](utils-variables.css) file
+
+**Colour variables**
+```css
+--utils-color-1: #333;
+--utils-color-2: #777777;
+--utils-color-3: #f9f9f9;
+--utils-color-4: #2196F3;
+--utils-color-5: #1976D2;
+--utils-color-6: #aaa;
+--utils-color-7: #fff;
+--utils-color-8: #00889e;
+--utils-color-9: #ddd;
+--utils-color-10: #333;
+--utils-color-11: #333;
+--utils-color-12: #777777;
+--utils-color-13: #f9f9f9;
+--utils-color-14: #2196F3;
+--utils-color-15: #1976D2;
+--utils-color-16: #aaa;
+--utils-color-17: #fff;
+--utils-color-18: #00889e;
+--utils-color-19: #ddd;
+--utils-color-20: #333;
+--utils-color-21: #333;
+--utils-color-22: #777777;
+--utils-color-23: #f9f9f9;
+--utils-color-24: #2196F3;
+--utils-color-25: #1976D2;
+--utils-color-26: #aaa;
+--utils-color-27: #fff;
+--utils-color-28: #00889e;
+--utils-color-29: #ddd;
+```
+
+### Set a text colour
+1. Select a colour from the variables list above
+2. Append the number to the classname
+
+**Example for colour 4 (#2196F3)**
+```css
+color-4
+```
+
+[Back to top](#table-of-contents)
+
+### Set a background colour
+1. Select a colour from the variables list above
+2. Append the number to the classname
+
+**Example for background colour 4 (#2196F3)**
+```css
+background-color-4
+```
+
+[Back to top](#table-of-contents)
+
+### Set a border colour
+1. Select a colour from the variables list above
+2. Append the number to the classname
+
+**Example for border colour 4 (#2196F3)**
+```css
+border-color-4
+```
+
+[Back to top](#table-of-contents)
+
+### Remove all text colour
+Sets element colour to transparent
+
+**Class name**
+```css
+color-none
+```
+
+[Back to top](#table-of-contents)
+
+### Remove background colour
+Sets element background colour to transparent
+
+**Class name**
+```css
+background-color-none
+```
+
+[Back to top](#table-of-contents)
+
+### Remove border colour
+Sets the border colour to transparent
+
+**Class name**
+```css
+border-color-none
 ```
 
 [Back to top](#table-of-contents)
@@ -446,7 +682,17 @@ tertiary disabled
 ### Divider
 A divider is represented as a horizontal line
 
-
+**Class name**
+```css
+divider
+```
+**Divider variables**
+```css
+--utils-divider-color: #aaa;
+--utils-divider-size: 1px;
+--utils-divider-margin-top: 1.5rem;
+--utils-divider-margin-bottom: 1.5rem;
+```
 
 [Back to top](#table-of-contents)
 
@@ -454,10 +700,957 @@ A divider is represented as a horizontal line
 
 Preventing users from interacting with controls and showing a variety of cursors. 
 
-### Preventing text selection
+### Prevent text selection
+
+Prevents users from being able to select text contained in the control
 
 **Class name**
 ```css
 no-select
 ```
+
+[Back to top](#table-of-contents)
+
+### Prevent clicking
+
+Prevents users from being able to click on links contained in the control
+
+**Class Name**
+```css
+no-click
+```
+
+[Back to top](#table-of-contents)
+
+### Cursors
+
+Changes the mouse cursor
+
+**Class Name**
+```css
+cursor-pointer
+```
+
+**Class Name**
+```css
+cursor-not-allowed
+```
+
+**Class Name**
+```css
+cursor-no-drop
+```
+
+**Class Name**
+```css
+cursor-col-resize
+```
+
+**Class Name**
+```css
+cursor-copy
+```
+
+**Class Name**
+```css
+cursor-help
+```
+
+**Class Name**
+```css
+cursor-e-resize
+```
+
+**Class Name**
+```css
+cursor-ew-resize
+```
+
+**Class Name**
+```css
+cursor-w-resize
+```
+
+**Class Name**
+```css
+cursor-grab
+```
+
+**Class Name**
+```css
+cursor-n-resize
+```
+
+**Class Name**
+```css
+cursor-ns-resize
+```
+
+**Class Name**
+```css
+cursor-s-resize
+```
+
+**Class Name**
+```css
+cursor-row-resize
+```
+
+**Class Name**
+```css
+cursor-zoom-in
+```
+
+**Class Name**
+```css
+cursor-zoom-out
+```
+
+[Back to top](#table-of-contents)
+
+## Display & Layout
+
+A set of classes to manipulate the display of controls
+
+[Back to top](#table-of-contents)
+
+### Relative positioning
+
+Apply to parent elements to contain absolutely positioned children
+
+**Class Name**
+```css
+position-relative
+```
+
+```css
+contain
+```
+
+[Back to top](#table-of-contents)
+
+### Absolute positioning
+
+Most often absolutely positioned elements need to be contained in relatively positioned parent elements.
+
+```css
+position-absolute
+```
+
+[Back to top](#table-of-contents)
+
+### Fixed positioning
+
+Fixing the position of elements relative to the browser window
+
+```css
+position-fixed
+```
+
+[Back to top](#table-of-contents)
+
+### Top
+Changes the top position of elements that are absolutely or relatively positioned
+
+1. Append a pixel value to the base class name between -10 and 10
+2. Increments by 1 (-1, 0, 1, etc.)
+
+**Example class for 'top: 3px;'**
+```css
+top-3
+```
+**Example class for 'top: -3px;'**
+```css
+top--3
+```
+
+[Back to top](#table-of-contents)
+
+### Right
+Changes the right position of elements that are absolutely or relatively positioned
+
+1. Append a pixel value to the base class name between -10 and 10
+2. Increments by 1 (-1, 0, 1, etc.)
+
+**Example class for 'right: 3px;'**
+```css
+right-3
+```
+**Example class for 'right: -3px;'**
+```css
+right--3
+```
+
+[Back to top](#table-of-contents)
+
+### Bottom
+Changes the bottom position of elements that are absolutely or relatively positioned
+
+1. Append a pixel value to the base class name between -10 and 10
+2. Increments by 1 (-1, 0, 1, etc.)
+
+**Example class for 'bottom: 3px;'**
+```css
+bottom-3
+```
+**Example class for 'bottom: -3px;'**
+```css
+bottom--3
+```
+
+[Back to top](#table-of-contents)
+
+### Left
+Changes the left position of elements that are absolutely or relatively positioned
+
+1. Append a pixel value to the base class name between -10 and 10
+2. Increments by 1 (-1, 0, 1, etc.)
+
+**Example class for 'left: 3px;'**
+```css
+left-3
+```
+**Example class for 'left: -3px;'**
+```css
+left--3
+```
+
+[Back to top](#table-of-contents)
+
+### Z-Index
+The z-index property specifies the stack order of an element (the layer in which it is shown). 
+
+Elements with higher z-index are shown in front of elements with a lower z-index. 
+
+By default all elements have an initial stack order of 0 unless a higher z-index is inherited from a parent element. 
+
+1. Append a pixel value to the base class name between -1 and 100
+2. Increments by 1 (-1, 0, 1, etc.)
+
+**Example class for 'z-index: 3;'**
+```css
+z-index-3
+```
+**Example class for 'z-index: -1;'**
+```css
+z-index--1
+```
+
+[Back to top](#table-of-contents)
+
+### Display block
+Elements with display block stretch the entire width of their container
+
+```css
+display-block
+```
+
+[Back to top](#table-of-contents)
+
+### Display grid
+Turns elements into grid containers
+
+```css
+display-grid
+```
+
+[Back to top](#table-of-contents)
+
+### Display flex
+Turns elements into flexbox containers
+
+```css
+display-flex
+```
+
+```css
+flexbox-layout
+```
+
+[Back to top](#table-of-contents)
+
+### Absolute center alignment
+Elements inside grid containers are shown vertically and horizontally centered
+
+```css
+center
+```
+
+[Back to top](#table-of-contents)
+
+### Center alignment
+Elements inside grid or flexbox containers are shown vertically centered
+
+```css
+align-center
+```
+
+[Back to top](#table-of-contents)
+
+### Top alignment
+Elements inside grid or flexbox containers are shown at the top of their containers
+
+```css
+align-top
+```
+
+[Back to top](#table-of-contents)
+
+### Bottom alignment
+Elements inside grid or flexbox containers are shown at the bottom of their containers
+
+```css
+align-bottom
+```
+
+[Back to top](#table-of-contents)
+
+## Heights and widths
+
+Setting fixed element heights, widths, maximum heights and maximum widths in pixel, percent and viewport height or width
+
+### Height
+
+1. Append a value to the base class name from 0 to 200
+2. Increments by 10 (0, 10, 20, 30, 40, etc.)
+
+**Example class for a height of 140px**
+```css
+height-140
+```
+
+[Back to top](#table-of-contents)
+
+### Width
+
+1. Append a value to the base class name from 0 to 200
+2. Increments by 10 (0, 10, 20, 30, 40, etc.)
+
+**Example class for a width of 140px**
+```css
+width-140
+```
+
+[Back to top](#table-of-contents)
+
+### Height as percentage of parent
+
+1. Append a value to the base class name from 0 to 100
+2. Increments by 10 (0, 10, 20, 30, 40, etc.)
+
+**Example class for a height of 40% of the parent**
+```css
+height-40-percent
+```
+
+[Back to top](#table-of-contents)
+
+### Width as percentage of parent
+
+1. Append a value to the base class name from 0 to 100
+2. Increments by 10 (0, 10, 20, 30, 40, etc.)
+
+**Example class for a width of 40% of the parent**
+```css
+width-40-percent
+```
+
+[Back to top](#table-of-contents)
+
+### Height as percentage of viewport
+
+1. Append a value to the base class name from 0 to 100
+2. Increments by 10 (0, 10, 20, 30, 40, etc.)
+
+**Example class for a height of 40% of the viewport**
+```css
+height-40-vh
+```
+
+[Back to top](#table-of-contents)
+
+### Width as percentage of viewport
+
+1. Append a value to the base class name from 0 to 100
+2. Increments by 10 (0, 10, 20, 30, 40, etc.)
+
+**Example class for a width of 40% of the viewport**
+```css
+width-40-vw
+```
+
+[Back to top](#table-of-contents)
+
+### Third and quarter heights as percentage of parent
+
+**Class name for a height or 33%**
+```css
+height-33
+```
+
+**Class name for a height or 25%**
+```css
+height-25
+```
+
+[Back to top](#table-of-contents)
+
+### Third and quarter widths as percentage of parent
+
+**Class name for a width or 33%**
+```css
+width-33
+```
+
+**Class name for a width or 25%**
+```css
+width-25
+```
+
+[Back to top](#table-of-contents)
+
+### Maximum height
+
+1. Append a value to the base class name from 0 to 200
+2. Increments by 10 (0, 10, 20, 30, 40, etc.)
+
+**Example class for a maximum height of 140px**
+```css
+max-height-140
+```
+
+[Back to top](#table-of-contents)
+
+### Maximum width
+
+1. Append a value to the base class name from 0 to 200
+2. Increments by 10 (0, 10, 20, 30, 40, etc.)
+
+**Example class for a maximum width of 140px**
+```css
+max-width-140
+```
+
+[Back to top](#table-of-contents)
+
+### Maximum height as percentage of parent
+
+1. Append a value to the base class name from 0 to 100
+2. Increments by 10 (0, 10, 20, 30, 40, etc.)
+
+**Example class for a maximum height of 40% of the parent**
+```css
+max-height-40-percent
+```
+
+[Back to top](#table-of-contents)
+
+### Maximum width as percentage of parent
+
+1. Append a value to the base class name from 0 to 100
+2. Increments by 10 (0, 10, 20, 30, 40, etc.)
+
+**Example class for a maximum width of 40% of the parent**
+```css
+max-width-40-percent
+```
+
+[Back to top](#table-of-contents)
+
+### Maximum height as percentage of viewport
+
+1. Append a value to the base class name from 0 to 100
+2. Increments by 10 (0, 10, 20, 30, 40, etc.)
+
+**Example class for a maximum height of 40% of the viewport**
+```css
+max-height-40-vh
+```
+
+[Back to top](#table-of-contents)
+
+### Maximum width as percentage of viewport
+
+1. Append a value to the base class name from 0 to 100
+2. Increments by 10 (0, 10, 20, 30, 40, etc.)
+
+**Example class for a maximum width of 40% of the viewport**
+```css
+max-width-40-vw
+```
+
+[Back to top](#table-of-contents)
+
+### Third and quarter maximum heights as percentage of parent
+
+**Class name for a maximum height or 33%**
+```css
+max-height-33
+```
+
+**Class name for a maximum height or 25%**
+```css
+max-height-25
+```
+
+[Back to top](#table-of-contents)
+
+### Third and quarter maximum widths as percentage of parent
+
+**Class name for a maximum width or 33%**
+```css
+max-width-33
+```
+
+**Class name for a maximum width or 25%**
+```css
+max-width-25
+```
+
+[Back to top](#table-of-contents)
+
+## Overflow
+
+The overflow setting determines whether an element is scrollable or not. Apply to height- or width-restricted elements. 
+
+### Overflow hidden
+For non-scrolling elements with hidden overflow
+
+**Class name**
+```css
+overflow-hidden
+```
+
+[Back to top](#table-of-contents)
+
+### Overflow auto
+For elements that will scroll when the contents exceeds the container
+
+**Class name**
+```css
+overflow-auto
+```
+
+[Back to top](#table-of-contents)
+
+### Overflow scroll
+For elements that will always have scrollbars
+
+**Class name**
+```css
+overflow-scroll
+```
+
+[Back to top](#table-of-contents)
+
+## Padding
+
+Padding is space added between the contents of an element and the border of that element. 
+
+### Padding all sides
+
+1. Append a number between 0 and 30 to the base class name
+2. Increments by 1 (7, 8, 9 etc.)
+3. The number will turned into a pixel value
+
+**Example for padding 4px**
+```css
+padding-4
+```
+
+[Back to top](#table-of-contents)
+
+### Top padding
+
+1. Append a number between 0 and 30 to the base class name
+2. Increments by 1 (7, 8, 9 etc.)
+3. The number will turned into a pixel value
+
+**Example for top padding 4px**
+```css
+padding-top-4
+```
+
+[Back to top](#table-of-contents)
+
+### Right padding
+
+1. Append a number between 0 and 30 to the base class name
+2. Increments by 1 (7, 8, 9 etc.)
+3. The number will turned into a pixel value
+
+**Example for padding 4px**
+```css
+padding-right-4
+```
+
+[Back to top](#table-of-contents)
+
+### Bottom padding
+
+1. Append a number between 0 and 30 to the base class name
+2. Increments by 1 (7, 8, 9 etc.)
+3. The number will turned into a pixel value
+
+**Example for bottom padding 4px**
+```css
+padding-bottom-4
+```
+
+[Back to top](#table-of-contents)
+
+### Left padding
+
+1. Append a number between 0 and 30 to the base class name
+2. Increments by 1 (7, 8, 9 etc.)
+3. The number will turned into a pixel value
+
+**Example for left padding 4px**
+```css
+padding-left-4
+```
+
+[Back to top](#table-of-contents)
+
+## Margin
+
+Margin is space added between the border of an element and the next element. 
+
+### Margin all sides
+
+1. Append a number between 0 and 30 to the base class name
+2. Increments by 1 (7, 8, 9 etc.)
+3. The number will turned into a pixel value
+
+**Example for margin 4px**
+```css
+margin-4
+```
+
+[Back to top](#table-of-contents)
+
+### Top margin
+
+1. Append a number between 0 and 30 to the base class name
+2. Increments by 1 (7, 8, 9 etc.)
+3. The number will turned into a pixel value
+
+**Example for top margin 4px**
+```css
+margin-top-4
+```
+
+[Back to top](#table-of-contents)
+
+### Right margin
+
+1. Append a number between 0 and 30 to the base class name
+2. Increments by 1 (7, 8, 9 etc.)
+3. The number will turned into a pixel value
+
+**Example for margin 4px**
+```css
+margin-right-4
+```
+
+[Back to top](#table-of-contents)
+
+### Bottom margin
+
+1. Append a number between 0 and 30 to the base class name
+2. Increments by 1 (7, 8, 9 etc.)
+3. The number will turned into a pixel value
+
+**Example for bottom margin 4px**
+```css
+margin-bottom-4
+```
+
+[Back to top](#table-of-contents)
+
+### Left margin
+
+1. Append a number between 0 and 30 to the base class name
+2. Increments by 1 (7, 8, 9 etc.)
+3. The number will turned into a pixel value
+
+**Example for left margin 4px**
+```css
+margin-left-4
+```
+
+[Back to top](#table-of-contents)
+
+## Gap
+The gap value is applied between children in Grid and Flexbox displays
+
+1. Append a number between 0 and 50 to the base class name
+2. Increments by 1 (7, 8, 9 etc.)
+3. The number will turned into a pixel value
+
+**Example for a gap of 20px between elements**
+```css
+gap-20
+```
+
+[Back to top](#table-of-contents)
+
+## Opacity
+Set the opacity of elements. 0 is completely opaque (invisible) 1 is not opaque
+
+### Opacity 0 to 1
+
+1. Append a number between 1 and 10 to the base class name
+2. Increments by 1 (7, 8, 9 etc.)
+3. The number will turned into an opacity between 0 and 1
+
+**Example for opacity 0.6**
+```css
+opacity-6
+```
+
+[Back to top](#table-of-contents)
+
+## Lists
+Classes that allow for displaying elements as lists
+
+### Unordered list
+Add to a parent container to display the children as a standard bulleted list
+
+**Class name**
+```css
+list
+```
+
+[Back to top](#table-of-contents)
+
+### Unordered list tem
+Add to a label or link to display it as a list item. This is not needed if the parent is defined as a list.
+
+**Class name**
+```css
+list-item
+```
+
+[Back to top](#table-of-contents)
+
+### Unordered list style type
+Add to an element with the list or the list-item class to change the bullet type
+
+**Class name**
+```css
+disc
+```
+
+**Class name**
+```css
+circle
+```
+
+**Class name**
+```css
+square
+```
+
+[Back to top](#table-of-contents)
+
+### Ordered list
+Add to a parent container to display the children as a standard ordered list. Counts up from 1
+
+**Class name**
+```css
+ordered-list
+```
+
+**Class name**
+```css
+ol
+```
+
+[Back to top](#table-of-contents)
+
+## Box Shadows
+Quickly adding or removing a box shadow
+
+### Predefined box shadows
+A set of 35 predefined box shadows from this site [Beautiful CSS box-shadow examples](https://getcssscan.com/css-box-shadow-examples)
+
+Append a number to the class from 0 to 33
+
+**Example for box shadow #0**
+```css
+box-shadow-0
+```
+
+[Back to top](#table-of-contents)
+
+### Bottom box shadow only
+
+Adding a box shadow on the bottom of an element only
+
+**Class name**
+```css
+box-shadow-bottom
+```
+
+[Back to top](#table-of-contents)
+
+### Remove all box shadow
+
+**Class name**
+```css
+box-shadow-none
+```
+
+[Back to top](#table-of-contents)
+
+## Borders
+
+Adding or removing borders from elements
+
+### Standard border
+
+Adds a 1px solid border in the default color your browser implements. Add a [border color](#set-a-border-colour) class to change the colour
+
+**Class name**
+```css
+border
+```
+
+[Back to top](#table-of-contents)
+
+### Standard border width
+
+1. Append a pixel value to the base class name between 0 and 3
+2. Increments by 1 (1, 2, etc.)
+
+**Example for a border of 3px width**
+```css
+border-3
+```
+
+[Back to top](#table-of-contents)
+
+### Standard top border
+
+Adds a 1px solid top border in the default color your browser implements. Add a [color](#colours) class to change the colour
+
+**Class name**
+```css
+border-top
+```
+
+[Back to top](#table-of-contents)
+
+### Standard top border width
+
+1. Append a pixel value to the base class name between 0 and 3
+2. Increments by 1 (1, 2, etc.)
+
+**Example for a top border of 3px width**
+```css
+border-top-3
+```
+
+[Back to top](#table-of-contents)
+
+### Standard right border
+
+Adds a 1px solid right border in the default color your browser implements. Add a [color](#colours) class to change the colour
+
+**Class name**
+```css
+border-right
+```
+
+[Back to top](#table-of-contents)
+
+### Standard right border width
+
+1. Append a pixel value to the base class name between 0 and 3
+2. Increments by 1 (1, 2, etc.)
+
+**Example for a right border of 3px width**
+```css
+border-right-3
+```
+
+[Back to top](#table-of-contents)
+
+### Standard bottom border
+
+Adds a 1px solid bottom border in the default color your browser implements. Add a [color](#colours) class to change the colour
+
+**Class name**
+```css
+border-bottom
+```
+
+[Back to top](#table-of-contents)
+
+### Standard bottom border width
+
+1. Append a pixel value to the base class name between 0 and 3
+2. Increments by 1 (1, 2, etc.)
+
+**Example for a bottom border of 3px width**
+```css
+border-bottom-3
+```
+
+[Back to top](#table-of-contents)
+
+### Standard left border
+
+Adds a 1px solid left border in the default color your browser implements. Add a [color](#border-colours) class to change the colour
+
+**Class name**
+```css
+border-left
+```
+
+[Back to top](#table-of-contents)
+
+### Transparent border
+Turns any border into a transparent 1px border
+
+**Class name**
+```css
+border-none
+```
+
+[Back to top](#table-of-contents)
+
+### Border styles
+Changing the style of a border
+
+**Class name**
+```css
+border-style-dashed
+```
+
+**Class name**
+```css
+border-style-dotted
+```
+
+**Class name**
+```css
+border-style-double
+```
+
+[Back to top](#table-of-contents)
+
+### Border radius
+Adding rounded corners to elements
+
+1. Append a value to the base class name from 0 to 20
+2. Will become a pixel value
+
+**Example for a 6px border radius**
+```css
+border-radius-6
+```
+
+[Back to top](#table-of-contents)
 
