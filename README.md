@@ -12,7 +12,7 @@ This module contains a set of CSS classes that can be added to the classes prope
 - [Setup](#setup)
   - [Application setup](#application-setup)
   - [Apply the module](#apply-the-module)
-  - [Upgrad the module](#upgrad-the-module)
+  - [Upgade the module](#upgade-the-module)
   - [Implement a utility class](#implement-a-utility-class)
   - [Customise the class display](#customise-the-class-display)
 - [Supported classes](#supported-classes)
@@ -134,7 +134,7 @@ This module contains a set of CSS classes that can be added to the classes prope
 <link rel="stylesheet" href="{EmbeddedFiles}/CSS/utils-variables.css">
 ``` 
 
-## Upgrad the module
+## Upgade the module
 To upgrade the CSS in this module, follow the [steps outlined in this repo](https://github.com/stadium-software/samples-upgrading)
 
 [Back to top](#table-of-contents)
