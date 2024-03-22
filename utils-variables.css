@@ -1,5 +1,5 @@
 :root {
-    /*TYPOGRAPHY*/
+    /*TITLES & HEADINGS*/
     --utils-h1-font-size: 32px;
     --utils-h1-font-weight: 600;
     --utils-h1-line-height: 1.5;
@@ -30,92 +30,16 @@
     --utils-subtitle-margin-top: 1em;
     --utils-subtitle-margin-bottom: .5em;
 
-    /*BUTTONS*/
-    --utils-primary-button-background-color: #3399ff;
-    --utils-primary-button-border-color: #2196f3;
-    --utils-primary-button-border-width: 1px;
-    --utils-primary-button-border-radius: 3px;
-    --utils-primary-button-font-color: white;
-    --utils-primary-button-font-size: 14px;
-    --utils-primary-button-text-transform: uppercase;
-    --utils-primary-button-text-decoration: none;
-    --utils-primary-button-padding: 10px 16px;
-    --utils-primary-button-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    --utils-primary-button-outline-color: white;
-    --utils-primary-button-outline-width: 1px;
-
-    --utils-primary-hover-button-background-color: #1976d2;
-    --utils-primary-hover-button-border-color: #2196f3;
-    --utils-primary-hover-button-border-width: 1px;
-    --utils-primary-hover-button-border-radius: 3px;
-    --utils-primary-hover-button-font-color: #fff;
-    --utils-primary-hover-button-font-size: 14px;
-    --utils-primary-hover-button-text-transform: uppercase;
-    --utils-primary-hover-button-text-decoration: none;
-    --utils-primary-hover-button-padding: 10px 16px;
-    --utils-primary-hover-button-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-
-    --utils-secondary-button-background-color: rgb(255, 255, 255);
-    --utils-secondary-button-border-color: #2196f3;
-    --utils-secondary-button-border-width: 1px;
-    --utils-secondary-button-border-radius: 3px;
-    --utils-secondary-button-font-color: #3399ff;
-    --utils-secondary-button-font-size: 14px;
-    --utils-secondary-button-text-transform: uppercase;
-    --utils-secondary-button-text-decoration: none;
-    --utils-secondary-button-padding: 10px 16px;
-    --utils-secondary-button-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    --utils-secondary-button-outline-color: white;
-    --utils-secondary-button-outline-width: 1px;
-
-    --utils-secondary-hover-button-background-color: rgba(255,255,255,.8);
-    --utils-secondary-hover-button-border-color: #2196f3;
-    --utils-secondary-hover-button-border-width: 1px;
-    --utils-secondary-hover-button-border-radius: 3px;
-    --utils-secondary-hover-button-font-color: #3399ff;
-    --utils-secondary-hover-button-font-size: 14px;
-    --utils-secondary-hover-button-text-transform: uppercase;
-    --utils-secondary-hover-button-text-decoration: none;
-    --utils-secondary-hover-button-padding: 10px 16px;
-    --utils-secondary-hover-button-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-
-    --utils-tertiary-button-background-color: transparent;
-    --utils-tertiary-button-border-color: white;
-    --utils-tertiary-button-border-width: 1px;
-    --utils-tertiary-button-border-radius: 3px;
-    --utils-tertiary-button-font-color: #3399ff;
-    --utils-tertiary-button-font-size: 14px;
-    --utils-tertiary-button-text-transform: uppercase;
-    --utils-tertiary-button-text-decoration: none;
-    --utils-tertiary-button-padding: 10px 16px;
-    --utils-tertiary-button-box-shadow: none;
-    --utils-tertiary-button-outline-color: white;
-    --utils-tertiary-button-outline-width: 1px;
-
-    --utils-tertiary-hover-button-background-color: transparent;
-    --utils-tertiary-hover-button-border-color: white;
-    --utils-tertiary-hover-button-border-width: 1px;
-    --utils-tertiary-hover-button-border-radius: 3px;
-    --utils-tertiary-hover-button-font-color: #2196f3;
-    --utils-tertiary-hover-button-font-size: 14px;
-    --utils-tertiary-hover-button-text-transform: uppercase;
-    --utils-tertiary-hover-button-text-decoration: underline;
-    --utils-tertiary-hover-button-padding: 10px 16px;
-    --utils-tertiary-hover-button-box-shadow: none;
-
-    /*CODE BLOCK*/
-    --utils-code-background-color: #ddd;
-    --utils-code-font-color: #333;
-    --utils-code-font-size: 14px;
-    --utils-code-max-width: 100%;
-    --utils-code-min-width: 100px;
-    --utils-code-padding: .3em;
-
-    /*DIVIDER*/
-    --utils-divider-color: #aaa;
-    --utils-divider-size: 1px;
-    --utils-divider-margin-top: 1.5rem;
-    --utils-divider-margin-bottom: 1.5rem;
+    /*PREFORMATTED TEXT*/
+    --utils-preformatted-font-family: monospace;
+    --utils-preformatted-background-color: #ddd;
+    --utils-preformatted-font-color: #333;
+    --utils-preformatted-font-size: 14px;
+    --utils-preformatted-max-width: 100%;
+    --utils-preformatted-min-width: 100px;
+    --utils-preformatted-padding: .3em;
+    --utils-preformatted-line-height: 1.2;
+    --utils-preformatted-letter-spacing: -0.05em;
 
     /*COLOURS*/
     --utils-color-1: #333;
@@ -147,4 +71,119 @@
     --utils-color-27: #fff;
     --utils-color-28: #00889e;
     --utils-color-29: #ddd;
+
+    /*BUTTONS*/
+    --utils-primary-button-background-color: #3399ff;
+    --utils-primary-button-border-color: #2196f3;
+    --utils-primary-button-border-width: 1px;
+    --utils-primary-button-border-radius: 3px;
+    --utils-primary-button-font-color: white;
+    --utils-primary-button-font-size: 14px;
+    --utils-primary-button-text-transform: uppercase;
+    --utils-primary-button-text-decoration: none;
+    --utils-primary-button-padding: 10px 16px;
+    --utils-primary-button-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    --utils-primary-button-outline-color: white;
+    --utils-primary-button-outline-width: 1px;
+
+    --utils-primary-hover-button-background-color: #1976d2;
+    --utils-primary-hover-button-border-color: #2196f3;
+    --utils-primary-hover-button-border-width: 1px;
+    --utils-primary-hover-button-border-radius: 3px;
+    --utils-primary-hover-button-font-color: #fff;
+    --utils-primary-hover-button-font-size: 14px;
+    --utils-primary-hover-button-text-transform: uppercase;
+    --utils-primary-hover-button-text-decoration: none;
+    --utils-primary-hover-button-padding: 10px 16px;
+    --utils-primary-hover-button-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+    --utils-primary-disabled-button-background-color: #1976d2;
+    --utils-primary-disabled-button-border-color: #2196f3;
+    --utils-primary-disabled-button-border-width: 1px;
+    --utils-primary-disabled-button-border-radius: 3px;
+    --utils-primary-disabled-button-font-color: #fff;
+    --utils-primary-disabled-button-font-size: 14px;
+    --utils-primary-disabled-button-text-transform: uppercase;
+    --utils-primary-disabled-button-text-decoration: none;
+    --utils-primary-disabled-button-padding: 10px 16px;
+    --utils-primary-disabled-button-box-shadow: none;
+    --utils-primary-disabled-button-opacity: 0.6;
+
+    --utils-secondary-button-background-color: rgb(255, 255, 255);
+    --utils-secondary-button-border-color: #2196f3;
+    --utils-secondary-button-border-width: 1px;
+    --utils-secondary-button-border-radius: 3px;
+    --utils-secondary-button-font-color: #3399ff;
+    --utils-secondary-button-font-size: 14px;
+    --utils-secondary-button-text-transform: uppercase;
+    --utils-secondary-button-text-decoration: none;
+    --utils-secondary-button-padding: 10px 16px;
+    --utils-secondary-button-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    --utils-secondary-button-outline-color: white;
+    --utils-secondary-button-outline-width: 1px;
+
+    --utils-secondary-hover-button-background-color: rgba(255,255,255,.8);
+    --utils-secondary-hover-button-border-color: #2196f3;
+    --utils-secondary-hover-button-border-width: 1px;
+    --utils-secondary-hover-button-border-radius: 3px;
+    --utils-secondary-hover-button-font-color: #3399ff;
+    --utils-secondary-hover-button-font-size: 14px;
+    --utils-secondary-hover-button-text-transform: uppercase;
+    --utils-secondary-hover-button-text-decoration: none;
+    --utils-secondary-hover-button-padding: 10px 16px;
+    --utils-secondary-hover-button-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+    --utils-secondary-disabled-button-background-color: rgba(255,255,255,.8);
+    --utils-secondary-disabled-button-border-color: #2196f3;
+    --utils-secondary-disabled-button-border-width: 1px;
+    --utils-secondary-disabled-button-border-radius: 3px;
+    --utils-secondary-disabled-button-font-color: #3399ff;
+    --utils-secondary-disabled-button-font-size: 14px;
+    --utils-secondary-disabled-button-text-transform: uppercase;
+    --utils-secondary-disabled-button-text-decoration: none;
+    --utils-secondary-disabled-button-padding: 10px 16px;
+    --utils-secondary-disabled-button-box-shadow: none;
+    --utils-secondary-disabled-button-opacity: 0.6;
+
+    --utils-tertiary-button-background-color: transparent;
+    --utils-tertiary-button-border-color: white;
+    --utils-tertiary-button-border-width: 1px;
+    --utils-tertiary-button-border-radius: 3px;
+    --utils-tertiary-button-font-color: #3399ff;
+    --utils-tertiary-button-font-size: 14px;
+    --utils-tertiary-button-text-transform: uppercase;
+    --utils-tertiary-button-text-decoration: none;
+    --utils-tertiary-button-padding: 10px 16px;
+    --utils-tertiary-button-box-shadow: none;
+    --utils-tertiary-button-outline-color: white;
+    --utils-tertiary-button-outline-width: 1px;
+
+    --utils-tertiary-hover-button-background-color: transparent;
+    --utils-tertiary-hover-button-border-color: white;
+    --utils-tertiary-hover-button-border-width: 1px;
+    --utils-tertiary-hover-button-border-radius: 3px;
+    --utils-tertiary-hover-button-font-color: #2196f3;
+    --utils-tertiary-hover-button-font-size: 14px;
+    --utils-tertiary-hover-button-text-transform: uppercase;
+    --utils-tertiary-hover-button-text-decoration: underline;
+    --utils-tertiary-hover-button-padding: 10px 16px;
+    --utils-tertiary-hover-button-box-shadow: none;
+
+    --utils-tertiary-disabled-button-background-color: transparent;
+    --utils-tertiary-disabled-button-border-color: white;
+    --utils-tertiary-disabled-button-border-width: 1px;
+    --utils-tertiary-disabled-button-border-radius: 3px;
+    --utils-tertiary-disabled-button-font-color: #2196f3;
+    --utils-tertiary-disabled-button-font-size: 14px;
+    --utils-tertiary-disabled-button-text-transform: uppercase;
+    --utils-tertiary-disabled-button-text-decoration: underline;
+    --utils-tertiary-disabled-button-padding: 10px 16px;
+    --utils-tertiary-disabled-button-box-shadow: none;
+    --utils-tertiary-disabled-button-opacity: 0.6;
+
+    /*DIVIDER*/
+    --utils-divider-color: #aaa;
+    --utils-divider-size: 1px;
+    --utils-divider-margin-top: 1.5rem;
+    --utils-divider-margin-bottom: 1.5rem;
 }

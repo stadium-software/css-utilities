@@ -30,9 +30,9 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [Break words](#break-words)
     - [Preformatted text](#preformatted-text)
   - [Colours](#colours)
-    - [Set a text colour](#set-a-text-colour)
-    - [Set a background colour](#set-a-background-colour)
-    - [Set a border colour](#set-a-border-colour)
+    - [Text colour](#text-colour)
+    - [Background colour](#background-colour)
+    - [Border colour](#border-colour)
     - [Remove all text colour](#remove-all-text-colour)
     - [Remove background colour](#remove-background-colour)
     - [Remove border colour](#remove-border-colour)
@@ -442,7 +442,7 @@ Customise the colour palette by locat and chang the values shown below in the [*
 --utils-color-29: #ddd;
 ```
 
-### Set a text colour
+### Text colour
 1. Select a colour from the variables list above
 2. Append the number to the classname
 
@@ -453,7 +453,7 @@ color-4
 
 [Back to top](#table-of-contents)
 
-### Set a background colour
+### Background colour
 1. Select a colour from the variables list above
 2. Append the number to the classname
 
@@ -464,7 +464,7 @@ background-color-4
 
 [Back to top](#table-of-contents)
 
-### Set a border colour
+### Border colour
 1. Select a colour from the variables list above
 2. Append the number to the classname
 
@@ -1407,7 +1407,7 @@ opacity-6
 [Back to top](#table-of-contents)
 
 ## Lists
-Classes that allow for display elements as lists
+Classes that allow for display elements as lists. The module also supports list nesting
 
 ### Unordered list
 Add to a parent container to display the children as a standard bulleted list
