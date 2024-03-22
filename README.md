@@ -40,8 +40,7 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [Primary](#primary)
     - [Secondary](#secondary)
     - [Tertiary](#tertiary)
-  - [Miscelaneous UI elements](#miscelaneous-ui-elements)
-    - [Divider](#divider)
+  - [Divider](#divider)
   - [User Interactions \& Cursors](#user-interactions--cursors)
     - [Prevent text selection](#prevent-text-selection)
     - [Prevent clicking](#prevent-clicking)
@@ -677,9 +676,7 @@ tertiary disabled
 
 [Back to top](#table-of-contents)
 
-## Miscelaneous UI elements
-
-### Divider
+## Divider
 A divider is represented as a horizontal line
 
 **Class name**
