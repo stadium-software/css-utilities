@@ -33,7 +33,7 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [Text colour](#text-colour)
     - [Background colour](#background-colour)
     - [Border colour](#border-colour)
-    - [Remove all text colour](#remove-all-text-colour)
+    - [Remove text colour](#remove-text-colour)
     - [Remove background colour](#remove-background-colour)
     - [Remove border colour](#remove-border-colour)
   - [Buttons](#buttons)
@@ -58,9 +58,9 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [Display grid](#display-grid)
     - [Display flex](#display-flex)
     - [Absolute center alignment](#absolute-center-alignment)
-    - [Center alignment](#center-alignment)
-    - [Top alignment](#top-alignment)
-    - [Bottom alignment](#bottom-alignment)
+    - [Vertical center alignment](#vertical-center-alignment)
+    - [Vertical top alignment](#vertical-top-alignment)
+    - [Vertical bottom alignment](#vertical-bottom-alignment)
   - [Heights and widths](#heights-and-widths)
     - [Height](#height)
     - [Width](#width)
@@ -475,7 +475,7 @@ border-color-4
 
 [Back to top](#table-of-contents)
 
-### Remove all text colour
+### Remove text colour
 Sets element colour to transparent
 
 **Class name**
@@ -975,7 +975,7 @@ center
 
 [Back to top](#table-of-contents)
 
-### Center alignment
+### Vertical center alignment
 Elements inside grid or flexbox containers are shown vertically centered
 
 ```css
@@ -984,7 +984,7 @@ align-center
 
 [Back to top](#table-of-contents)
 
-### Top alignment
+### Vertical top alignment
 Elements inside grid or flexbox containers are shown at the top of their containers
 
 ```css
@@ -993,7 +993,7 @@ align-top
 
 [Back to top](#table-of-contents)
 
-### Bottom alignment
+### Vertical bottom alignment
 Elements inside grid or flexbox containers are shown at the bottom of their containers
 
 ```css
