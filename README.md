@@ -165,7 +165,7 @@ Titles and head classes affect various aspects of text display
 ```css
 h1
 ```
-**h1 variables**
+**h1 customisations**
 ```css
 --utils-h1-font-size: 32px;
 --utils-h1-font-weight: 600;
@@ -178,7 +178,7 @@ h1
 ```css
 h2
 ```
-**h2 variables**
+**h2 customisations**
 ```css
 --utils-h2-font-size: 24px;
 --utils-h2-font-weight: 600;
@@ -191,7 +191,7 @@ h2
 ```css
 h3
 ```
-**h3 variables**
+**h3 customisations**
 ```css
 --utils-h3-font-size: 18px;
 --utils-h3-font-weight: 600;
@@ -204,7 +204,7 @@ h3
 ```css
 page-title
 ```
-**page-title variables**
+**page-title customisations**
 ```css
 --utils-page-title-font-size: 22px;
 --utils-page-title-font-weight: 600;
@@ -217,7 +217,7 @@ page-title
 ```css
 subtitle
 ```
-**subtitle variables**
+**subtitle customisations**
 ```css
 --utils-subtitle-font-size: 18px;
 --utils-subtitle-font-weight: 600;
@@ -391,7 +391,7 @@ Provides for the display of preformatted text, such as code. In preformatted tex
 ```css
 preformatted
 ```
-**Preformatted text variables**
+**Preformatted text customisations**
 ```css
 --utils-preformatted-font-family: monospace;
 --utils-preformatted-background-color: #ddd;
@@ -412,7 +412,7 @@ Customisable and reusable colours for text, backgrounds and borders. Text and ba
 
 Customise the colour palette by locat and chang the values shown below in the [*utils-variables.css*](utils-variables.css) file
 
-**Colour variables**
+**Colour customisations**
 ```css
 --utils-color-1: #333;
 --utils-color-2: #777777;
@@ -521,7 +521,7 @@ Primary buttons
 primary
 ```
 
-**Primary button variables**
+**Primary button customisations**
 ```css
 --utils-primary-button-background-color: #3399ff;
 --utils-primary-button-border-color: #2196f3;
@@ -552,7 +552,7 @@ primary
 ```css
 primary disabled
 ```
-**Disabled primary button variables**
+**Disabled primary button customisations**
 ```css
 --utils-primary-disabled-button-background-color: #1976d2;
 --utils-primary-disabled-button-border-color: #2196f3;
@@ -576,7 +576,7 @@ Secondary buttons
 ```css
 secondary
 ```
-**Secondary button variables**
+**Secondary button customisations**
 ```css
 --utils-secondary-button-background-color: rgb(255, 255, 255);
 --utils-secondary-button-border-color: #2196f3;
@@ -607,7 +607,7 @@ secondary
 ```css
 secondary disabled
 ```
-**Disabled secondary button variables**
+**Disabled secondary button customisations**
 ```css
 --utils-secondary-disabled-button-background-color: rgba(255,255,255,.8);
 --utils-secondary-disabled-button-border-color: #2196f3;
@@ -631,7 +631,7 @@ Tertiary buttons
 ```css
 tertiary
 ```
-**Tertiary button variables**
+**Tertiary button customisations**
 ```css
 --utils-tertiary-button-background-color: transparent;
 --utils-tertiary-button-border-color: white;
@@ -662,7 +662,7 @@ tertiary
 ```css
 tertiary disabled
 ```
-**Disabled tertiary button variables**
+**Disabled tertiary button customisations**
 ```css
 --utils-tertiary-disabled-button-background-color: transparent;
 --utils-tertiary-disabled-button-border-color: white;
@@ -686,7 +686,7 @@ A divider is represented as a horizontal line
 ```css
 divider
 ```
-**Divider variables**
+**Divider customisations**
 ```css
 --utils-divider-color: #aaa;
 --utils-divider-size: 1px;
