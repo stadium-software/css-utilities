@@ -140,8 +140,6 @@ This module contains a set of CSS classes that can be added to the classes prope
 ## Upgade the module
 To upgrade the CSS in this module, follow the [steps outlined in this repo](https://github.com/stadium-software/samples-upgrading)
 
-[Back to top](#table-of-contents)
-
 ## Implement a utility class
 1. First, make sure you have [applied the module](#applying-the-module)
 2. Find a class you want to add in the list below
@@ -153,6 +151,8 @@ To upgrade the CSS in this module, follow the [steps outlined in this repo](http
 1. Open the CSS file called [*utils-variables.css*](utils-variables.css) from this repo
 2. Adjust the variables in the *:root* element as you see fit
 3. Overwrite the file in the CSS folder of your application with the customised file
+
+[Back to top](#table-of-contents)
 
 # Supported classes
 
