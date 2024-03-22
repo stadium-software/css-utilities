@@ -25,13 +25,15 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [Letter spacing](#letter-spacing)
     - [Line height](#line-height)
     - [Breaking words](#breaking-words)
-    - [Code block or preformatted text](#code-block-or-preformatted-text)
+    - [Preformatted text](#preformatted-text)
   - [Buttons](#buttons)
     - [Primary](#primary)
     - [Secondary](#secondary)
     - [Tertiary](#tertiary)
   - [Miscelaneous UI elements](#miscelaneous-ui-elements)
     - [Divider](#divider)
+  - [User Interactions \& Cursors](#user-interactions--cursors)
+    - [Preventing text selection](#preventing-text-selection)
 
 # Setup
 
@@ -140,6 +142,7 @@ subtitle
 
 ### Large & small text
 Large & small text classes affect the size of displayed text 
+
 **Class name**
 ```css
 large-text
@@ -153,6 +156,7 @@ small-text
 
 ### Text styles
 Text style classes affect the style of displayed text 
+
 **Class name**
 ```css
 italic
@@ -170,6 +174,7 @@ underline
 
 ### Text casing
 Text casing classes allow for changing the case of displayed text 
+
 **Class name**
 ```css
 lower-case
@@ -221,7 +226,7 @@ letter-spacing--1
 ### Line height
 Line height classes allow for increasing or decreasing the line-height attribute of displayed text
 1. Calculated as percentage of font-size
-2. Append a value to the base class name between 50 and 250 (the equivalent of line-height:0.5 to 2.5;)
+2. Append a value to the base class name between 50 and 250 (the equivalent of a line-height of 0.5 to 2.5)
 3. Increments by 10 (50, 60, 70, etc.)
 
 **Example class for 'line-height: 140%;' (the equivalent of 'line-height:1.4;')**
@@ -243,27 +248,32 @@ break-word
 
 [Back to top](#table-of-contents)
 
-### Code block or preformatted text
-Provides for the display of code or other preformatted text. In preformatted text line breaks are preserved. 
+### Preformatted text
+Provides for the display of preformatted text, such as code. In preformatted text line breaks are preserved. 
 
 **Class name**
 ```css
-code-block
+preformatted
 ```
-**Code-block variables**
+**Preformatted text variables**
 ```css
---utils-code-background-color: #ddd;
---utils-code-font-color: #333;
---utils-code-font-size: 14px;
---utils-code-max-width: 100%;
---utils-code-min-width: 100px;
---utils-code-padding: .3em;
+--utils-preformatted-font-family: monospace;
+--utils-preformatted-background-color: #ddd;
+--utils-preformatted-font-color: #333;
+--utils-preformatted-font-size: 14px;
+--utils-preformatted-max-width: 100%;
+--utils-preformatted-min-width: 100px;
+--utils-preformatted-padding: .3em;
+--utils-preformatted-line-height: 1.2;
+--utils-preformatted-letter-spacing: -0.05em;
 ```
 
 [Back to top](#table-of-contents)
 
 ## Buttons
-Provides for three button types. Adding 'disabled' to the classes list invokes the disabled button style for that type. 
+Provides for three button types, primary, secondary and tertiary. 
+
+Adding 'disabled' to the classes list invokes the disabled button style for that type and prevents users from interacting with the button. 
 
 ### Primary
 Primary buttons 
@@ -436,4 +446,18 @@ tertiary disabled
 ### Divider
 A divider is represented as a horizontal line
 
+
+
 [Back to top](#table-of-contents)
+
+## User Interactions & Cursors
+
+Preventing users from interacting with controls and showing a variety of cursors. 
+
+### Preventing text selection
+
+**Class name**
+```css
+no-select
+```
+
