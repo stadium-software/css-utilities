@@ -61,6 +61,9 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [Vertical center alignment](#vertical-center-alignment)
     - [Vertical top alignment](#vertical-top-alignment)
     - [Vertical bottom alignment](#vertical-bottom-alignment)
+    - [Horizontal center alignment](#horizontal-center-alignment)
+    - [Horizontal left alignment](#horizontal-left-alignment)
+    - [Horizontal right alignment](#horizontal-right-alignment)
   - [Heights and widths](#heights-and-widths)
     - [Height](#height)
     - [Width](#width)
@@ -998,6 +1001,33 @@ Elements inside grid or flexbox containers are shown at the bottom of their cont
 
 ```css
 align-bottom
+```
+
+[Back to top](#table-of-contents)
+
+### Horizontal center alignment
+Elements inside grid or flexbox containers are shown horizontally centered
+
+```css
+justify-center
+```
+
+[Back to top](#table-of-contents)
+
+### Horizontal left alignment
+Elements inside grid or flexbox containers are shown at the start of their containers
+
+```css
+justify-start
+```
+
+[Back to top](#table-of-contents)
+
+### Horizontal right alignment
+Elements inside grid or flexbox containers are shown at the end of their containers
+
+```css
+justify-end
 ```
 
 [Back to top](#table-of-contents)
