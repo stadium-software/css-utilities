@@ -283,7 +283,7 @@ underline
 [Back to top](#table-of-contents)
 
 ### Text casing
-Text cas classes allow for chang the case of displayed text 
+Text cas classes allow for changing the case of displayed text 
 
 **Class name**
 ```css
@@ -410,7 +410,7 @@ preformatted
 
 Customisable and reusable colours for text, backgrounds and borders. Text and background colours can be applied to labels, links buttons, form inputs and drop-downs. 
 
-Customise the colour palette by locat and chang the values shown below in the [*utils-variables.css*](utils-variables.css) file
+Customise the colour palette by locating and changing the values shown below in the [*utils-variables.css*](utils-variables.css) file
 
 **Colour customisations**
 ```css
@@ -1659,7 +1659,7 @@ border-none
 [Back to top](#table-of-contents)
 
 ### Border styles
-Chang the style of a border
+changing the style of a border
 
 **Class name**
 ```css
