@@ -301,7 +301,7 @@ captitalize
 [Back to top](#table-of-contents)
 
 ### Word spacing
-Word spac classes allow for increas or decreas the spaces between words
+Word spacing classes allow for increasing or decreasing the spaces between words
 
 1. Append a number between -3 and 10 to the base class name
 2. Increments by 1 (-1, 0, 1, etc.)
@@ -319,7 +319,7 @@ word-spacing--1
 [Back to top](#table-of-contents)
 
 ### Letter spacing
-Letter spac classes allow for increas or decreas the spaces between letters
+Letter spacing classes allow for increasing or decreasing the spaces between letters
 1. Append a pixel value to the base class name between -3 and 3
 2. Increment by 1 (-1, 0, 1, etc.)
 
@@ -335,7 +335,7 @@ letter-spacing--1
 [Back to top](#table-of-contents)
 
 ### Line height
-Line height classes allow for increas or decreas the line-height attribute of displayed text
+Line height classes allow for increasing or decreasing the line-height attribute of displayed text
 1. Calculated as percentage of font-size
 2. Append a value to the base class name between 50 and 250 (the equivalent of a line-height of 0.5 to 2.5)
 3. Increments by 10 (50, 60, 70, etc.)
