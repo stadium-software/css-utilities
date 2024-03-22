@@ -10,11 +10,11 @@ This module contains a set of CSS classes that can be added to the classes prope
   - [Version](#version)
   - [Table of Contents](#table-of-contents)
 - [Setup](#setup)
-  - [Application Setup](#application-setup)
-  - [Applying the module](#applying-the-module)
-  - [Upgrading the module](#upgrading-the-module)
-  - [Implementing a utility class](#implementing-a-utility-class)
-  - [Customising Class Display](#customising-class-display)
+  - [Application setup](#application-setup)
+  - [Apply the module](#apply-the-module)
+  - [Upgrad the module](#upgrad-the-module)
+  - [Implement a utility class](#implement-a-utility-class)
+  - [Customise the class display](#customise-the-class-display)
 - [Supported classes](#supported-classes)
   - [Typography](#typography)
     - [Titles \& headings](#titles--headings)
@@ -27,7 +27,7 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [Letter spacing](#letter-spacing)
     - [Line height](#line-height)
     - [Text alignment](#text-alignment)
-    - [Breaking words](#breaking-words)
+    - [Break words](#break-words)
     - [Preformatted text](#preformatted-text)
   - [Colours](#colours)
     - [Set a text colour](#set-a-text-colour)
@@ -83,7 +83,7 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [Overflow auto](#overflow-auto)
     - [Overflow scroll](#overflow-scroll)
   - [Padding](#padding)
-    - [Padding all sides](#padding-all-sides)
+    - [Padd all sides](#padd-all-sides)
     - [Top padding](#top-padding)
     - [Right padding](#right-padding)
     - [Bottom padding](#bottom-padding)
@@ -122,10 +122,10 @@ This module contains a set of CSS classes that can be added to the classes prope
 
 # Setup
 
-## Application Setup
+## Application setup
 1. Check the Enable Style Sheet checkbox in the application properties
 
-## Applying the module
+## Apply the module
 1. Create a folder called "CSS" inside of your Embedded Files in your application
 2. Drag the two CSS files from this repo [*utils-variables.css*](utils-variables.css) and [*utils.css*](utils.css) into that folder
 3. Paste the link tags below into the *head* property of your application
@@ -134,19 +134,19 @@ This module contains a set of CSS classes that can be added to the classes prope
 <link rel="stylesheet" href="{EmbeddedFiles}/CSS/utils-variables.css">
 ``` 
 
-## Upgrading the module
+## Upgrad the module
 To upgrade the CSS in this module, follow the [steps outlined in this repo](https://github.com/stadium-software/samples-upgrading)
 
 [Back to top](#table-of-contents)
 
-## Implementing a utility class
+## Implement a utility class
 1. First, make sure you have [applied the module](#applying-the-module)
 2. Find a class you want to add in the list below
 3. Add the class to the classes property of a control in lower case
 
-![Implementing a class on a Control](images/Utils-Implement.png)
+![Implement a class on a Control](images/Utils-Implement.png)
 
-## Customising Class Display
+## Customise the class display
 1. Open the CSS file called [*utils-variables.css*](utils-variables.css) from this repo
 2. Adjust the variables in the *:root* element as you see fit
 3. Overwrite the file in the CSS folder of your application with the customised file
@@ -156,7 +156,7 @@ To upgrade the CSS in this module, follow the [steps outlined in this repo](http
 ## Typography
 
 ### Titles & headings
-Titles and heading classes affect various aspects of text display
+Titles and head classes affect various aspects of text display
 
 **Class name**
 ```css
@@ -280,7 +280,7 @@ underline
 [Back to top](#table-of-contents)
 
 ### Text casing
-Text casing classes allow for changing the case of displayed text 
+Text cas classes allow for chang the case of displayed text 
 
 **Class name**
 ```css
@@ -298,7 +298,7 @@ captitalize
 [Back to top](#table-of-contents)
 
 ### Word spacing
-Word spacing classes allow for increasing or decreasing the spaces between words
+Word spac classes allow for increas or decreas the spaces between words
 
 1. Append a number between -3 and 10 to the base class name
 2. Increments by 1 (-1, 0, 1, etc.)
@@ -316,7 +316,7 @@ word-spacing--1
 [Back to top](#table-of-contents)
 
 ### Letter spacing
-Letter spacing classes allow for increasing or decreasing the spaces between letters
+Letter spac classes allow for increas or decreas the spaces between letters
 1. Append a pixel value to the base class name between -3 and 3
 2. Increment by 1 (-1, 0, 1, etc.)
 
@@ -332,7 +332,7 @@ letter-spacing--1
 [Back to top](#table-of-contents)
 
 ### Line height
-Line height classes allow for increasing or decreasing the line-height attribute of displayed text
+Line height classes allow for increas or decreas the line-height attribute of displayed text
 1. Calculated as percentage of font-size
 2. Append a value to the base class name between 50 and 250 (the equivalent of a line-height of 0.5 to 2.5)
 3. Increments by 10 (50, 60, 70, etc.)
@@ -345,7 +345,7 @@ line-height-140
 [Back to top](#table-of-contents)
 
 ### Text alignment
-Various ways of aligning text
+Various ways of align text
 
 **Class name**
 ```css
@@ -369,8 +369,8 @@ text-center
 
 [Back to top](#table-of-contents)
 
-### Breaking words
-This class prevents word overflow by hyphenating long words
+### Break words
+This class prevents word overflow by hyphenat long words
 
 Only works with width-restricted elements
 
@@ -407,7 +407,7 @@ preformatted
 
 Customisable and reusable colours for text, backgrounds and borders. Text and background colours can be applied to labels, links buttons, form inputs and drop-downs. 
 
-Customise the colour palette by locating and changing the values shown below in the [*utils-variables.css*](utils-variables.css) file
+Customise the colour palette by locat and chang the values shown below in the [*utils-variables.css*](utils-variables.css) file
 
 **Colour variables**
 ```css
@@ -508,7 +508,7 @@ border-color-none
 ## Buttons
 Provides for three button types, primary, secondary and tertiary. 
 
-Adding 'disabled' to the classes list invokes the disabled button style for that type and prevents users from interacting with the button. 
+Add 'disabled' to the classes list invokes the disabled button style for that type and prevents users from interact with the button. 
 
 ### Primary
 Primary buttons 
@@ -695,11 +695,11 @@ divider
 
 ## User Interactions & Cursors
 
-Preventing users from interacting with controls and showing a variety of cursors. 
+Prevent users from interact with controls and show a variety of cursors. 
 
 ### Prevent text selection
 
-Prevents users from being able to select text contained in the control
+Prevents users from be able to select text contained in the control
 
 **Class name**
 ```css
@@ -710,7 +710,7 @@ no-select
 
 ### Prevent clicking
 
-Prevents users from being able to click on links contained in the control
+Prevents users from be able to click on links contained in the control
 
 **Class Name**
 ```css
@@ -838,7 +838,7 @@ position-absolute
 
 ### Fixed positioning
 
-Fixing the position of elements relative to the browser window
+Fix the position of elements relative to the browser window
 
 ```css
 position-fixed
@@ -1004,7 +1004,7 @@ align-bottom
 
 ## Heights and widths
 
-Setting fixed element heights, widths, maximum heights and maximum widths in pixel, percent and viewport height or width
+Sett fixed element heights, widths, maximum heights and maximum widths in pixel, percent and viewport height or width
 
 ### Height
 
@@ -1208,10 +1208,10 @@ max-width-25
 
 ## Overflow
 
-The overflow setting determines whether an element is scrollable or not. Apply to height- or width-restricted elements. 
+The overflow sett determines whether an element is scrollable or not. Apply to height- or width-restricted elements. 
 
 ### Overflow hidden
-For non-scrolling elements with hidden overflow
+For non-scroll elements with hidden overflow
 
 **Class name**
 ```css
@@ -1242,15 +1242,15 @@ overflow-scroll
 
 ## Padding
 
-Padding is space added between the contents of an element and the border of that element. 
+Padd is space added between the contents of an element and the border of that element. 
 
-### Padding all sides
+### Padd all sides
 
 1. Append a number between 0 and 30 to the base class name
 2. Increments by 1 (7, 8, 9 etc.)
 3. The number will turned into a pixel value
 
-**Example for padding 4px**
+**Example for padd 4px**
 ```css
 padding-4
 ```
@@ -1263,7 +1263,7 @@ padding-4
 2. Increments by 1 (7, 8, 9 etc.)
 3. The number will turned into a pixel value
 
-**Example for top padding 4px**
+**Example for top padd 4px**
 ```css
 padding-top-4
 ```
@@ -1276,7 +1276,7 @@ padding-top-4
 2. Increments by 1 (7, 8, 9 etc.)
 3. The number will turned into a pixel value
 
-**Example for padding 4px**
+**Example for padd 4px**
 ```css
 padding-right-4
 ```
@@ -1289,7 +1289,7 @@ padding-right-4
 2. Increments by 1 (7, 8, 9 etc.)
 3. The number will turned into a pixel value
 
-**Example for bottom padding 4px**
+**Example for bottom padd 4px**
 ```css
 padding-bottom-4
 ```
@@ -1302,7 +1302,7 @@ padding-bottom-4
 2. Increments by 1 (7, 8, 9 etc.)
 3. The number will turned into a pixel value
 
-**Example for left padding 4px**
+**Example for left padd 4px**
 ```css
 padding-left-4
 ```
@@ -1407,7 +1407,7 @@ opacity-6
 [Back to top](#table-of-contents)
 
 ## Lists
-Classes that allow for displaying elements as lists
+Classes that allow for display elements as lists
 
 ### Unordered list
 Add to a parent container to display the children as a standard bulleted list
@@ -1465,7 +1465,7 @@ ol
 [Back to top](#table-of-contents)
 
 ## Box Shadows
-Quickly adding or removing a box shadow
+Quickly add or remov a box shadow
 
 ### Predefined box shadows
 A set of 35 predefined box shadows from this site [Beautiful CSS box-shadow examples](https://getcssscan.com/css-box-shadow-examples)
@@ -1481,7 +1481,7 @@ box-shadow-0
 
 ### Bottom box shadow only
 
-Adding a box shadow on the bottom of an element only
+Add a box shadow on the bottom of an element only
 
 **Class name**
 ```css
@@ -1501,7 +1501,7 @@ box-shadow-none
 
 ## Borders
 
-Adding or removing borders from elements
+Add or remov borders from elements
 
 ### Border on all sides
 
@@ -1629,7 +1629,7 @@ border-none
 [Back to top](#table-of-contents)
 
 ### Border styles
-Changing the style of a border
+Chang the style of a border
 
 **Class name**
 ```css
@@ -1649,7 +1649,7 @@ border-style-double
 [Back to top](#table-of-contents)
 
 ### Border radius
-Adding rounded corners to elements
+Add rounded corners to elements
 
 1. Append a value to the base class name from 0 to 20
 2. Will become a pixel value
