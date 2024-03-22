@@ -64,6 +64,7 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [Horizontal center alignment](#horizontal-center-alignment)
     - [Horizontal left alignment](#horizontal-left-alignment)
     - [Horizontal right alignment](#horizontal-right-alignment)
+    - [Gap](#gap)
   - [Heights and widths](#heights-and-widths)
     - [Height](#height)
     - [Width](#width)
@@ -97,7 +98,6 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [Right margin](#right-margin)
     - [Bottom margin](#bottom-margin)
     - [Left margin](#left-margin)
-  - [Gap](#gap)
   - [Opacity](#opacity)
   - [Lists](#lists)
     - [Unordered list](#unordered-list)
@@ -1032,6 +1032,20 @@ justify-end
 
 [Back to top](#table-of-contents)
 
+### Gap
+The gap value is applied between children in Grid and Flexbox displays
+
+1. Append a number between 0 and 50 to the base class name
+2. Increments by 1 (7, 8, 9 etc.)
+3. The number will turned into a pixel value
+
+**Example for a gap of 20px between elements**
+```css
+gap-20
+```
+
+[Back to top](#table-of-contents)
+
 ## Heights and widths
 
 Sett fixed element heights, widths, maximum heights and maximum widths in pixel, percent and viewport height or width
@@ -1404,20 +1418,6 @@ margin-bottom-4
 **Example for left margin 4px**
 ```css
 margin-left-4
-```
-
-[Back to top](#table-of-contents)
-
-## Gap
-The gap value is applied between children in Grid and Flexbox displays
-
-1. Append a number between 0 and 50 to the base class name
-2. Increments by 1 (7, 8, 9 etc.)
-3. The number will turned into a pixel value
-
-**Example for a gap of 20px between elements**
-```css
-gap-20
 ```
 
 [Back to top](#table-of-contents)
