@@ -96,7 +96,6 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [Left margin](#left-margin)
   - [Gap](#gap)
   - [Opacity](#opacity)
-    - [Opacity 0 to 1](#opacity-0-to-1)
   - [Lists](#lists)
     - [Unordered list](#unordered-list)
     - [Unordered list tem](#unordered-list-tem)
@@ -107,15 +106,16 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [Bottom box shadow only](#bottom-box-shadow-only)
     - [Remove all box shadow](#remove-all-box-shadow)
   - [Borders](#borders)
-    - [Standard border](#standard-border)
-    - [Standard border width](#standard-border-width)
-    - [Standard top border](#standard-top-border)
-    - [Standard top border width](#standard-top-border-width)
-    - [Standard right border](#standard-right-border)
-    - [Standard right border width](#standard-right-border-width)
-    - [Standard bottom border](#standard-bottom-border)
-    - [Standard bottom border width](#standard-bottom-border-width)
-    - [Standard left border](#standard-left-border)
+    - [Border on all sides](#border-on-all-sides)
+    - [Border width](#border-width)
+    - [Top border](#top-border)
+    - [Top border width](#top-border-width)
+    - [Right border](#right-border)
+    - [Right border width](#right-border-width)
+    - [Bottom border](#bottom-border)
+    - [Bottom border width](#bottom-border-width)
+    - [Left border](#left-border)
+    - [Left border width](#left-border-width)
     - [Transparent border](#transparent-border)
     - [Border styles](#border-styles)
     - [Border radius](#border-radius)
@@ -1395,8 +1395,6 @@ gap-20
 ## Opacity
 Set the opacity of elements. 0 is completely opaque (invisible) 1 is not opaque
 
-### Opacity 0 to 1
-
 1. Append a number between 1 and 10 to the base class name
 2. Increments by 1 (7, 8, 9 etc.)
 3. The number will turned into an opacity between 0 and 1
@@ -1505,7 +1503,7 @@ box-shadow-none
 
 Adding or removing borders from elements
 
-### Standard border
+### Border on all sides
 
 Adds a 1px solid border in the default color your browser implements. Add a [border color](#set-a-border-colour) class to change the colour
 
@@ -1516,7 +1514,7 @@ border
 
 [Back to top](#table-of-contents)
 
-### Standard border width
+### Border width
 
 1. Append a pixel value to the base class name between 0 and 3
 2. Increments by 1 (1, 2, etc.)
@@ -1528,7 +1526,7 @@ border-3
 
 [Back to top](#table-of-contents)
 
-### Standard top border
+### Top border
 
 Adds a 1px solid top border in the default color your browser implements. Add a [color](#colours) class to change the colour
 
@@ -1539,7 +1537,7 @@ border-top
 
 [Back to top](#table-of-contents)
 
-### Standard top border width
+### Top border width
 
 1. Append a pixel value to the base class name between 0 and 3
 2. Increments by 1 (1, 2, etc.)
@@ -1551,7 +1549,7 @@ border-top-3
 
 [Back to top](#table-of-contents)
 
-### Standard right border
+### Right border
 
 Adds a 1px solid right border in the default color your browser implements. Add a [color](#colours) class to change the colour
 
@@ -1562,7 +1560,7 @@ border-right
 
 [Back to top](#table-of-contents)
 
-### Standard right border width
+### Right border width
 
 1. Append a pixel value to the base class name between 0 and 3
 2. Increments by 1 (1, 2, etc.)
@@ -1574,7 +1572,7 @@ border-right-3
 
 [Back to top](#table-of-contents)
 
-### Standard bottom border
+### Bottom border
 
 Adds a 1px solid bottom border in the default color your browser implements. Add a [color](#colours) class to change the colour
 
@@ -1585,7 +1583,7 @@ border-bottom
 
 [Back to top](#table-of-contents)
 
-### Standard bottom border width
+### Bottom border width
 
 1. Append a pixel value to the base class name between 0 and 3
 2. Increments by 1 (1, 2, etc.)
@@ -1597,13 +1595,25 @@ border-bottom-3
 
 [Back to top](#table-of-contents)
 
-### Standard left border
+### Left border
 
 Adds a 1px solid left border in the default color your browser implements. Add a [color](#border-colours) class to change the colour
 
 **Class name**
 ```css
 border-left
+```
+
+[Back to top](#table-of-contents)
+
+### Left border width
+
+1. Append a pixel value to the base class name between 0 and 3
+2. Increments by 1 (1, 2, etc.)
+
+**Example for a left border of 3px width**
+```css
+border-left-3
 ```
 
 [Back to top](#table-of-contents)
