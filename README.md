@@ -87,13 +87,13 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [Overflow auto](#overflow-auto)
     - [Overflow scroll](#overflow-scroll)
   - [Padding](#padding)
-    - [Padding all sides](#padding-all-sides)
+    - [Paddings all sides](#paddings-all-sides)
     - [Top padding](#top-padding)
     - [Right padding](#right-padding)
     - [Bottom padding](#bottom-padding)
     - [Left padding](#left-padding)
   - [Margin](#margin)
-    - [Margin all sides](#margin-all-sides)
+    - [Margins all sides](#margins-all-sides)
     - [Top margin](#top-margin)
     - [Right margin](#right-margin)
     - [Bottom margin](#bottom-margin)
@@ -1288,7 +1288,7 @@ overflow-scroll
 
 Padding is space added between the contents of an element and the border of that element. 
 
-### Padding all sides
+### Paddings all sides
 
 1. Append a number between 0 and 30 to the base class name
 2. Increments by 1 (7, 8, 9 etc.)
@@ -1357,7 +1357,7 @@ padding-left-4
 
 Margin is space added between the border of an element and the next element. 
 
-### Margin all sides
+### Margins all sides
 
 1. Append a number between 0 and 30 to the base class name
 2. Increments by 1 (7, 8, 9 etc.)
