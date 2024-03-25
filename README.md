@@ -54,6 +54,7 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [Bottom](#bottom)
     - [Left](#left)
     - [Z-Index](#z-index)
+    - [Opacity](#opacity)
     - [Display block](#display-block)
     - [Display grid](#display-grid)
     - [Display flex](#display-flex)
@@ -65,7 +66,6 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [Horizontal left alignment](#horizontal-left-alignment)
     - [Horizontal right alignment](#horizontal-right-alignment)
     - [Gap](#gap)
-    - [Opacity](#opacity)
   - [Heights and widths](#heights-and-widths)
     - [Height](#height)
     - [Width](#width)
@@ -938,6 +938,20 @@ z-index--1
 
 [Back to top](#table-of-contents)
 
+### Opacity
+Set the opacity of elements. 0 is completely opaque (invisible) 1 is not opaque
+
+1. Append a number between 1 and 10 to the base class name
+2. Increments by 1 (7, 8, 9 etc.)
+3. The number will turned into an opacity between 0 and 1
+
+**Example for opacity 0.6**
+```css
+opacity-6
+```
+
+[Back to top](#table-of-contents)
+
 ### Display block
 Elements with display block stretch the entire width of their container
 
@@ -1042,20 +1056,6 @@ The gap value is applied between children in Grid and Flexbox displays
 **Example for a gap of 20px between elements**
 ```css
 gap-20
-```
-
-[Back to top](#table-of-contents)
-
-### Opacity
-Set the opacity of elements. 0 is completely opaque (invisible) 1 is not opaque
-
-1. Append a number between 1 and 10 to the base class name
-2. Increments by 1 (7, 8, 9 etc.)
-3. The number will turned into an opacity between 0 and 1
-
-**Example for opacity 0.6**
-```css
-opacity-6
 ```
 
 [Back to top](#table-of-contents)
