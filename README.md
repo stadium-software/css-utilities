@@ -126,10 +126,10 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [External links](#external-links)
   - [DataGrid Display](#datagrid-display)
     - [Broad display](#broad-display)
-    - [Narrow display](#narrow-display)
+    - [Tight display](#tight-display)
     - [Light display](#light-display)
     - [Heavy display](#heavy-display)
-    - [Hover background](#hover-background)
+    - [Row-level hover background](#row-level-hover-background)
     - [Fix headers](#fix-headers)
 
 # Setup
@@ -1703,7 +1703,7 @@ border-radius-6
 ## Link styles
 
 ### External links
-Append an icon to indicate external links
+Append icons to indicate external links
 
 **Class name**
 ```css
@@ -1731,17 +1731,17 @@ broad
 
 [Back to top](#table-of-contents)
 
-### Narrow display
+### Tight display
 Displays DataGrid cells with less padding and smaller fonts
 
 **Class name**
 ```css
-narrow
+tight
 ```
-**narrow customisations**
+**tight customisations**
 ```css
---utils-datagrid-narrow-cellpadding: 6px;
---utils-datagrid-narrow-font-size: 14px;
+--utils-datagrid-tight-cellpadding: 6px;
+--utils-datagrid-tight-font-size: 14px;
 ```
 
 [Back to top](#table-of-contents)
@@ -1780,7 +1780,7 @@ heavy
 
 [Back to top](#table-of-contents)
 
-### Hover background
+### Row-level hover background
 Hovered rows have a background color
 
 **Class name**

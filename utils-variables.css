@@ -3,8 +3,8 @@
     --utils-h1-font-size: 32px;
     --utils-h1-font-weight: 600;
     --utils-h1-line-height: 1.5;
-    --utils-h1-margin-top: 1em;
-    --utils-h1-margin-bottom: .5em;
+    --utils-h1-margin-top: .4em;
+    --utils-h1-margin-bottom: .2em;
     
     --utils-h2-font-size: 24px;
     --utils-h2-font-weight: 600;
@@ -18,11 +18,11 @@
     --utils-h3-margin-top: 1em;
     --utils-h3-margin-bottom: .5em;
 
-    --utils-page-title-font-size: 22px;
+    --utils-page-title-font-size: 36px;
     --utils-page-title-font-weight: 600;
-    --utils-page-title-line-height: 1.5;
-    --utils-page-title-margin-top: 1em;
-    --utils-page-title-margin-bottom: .5em;
+    --utils-page-title-line-height: 1.2;
+    --utils-page-title-margin-top: .6em;
+    --utils-page-title-margin-bottom: .3em;
 
     --utils-subtitle-font-size: 18px;
     --utils-subtitle-font-weight: 600;
@@ -186,4 +186,23 @@
     --utils-divider-size: 1px;
     --utils-divider-margin-top: 1.5rem;
     --utils-divider-margin-bottom: 1.5rem;
+
+    /*DATAGRIDS*/
+    --utils-datagrid-broad-cellpadding: 12px;
+    --utils-datagrid-broad-font-size: 16px;
+
+    --utils-datagrid-tight-cellpadding: 6px;
+    --utils-datagrid-tight-font-size: 14px;
+
+    --utils-datagrid-light-table-border-color: #f1f1f1;
+    --utils-datagrid-light-cell-border-color: #f1f1f1;
+    --utils-datagrid-light-rows-background-color: #fff;
+    --utils-datagrid-light-alternate-rows-background-color: #f7f7f7;
+
+    --utils-datagrid-heavy-table-border-color: #adadad;
+    --utils-datagrid-heavy-cell-border-color: #adadad;
+    --utils-datagrid-heavy-rows-background-color: #fff;
+    --utils-datagrid-heavy-alternate-rows-background-color: #f1f1f1;
+
+    --utils-datagrid-hover-background-color: #ddd;
 }
