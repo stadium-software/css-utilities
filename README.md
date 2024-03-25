@@ -122,6 +122,15 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [Transparent border](#transparent-border)
     - [Border styles](#border-styles)
     - [Border radius](#border-radius)
+  - [Link styles](#link-styles)
+    - [External links](#external-links)
+  - [DataGrid Display](#datagrid-display)
+    - [Broad display](#broad-display)
+    - [Narrow display](#narrow-display)
+    - [Light display](#light-display)
+    - [Heavy display](#heavy-display)
+    - [Hover background](#hover-background)
+    - [Fix headers](#fix-headers)
 
 # Setup
 
@@ -1688,6 +1697,112 @@ Add rounded corners to elements
 ```css
 border-radius-6
 ```
+
+[Back to top](#table-of-contents)
+
+## Link styles
+
+### External links
+Append an icon to indicate external links
+
+**Class name**
+```css
+external-link
+```
+
+![](images/external-link.png)
+
+[Back to top](#table-of-contents)
+
+## DataGrid Display
+
+### Broad display
+Displays DataGrid cells with more padding and larger fonts
+
+**Class name**
+```css
+broad
+```
+**broad customisations**
+```css
+--utils-datagrid-broad-cellpadding: 12px;
+--utils-datagrid-broad-font-size: 16px;
+```
+
+[Back to top](#table-of-contents)
+
+### Narrow display
+Displays DataGrid cells with less padding and smaller fonts
+
+**Class name**
+```css
+narrow
+```
+**narrow customisations**
+```css
+--utils-datagrid-narrow-cellpadding: 6px;
+--utils-datagrid-narrow-font-size: 14px;
+```
+
+[Back to top](#table-of-contents)
+
+### Light display
+Displays fewer and lighter DataGrid borders and background colours
+
+**Class name**
+```css
+light
+```
+**light customisations**
+```css
+--utils-datagrid-light-table-border-color: #f1f1f1;
+--utils-datagrid-light-cell-border-color: #f1f1f1;
+--utils-datagrid-light-rows-background-color: #fff;
+--utils-datagrid-light-alternate-rows-background-color: #f7f7f7;
+```
+
+[Back to top](#table-of-contents)
+
+### Heavy display
+Displays more and darker DataGrid borders and background colours
+
+**Class name**
+```css
+heavy
+```
+**heavy customisations**
+```css
+--utils-datagrid-heavy-table-border-color: #adadad;
+--utils-datagrid-heavy-cell-border-color: #adadad;
+--utils-datagrid-heavy-rows-background-color: #fff;
+--utils-datagrid-heavy-alternate-rows-background-color: #f1f1f1;
+```
+
+[Back to top](#table-of-contents)
+
+### Hover background
+Hovered rows have a background color
+
+**Class name**
+```css
+hoverable
+```
+**hoverable customisations**
+```css
+--utils-datagrid-hover-background-color: #ddd;
+```
+
+[Back to top](#table-of-contents)
+
+### Fix headers
+Headers remain on the DataGrid when users scroll
+
+**Class name**
+```css
+fix-headers
+```
+
+![](images/fixed-headers.gif)
 
 [Back to top](#table-of-contents)
 
