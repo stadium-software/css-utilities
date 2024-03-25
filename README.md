@@ -98,7 +98,7 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [Right margin](#right-margin)
     - [Bottom margin](#bottom-margin)
     - [Left margin](#left-margin)
-  - [Opacity](#opacity)
+    - [Opacity](#opacity)
   - [Lists](#lists)
     - [Unordered list](#unordered-list)
     - [Unordered list tem](#unordered-list-tem)
@@ -1422,7 +1422,7 @@ margin-left-4
 
 [Back to top](#table-of-contents)
 
-## Opacity
+### Opacity
 Set the opacity of elements. 0 is completely opaque (invisible) 1 is not opaque
 
 1. Append a number between 1 and 10 to the base class name
