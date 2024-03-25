@@ -65,6 +65,7 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [Horizontal left alignment](#horizontal-left-alignment)
     - [Horizontal right alignment](#horizontal-right-alignment)
     - [Gap](#gap)
+    - [Opacity](#opacity)
   - [Heights and widths](#heights-and-widths)
     - [Height](#height)
     - [Width](#width)
@@ -98,7 +99,6 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [Right margin](#right-margin)
     - [Bottom margin](#bottom-margin)
     - [Left margin](#left-margin)
-    - [Opacity](#opacity)
   - [Lists](#lists)
     - [Unordered list](#unordered-list)
     - [Unordered list tem](#unordered-list-tem)
@@ -1046,6 +1046,20 @@ gap-20
 
 [Back to top](#table-of-contents)
 
+### Opacity
+Set the opacity of elements. 0 is completely opaque (invisible) 1 is not opaque
+
+1. Append a number between 1 and 10 to the base class name
+2. Increments by 1 (7, 8, 9 etc.)
+3. The number will turned into an opacity between 0 and 1
+
+**Example for opacity 0.6**
+```css
+opacity-6
+```
+
+[Back to top](#table-of-contents)
+
 ## Heights and widths
 
 Sett fixed element heights, widths, maximum heights and maximum widths in pixel, percent and viewport height or width
@@ -1418,20 +1432,6 @@ margin-bottom-4
 **Example for left margin 4px**
 ```css
 margin-left-4
-```
-
-[Back to top](#table-of-contents)
-
-### Opacity
-Set the opacity of elements. 0 is completely opaque (invisible) 1 is not opaque
-
-1. Append a number between 1 and 10 to the base class name
-2. Increments by 1 (7, 8, 9 etc.)
-3. The number will turned into an opacity between 0 and 1
-
-**Example for opacity 0.6**
-```css
-opacity-6
 ```
 
 [Back to top](#table-of-contents)
