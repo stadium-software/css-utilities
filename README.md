@@ -150,7 +150,7 @@ This module contains a set of CSS classes that can be added to the classes prope
 To upgrade the CSS in this module, follow the [steps outlined in this repo](https://github.com/stadium-software/samples-upgrading)
 
 ## Implement a utility class
-1. First, make sure you have [applied the module](#applying-the-module)
+1. First, make sure you have [applied the module](#apply-the-module)
 2. Find a class you want to add in the list below
 3. Add the class to the classes property of a control in lower case
 
