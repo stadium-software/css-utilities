@@ -5,6 +5,8 @@ This module contains a set of CSS classes that can be added to the classes prope
 ## Version
 1.0 initial release
 
+1.1 Added some display options; added empty table header CSS
+
 ## Table of Contents
 - [CSS Utilities](#css-utilities)
   - [Version](#version)
@@ -56,8 +58,11 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [Z-Index](#z-index)
     - [Opacity](#opacity)
     - [Display block](#display-block)
+    - [Display inline-block](#display-inline-block)
+    - [Display inline](#display-inline)
     - [Display grid](#display-grid)
     - [Display flex](#display-flex)
+    - [Don't display (hide)](#dont-display-hide)
     - [Absolute center alignment](#absolute-center-alignment)
     - [Vertical center alignment](#vertical-center-alignment)
     - [Vertical top alignment](#vertical-top-alignment)
@@ -970,6 +975,24 @@ display-block
 
 [Back to top](#table-of-contents)
 
+### Display inline-block
+Elements with display inline-block are shown inline, but have a settable height and width
+
+```css
+display-inline-block
+```
+
+[Back to top](#table-of-contents)
+
+### Display inline
+Elements with display inline are shown inline and do not have a settable height or width
+
+```css
+display-inline
+```
+
+[Back to top](#table-of-contents)
+
 ### Display grid
 Turns elements into grid containers
 
@@ -988,6 +1011,15 @@ display-flex
 
 ```css
 flexbox-layout
+```
+
+[Back to top](#table-of-contents)
+
+### Don't display (hide)
+Visually hides elements
+
+```css
+visually-hidden
 ```
 
 [Back to top](#table-of-contents)
