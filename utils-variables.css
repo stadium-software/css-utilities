@@ -206,4 +206,7 @@
     --utils-datagrid-heavy-alternate-rows-background-color: #f1f1f1;
 
     --utils-datagrid-hover-background-color: #ddd;
+
+    /*MENU*/
+    --utils-menu-submenu-divider-color: #ffffff;
 }

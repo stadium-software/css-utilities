@@ -136,6 +136,8 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [Heavy display](#heavy-display)
     - [Row-level hover background](#row-level-hover-background)
     - [Fix headers](#fix-headers)
+  - [Menu styles](#menu-styles)
+    - [Show submenu dividers](#show-submenu-dividers)
 
 # Setup
 
@@ -1835,6 +1837,26 @@ fix-headers
 ```
 
 ![](images/fixed-headers.gif)
+
+[Back to top](#table-of-contents)
+
+## Menu styles
+
+### Show submenu dividers
+Displays a divider line in empty submenu items
+
+**Class name**
+```css
+show-dividers
+```
+
+*Display*
+
+![](images/submenu-dividers.png)
+
+*Setup*
+
+![](images/EmptyMenuItems.png)
 
 [Back to top](#table-of-contents)
 
