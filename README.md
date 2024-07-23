@@ -7,6 +7,8 @@ This module contains a set of CSS classes that can be added to the classes prope
 
 1.1 Added some display options; added empty table header CSS
 
+1.2 Added support for submenu dividers
+
 ## Table of Contents
 - [CSS Utilities](#css-utilities)
   - [Version](#version)
