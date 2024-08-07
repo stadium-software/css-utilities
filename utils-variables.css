@@ -209,4 +209,12 @@
 
     /*MENU*/
     --utils-menu-submenu-divider-color: #ffffff;
+
+    /*REQUIRED INDICATOR*/
+    --required-indicator-color: #ee7166;
+    --required-indicator-font-size: 14px;
+    --required-indicator-symbol: "✽";
+    --required-indicator-top-position: -5px;
+    --required-indicator-right-position: 2px;
+
 }
