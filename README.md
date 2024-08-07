@@ -3,11 +3,11 @@
 This module contains a set of CSS classes that can be added to the classes property of controls in applications to quickly apply a number of frequently-used styles. 
 
 ## Version
-1.0 initial release
-
 1.1 Added some display options; added empty table header CSS
 
 1.2 Added support for submenu dividers
+
+1.3 Added support for showing and hiding required indicator
 
 ## Table of Contents
 - [CSS Utilities](#css-utilities)
@@ -140,6 +140,9 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [Fix headers](#fix-headers)
   - [Menu styles](#menu-styles)
     - [Show submenu dividers](#show-submenu-dividers)
+  - [Required Indicator](#required-indicator)
+    - [Hide Required Indicator](#hide-required-indicator)
+    - [Show Required Indicator](#show-required-indicator)
 
 # Setup
 
@@ -1859,6 +1862,30 @@ show-dividers
 *Setup*
 
 ![](images/EmptyMenuItems.png)
+
+[Back to top](#table-of-contents)
+
+## Required Indicator
+
+### Hide Required Indicator
+Hides the required indicator shown after required form elements
+
+**Class name**
+```css
+hide-required-indicator
+```
+
+### Show Required Indicator
+Shows the required indicator after controls (e.g. labels)
+
+**Class name**
+```css
+hide-required-indicator
+```
+
+*Display*
+
+![](images/Required-Indicator.png)
 
 [Back to top](#table-of-contents)
 
