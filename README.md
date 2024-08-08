@@ -1880,7 +1880,7 @@ Shows the required indicator after controls (e.g. labels)
 
 **Class name**
 ```css
-hide-required-indicator
+show-required-indicator
 ```
 
 *Display*
