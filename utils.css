@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* CSS Utils v1.3 https://github.com/stadium-software/css-utilities */
 html body {
   /*TYPOGRAPHY*/
@@ -37,47 +38,47 @@ html body {
 html body .h1 *:is(span, a, button, label, input, option),
 html body .h1 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover),
 html body .h1 {
-  font-size: var(--utils-h1-font-size);
-  font-weight: var(--utils-h1-font-weight);
-  line-height: var(--utils-h1-line-height);
-  margin-top: var(--utils-h1-margin-top);
-  margin-bottom: var(--utils-h1-margin-bottom);
+  font-size: var(--utils-h1-font-size, var(--FONT-SIZE-XX-LARGE));
+  font-weight: var(--utils-h1-font-weight, 600);
+  line-height: var(--utils-h1-line-height, 1.5);
+  margin-top: var(--utils-h1-margin-top, 0.4em);
+  margin-bottom: var(--utils-h1-margin-bottom, 0.2em);
 }
 html body .h2 *:is(span, a, button, label, input, option),
 html body .h2 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover),
 html body .h2 {
-  font-size: var(--utils-h2-font-size);
-  font-weight: var(--utils-h2-font-weight);
-  line-height: var(--utils-h2-line-height);
-  margin-top: var(--utils-h2-margin-top);
-  margin-bottom: var(--utils-h2-margin-bottom);
+  font-size: var(--utils-h2-font-size, var(--FONT-SIZE-X-LARGE));
+  font-weight: var(--utils-h2-font-weight, 600);
+  line-height: var(--utils-h2-line-height, 1.5);
+  margin-top: var(--utils-h2-margin-top, 1em);
+  margin-bottom: var(--utils-h2-margin-bottom, 0.5em);
 }
 html body .h3 *:is(span, a, button, label, input, option),
 html body .h3 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover),
 html body .h3 {
-  font-size: var(--utils-h3-font-size);
-  font-weight: var(--utils-h3-font-weight);
-  line-height: var(--utils-h3-line-height);
-  margin-top: var(--utils-h3-margin-top);
-  margin-bottom: var(--utils-h3-margin-bottom);
+  font-size: var(--utils-h3-font-size, var(--FONT-SIZE-LARGE));
+  font-weight: var(--utils-h3-font-weight, 600);
+  line-height: var(--utils-h3-line-height, 1.5);
+  margin-top: var(--utils-h3-margin-top, 1em);
+  margin-bottom: var(--utils-h3-margin-bottom, 0.5em);
 }
 html body .page-title *:is(span, a, button, label, input, option),
 html body .page-title *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover),
 html body .page-title {
-  font-size: var(--utils-page-title-font-size);
-  font-weight: var(--utils-page-title-font-weight);
-  line-height: var(--utils-page-title-line-height);
-  margin-top: var(--utils-page-title-margin-top);
-  margin-bottom: var(--utils-page-title-margin-bottom);
+  font-size: var(--utils-page-title-font-size, var(--FONT-SIZE-XX-LARGE));
+  font-weight: var(--utils-page-title-font-weight, 600);
+  line-height: var(--utils-page-title-line-height, 1.2);
+  margin-top: var(--utils-page-title-margin-top, 0.6em);
+  margin-bottom: var(--utils-page-title-margin-bottom, 0.3em);
 }
 html body .subtitle *:is(span, a, button, label, input, option),
 html body .subtitle *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover),
 html body .subtitle {
-  font-size: var(--utils-subtitle-font-size);
-  font-weight: var(--utils-subtitle-font-weight);
-  line-height: var(--utils-subtitle-line-height);
-  margin-top: var(--utils-subtitle-margin-top);
-  margin-bottom: var(--utils-subtitle-margin-bottom);
+  font-size: var(--utils-subtitle-font-size, var(--FONT-SIZE-LARGE));
+  font-weight: var(--utils-subtitle-font-weight, 600);
+  line-height: var(--utils-subtitle-line-height, 1.5);
+  margin-top: var(--utils-subtitle-margin-top, 1em);
+  margin-bottom: var(--utils-subtitle-margin-bottom, 0.5em);
 }
 html body .large-text *:is(span, a, button, label, input, option),
 html body .large-text *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover),
@@ -300,36 +301,36 @@ html body .primary .btn-default,
 html body .primary-button .btn-default,
 html body .primary .btn-default:focus,
 html body .primary-button .btn-default:focus {
-  background-color: var(--utils-primary-button-background-color);
-  border-color: var(--utils-primary-button-border-color);
-  border-width: var(--utils-primary-button-border-width);
-  border-radius: var(--utils-primary-button-border-radius);
-  color: var(--utils-primary-button-font-color);
-  font-size: var(--utils-primary-button-font-size);
-  text-transform: var(--utils-primary-button-text-transform);
-  -webkit-text-decoration: var(--utils-primary-button-text-decoration);
-          text-decoration: var(--utils-primary-button-text-decoration);
-  padding: var(--utils-primary-button-padding);
-  box-shadow: var(--utils-primary-button-box-shadow);
+  background-color: var(--utils-primary-button-background-color, var(--BUTTON-BACKGROUND-COLOR));
+  border-color: var(--utils-primary-button-border-color, var(--BUTTON-BORDER-COLOR));
+  border-width: var(--utils-primary-button-border-width, 1px);
+  border-radius: var(--utils-primary-button-border-radius, var(--BUTTON-BORDER-RADIUS));
+  color: var(--utils-primary-button-font-color, var(--BUTTON-TEXT-COLOR));
+  font-size: var(--utils-primary-button-font-size, 14px);
+  text-transform: var(--utils-primary-button-text-transform, var(--BUTTON-TEXT-TRANSFORM));
+  -webkit-text-decoration: var(--utils-primary-button-text-decoration, none);
+          text-decoration: var(--utils-primary-button-text-decoration, none);
+  padding: var(--utils-primary-button-padding, var(--BUTTON-TOPBOTTOM-PADDING) var(--BUTTON-RIGHTLEFT-PADDING));
+  box-shadow: var(--utils-primary-button-box-shadow, var(--BUTTON-BOX-SHADOW));
 }
 html body .primary .btn-default:focus,
 html body .primary-button .btn-default:focus {
-  outline-color: var(--utils-primary-button-outline-color);
-  outline-width: var(--utils-primary-button-outline-width);
+  outline-color: var(--utils-primary-button-outline-color, var(--CONTRAST-THEME-COLOR));
+  outline-width: var(--utils-primary-button-outline-width, 1px);
 }
 html body .primary .btn-default:hover,
 html body .primary-button .btn-default:hover {
-  background-color: var(--utils-primary-hover-button-background-color);
-  border-color: var(--utils-primary-hover-button-border-color);
-  border-width: var(--utils-primary-hover-button-border-width);
-  border-radius: var(--utils-primary-hover-button-border-radius);
-  color: var(--utils-primary-hover-button-font-color);
-  font-size: var(--utils-primary-hover-button-font-size);
-  text-transform: var(--utils-primary-hover-button-text-transform);
-  -webkit-text-decoration: var(--utils-primary-hover-button-text-decoration);
-          text-decoration: var(--utils-primary-hover-button-text-decoration);
-  padding: var(--utils-primary-hover-button-padding);
-  box-shadow: var(--utils-primary-hover-button-box-shadow);
+  background-color: var(--utils-primary-hover-button-background-color, var(--BUTTON-HOVER-BACKGROUND-COLOR));
+  border-color: var(--utils-primary-hover-button-border-color, var(--BUTTON-BORDER-COLOR));
+  border-width: var(--utils-primary-hover-button-border-width, 1px);
+  border-radius: var(--utils-primary-hover-button-border-radius, var(--BUTTON-BORDER-RADIUS));
+  color: var(--utils-primary-hover-button-font-color, var(--BUTTON-HOVER-TEXT-COLOR));
+  font-size: var(--utils-primary-hover-button-font-size, 14px);
+  text-transform: var(--utils-primary-hover-button-text-transform, var(--BUTTON-TEXT-TRANSFORM));
+  -webkit-text-decoration: var(--utils-primary-hover-button-text-decoration, none);
+          text-decoration: var(--utils-primary-hover-button-text-decoration, none);
+  padding: var(--utils-primary-hover-button-padding, var(--BUTTON-TOPBOTTOM-PADDING) var(--BUTTON-RIGHTLEFT-PADDING));
+  box-shadow: var(--utils-primary-hover-button-box-shadow, var(--BUTTON-HOVER-BOX-SHADOW));
 }
 html body .primary.disabled .btn-default,
 html body .primary-button.disabled .btn-default,
@@ -337,18 +338,18 @@ html body .primary.disabled .btn-default:focus,
 html body .primary-button.disabled .btn-default:focus,
 html body .primary.disabled .btn-default:hover,
 html body .primary-button.disabled .btn-default:hover {
-  background-color: var(--utils-primary-disabled-button-background-color);
-  border-color: var(--utils-primary-disabled-button-border-color);
-  border-width: var(--utils-primary-disabled-button-border-width);
-  border-radius: var(--utils-primary-disabled-button-border-radius);
-  color: var(--utils-primary-disabled-button-font-color);
-  font-size: var(--utils-primary-disabled-button-font-size);
-  text-transform: var(--utils-primary-disabled-button-text-transform);
-  -webkit-text-decoration: var(--utils-primary-disabled-button-text-decoration);
-          text-decoration: var(--utils-primary-disabled-button-text-decoration);
-  padding: var(--utils-primary-disabled-button-padding);
-  box-shadow: var(--utils-primary-disabled-button-box-shadow);
-  opacity: var(--utils-primary-disabled-button-opacity);
+  background-color: var(--utils-primary-disabled-button-background-color, var(--BUTTON-BACKGROUND-COLOR));
+  border-color: var(--utils-primary-disabled-button-border-color, var(--TERIARY-THEME-COLOR));
+  border-width: var(--utils-primary-disabled-button-border-width, 1px);
+  border-radius: var(--utils-primary-disabled-button-border-radius, var(--BUTTON-BORDER-RADIUS));
+  color: var(--utils-primary-disabled-button-font-color, var(--BUTTON-HOVER-TEXT-COLOR));
+  font-size: var(--utils-primary-disabled-button-font-size, 14px);
+  text-transform: var(--utils-primary-disabled-button-text-transform, var(--BUTTON-TEXT-TRANSFORM));
+  -webkit-text-decoration: var(--utils-primary-disabled-button-text-decoration, none);
+          text-decoration: var(--utils-primary-disabled-button-text-decoration, none);
+  padding: var(--utils-primary-disabled-button-padding, var(--BUTTON-TOPBOTTOM-PADDING) var(--BUTTON-RIGHTLEFT-PADDING));
+  box-shadow: var(--utils-primary-disabled-button-box-shadow, none);
+  opacity: var(--utils-primary-disabled-button-opacity, 0.6);
   cursor: default;
   pointer-events: none;
 }
@@ -356,36 +357,36 @@ html body .secondary .btn-default,
 html body .secondary-button .btn-default,
 html body .secondary .btn-default:focus,
 html body .secondary-button .btn-default:focus {
-  background-color: var(--utils-secondary-button-background-color);
-  border-color: var(--utils-secondary-button-border-color);
-  border-width: var(--utils-secondary-button-border-width);
-  border-radius: var(--utils-secondary-button-border-radius);
-  color: var(--utils-secondary-button-font-color);
-  font-size: var(--utils-secondary-button-font-size);
-  text-transform: var(--utils-secondary-button-text-transform);
-  -webkit-text-decoration: var(--utils-secondary-button-text-decoration);
-          text-decoration: var(--utils-secondary-button-text-decoration);
-  padding: var(--utils-secondary-button-padding);
-  box-shadow: var(--utils-secondary-button-box-shadow);
+  background-color: var(--utils-secondary-button-background-color, var(--BUTTON-TEXT-COLOR));
+  border-color: var(--utils-secondary-button-border-color, var(--BUTTON-BORDER-COLOR));
+  border-width: var(--utils-secondary-button-border-width, 1px);
+  border-radius: var(--utils-secondary-button-border-radius, var(--BUTTON-BORDER-RADIUS));
+  color: var(--utils-secondary-button-font-color, var(--BUTTON-BACKGROUND-COLOR));
+  font-size: var(--utils-secondary-button-font-size, 14px);
+  text-transform: var(--utils-secondary-button-text-transform, var(--BUTTON-TEXT-TRANSFORM));
+  -webkit-text-decoration: var(--utils-secondary-button-text-decoration, none);
+          text-decoration: var(--utils-secondary-button-text-decoration, none);
+  padding: var(--utils-secondary-button-padding, var(--BUTTON-TOPBOTTOM-PADDING) var(--BUTTON-RIGHTLEFT-PADDING));
+  box-shadow: var(--utils-secondary-button-box-shadow, var(--BUTTON-BOX-SHADOW));
 }
 html body .secondary .btn-default:focus,
 html body .secondary-button .btn-default:focus {
-  outline-color: var(--utils-secondary-button-outline-color);
-  outline-width: var(--utils-secondary-button-outline-width);
+  outline-color: var(--utils-secondary-button-outline-color, var(--BUTTON-TEXT-COLOR));
+  outline-width: var(--utils-secondary-button-outline-width, 1px);
 }
 html body .secondary .btn-default:hover,
 html body .secondary-button .btn-default:hover {
-  background-color: var(--utils-secondary-hover-button-background-color);
-  border-color: var(--utils-secondary-hover-button-border-color);
-  border-width: var(--utils-secondary-hover-button-border-width);
-  border-radius: var(--utils-secondary-hover-button-border-radius);
-  color: var(--utils-secondary-hover-button-font-color);
-  font-size: var(--utils-secondary-hover-button-font-size);
-  text-transform: var(--utils-secondary-hover-button-text-transform);
-  -webkit-text-decoration: var(--utils-secondary-hover-button-text-decoration);
-          text-decoration: var(--utils-secondary-hover-button-text-decoration);
-  padding: var(--utils-secondary-hover-button-padding);
-  box-shadow: var(--utils-secondary-hover-button-box-shadow);
+  background-color: var(--utils-secondary-hover-button-background-color, rgba(255, 255, 255, 0.8));
+  border-color: var(--utils-secondary-hover-button-border-color, var(--BUTTON-BORDER-COLOR));
+  border-width: var(--utils-secondary-hover-button-border-width, 1px);
+  border-radius: var(--utils-secondary-hover-button-border-radius, var(--BUTTON-BORDER-RADIUS));
+  color: var(--utils-secondary-hover-button-font-color, var(--BUTTON-BACKGROUND-COLOR));
+  font-size: var(--utils-secondary-hover-button-font-size, 14px);
+  text-transform: var(--utils-secondary-hover-button-text-transform, var(--BUTTON-TEXT-TRANSFORM));
+  -webkit-text-decoration: var(--utils-secondary-hover-button-text-decoration, none);
+          text-decoration: var(--utils-secondary-hover-button-text-decoration, none);
+  padding: var(--utils-secondary-hover-button-padding, var(--BUTTON-TOPBOTTOM-PADDING) var(--BUTTON-RIGHTLEFT-PADDING));
+  box-shadow: var(--utils-secondary-hover-button-box-shadow, var(--BUTTON-HOVER-BOX-SHADOW));
 }
 html body .secondary.disabled .btn-default,
 html body .secondary-button.disabled .btn-default,
@@ -393,18 +394,18 @@ html body .secondary.disabled .btn-default:focus,
 html body .secondary-button.disabled .btn-default:focus,
 html body .secondary.disabled .btn-default:hover,
 html body .secondary-button.disabled .btn-default:hover {
-  background-color: var(--utils-secondary-disabled-button-background-color);
-  border-color: var(--utils-secondary-disabled-button-border-color);
-  border-width: var(--utils-secondary-disabled-button-border-width);
-  border-radius: var(--utils-secondary-disabled-button-border-radius);
-  color: var(--utils-secondary-disabled-button-font-color);
-  font-size: var(--utils-secondary-disabled-button-font-size);
-  text-transform: var(--utils-secondary-disabled-button-text-transform);
-  -webkit-text-decoration: var(--utils-secondary-disabled-button-text-decoration);
-          text-decoration: var(--utils-secondary-disabled-button-text-decoration);
-  padding: var(--utils-secondary-disabled-button-padding);
-  box-shadow: var(--utils-secondary-disabled-button-box-shadow);
-  opacity: var(--utils-secondary-disabled-button-opacity);
+  background-color: var(--utils-secondary-disabled-button-background-color, rgba(255, 255, 255, 0.8));
+  border-color: var(--utils-secondary-disabled-button-border-color, var(--BUTTON-BORDER-COLOR));
+  border-width: var(--utils-secondary-disabled-button-border-width, 1px);
+  border-radius: var(--utils-secondary-disabled-button-border-radius, var(--BUTTON-BORDER-RADIUS));
+  color: var(--utils-secondary-disabled-button-font-color, var(--BUTTON-BACKGROUND-COLOR));
+  font-size: var(--utils-secondary-disabled-button-font-size, 14px);
+  text-transform: var(--utils-secondary-disabled-button-text-transform, var(--BUTTON-TEXT-TRANSFORM));
+  -webkit-text-decoration: var(--utils-secondary-disabled-button-text-decoration, none);
+          text-decoration: var(--utils-secondary-disabled-button-text-decoration, none);
+  padding: var(--utils-secondary-disabled-button-padding, var(--BUTTON-TOPBOTTOM-PADDING) var(--BUTTON-RIGHTLEFT-PADDING));
+  box-shadow: var(--utils-secondary-disabled-button-box-shadow, none);
+  opacity: var(--utils-secondary-disabled-button-opacity, 0.6);
   cursor: default;
   pointer-events: none;
 }
@@ -412,36 +413,36 @@ html body .tertiary .btn-default,
 html body .tertiary-button .btn-default,
 html body .tertiary .btn-default:focus,
 html body .tertiary-button .btn-default:focus {
-  background-color: var(--utils-tertiary-button-background-color);
-  border-color: var(--utils-tertiary-button-border-color);
-  border-width: var(--utils-tertiary-button-border-width);
-  border-radius: var(--utils-tertiary-button-border-radius);
-  color: var(--utils-tertiary-button-font-color);
-  font-size: var(--utils-tertiary-button-font-size);
-  text-transform: var(--utils-tertiary-button-text-transform);
-  -webkit-text-decoration: var(--utils-tertiary-button-text-decoration);
-          text-decoration: var(--utils-tertiary-button-text-decoration);
-  padding: var(--utils-tertiary-button-padding);
-  box-shadow: var(--utils-tertiary-button-box-shadow);
+  background-color: var(--utils-tertiary-button-background-color, transparent);
+  border-color: var(--utils-tertiary-button-border-color, var(--BUTTON-TEXT-COLOR));
+  border-width: var(--utils-tertiary-button-border-width, 1px);
+  border-radius: var(--utils-tertiary-button-border-radius, var(--BUTTON-BORDER-RADIUS));
+  color: var(--utils-tertiary-button-font-color, var(--BUTTON-BACKGROUND-COLOR));
+  font-size: var(--utils-tertiary-button-font-size, 14px);
+  text-transform: var(--utils-tertiary-button-text-transform, var(--BUTTON-TEXT-TRANSFORM));
+  -webkit-text-decoration: var(--utils-tertiary-button-text-decoration, none);
+          text-decoration: var(--utils-tertiary-button-text-decoration, none);
+  padding: var(--utils-tertiary-button-padding, var(--BUTTON-TOPBOTTOM-PADDING) var(--BUTTON-RIGHTLEFT-PADDING));
+  box-shadow: var(--utils-tertiary-button-box-shadow, none);
 }
 html body .tertiary .btn-default:focus,
 html body .tertiary-button .btn-default:focus {
-  outline-color: var(--utils-tertiary-button-outline-color);
-  outline-width: var(--utils-tertiary-button-outline-width);
+  outline-color: var(--utils-tertiary-button-outline-color, var(--BUTTON-TEXT-COLOR));
+  outline-width: var(--utils-tertiary-button-outline-width, 1px);
 }
 html body .tertiary .btn-default:hover,
 html body .tertiary-button .btn-default:hover {
-  background-color: var(--utils-tertiary-hover-button-background-color);
-  border-color: var(--utils-tertiary-hover-button-border-color);
-  border-width: var(--utils-tertiary-hover-button-border-width);
-  border-radius: var(--utils-tertiary-hover-button-border-radius);
-  color: var(--utils-tertiary-hover-button-font-color);
-  font-size: var(--utils-tertiary-hover-button-font-size);
-  text-transform: var(--utils-tertiary-hover-button-text-transform);
-  -webkit-text-decoration: var(--utils-tertiary-hover-button-text-decoration);
-          text-decoration: var(--utils-tertiary-hover-button-text-decoration);
-  padding: var(--utils-tertiary-hover-button-padding);
-  box-shadow: var(--utils-tertiary-hover-button-box-shadow);
+  background-color: var(--utils-tertiary-hover-button-background-color, transparent);
+  border-color: var(--utils-tertiary-hover-button-border-color, var(--BUTTON-TEXT-COLOR));
+  border-width: var(--utils-tertiary-hover-button-border-width, 1px);
+  border-radius: var(--utils-tertiary-hover-button-border-radius, var(--BUTTON-BORDER-RADIUS));
+  color: var(--utils-tertiary-hover-button-font-color, var(--TERIARY-THEME-COLOR));
+  font-size: var(--utils-tertiary-hover-button-font-size, 14px);
+  text-transform: var(--utils-tertiary-hover-button-text-transform, var(--BUTTON-TEXT-TRANSFORM));
+  -webkit-text-decoration: var(--utils-tertiary-hover-button-text-decoration, underline);
+          text-decoration: var(--utils-tertiary-hover-button-text-decoration, underline);
+  padding: var(--utils-tertiary-hover-button-padding, var(--BUTTON-TOPBOTTOM-PADDING) var(--BUTTON-RIGHTLEFT-PADDING));
+  box-shadow: var(--utils-tertiary-hover-button-box-shadow, none);
 }
 html body .tertiary.disabled .btn-default,
 html body .tertiary-button.disabled .btn-default,
@@ -449,18 +450,18 @@ html body .tertiary.disabled .btn-default:focus,
 html body .tertiary-button.disabled .btn-default:focus,
 html body .tertiary.disabled .btn-default:hover,
 html body .tertiary-button.disabled .btn-default:hover {
-  background-color: var(--utils-tertiary-disabled-button-background-color);
-  border-color: var(--utils-tertiary-disabled-button-border-color);
-  border-width: var(--utils-tertiary-disabled-button-border-width);
-  border-radius: var(--utils-tertiary-disabled-button-border-radius);
-  color: var(--utils-tertiary-disabled-button-font-color);
-  font-size: var(--utils-tertiary-disabled-button-font-size);
-  text-transform: var(--utils-tertiary-disabled-button-text-transform);
-  -webkit-text-decoration: var(--utils-tertiary-disabled-button-text-decoration);
-          text-decoration: var(--utils-tertiary-disabled-button-text-decoration);
-  padding: var(--utils-tertiary-disabled-button-padding);
-  box-shadow: var(--utils-tertiary-disabled-button-box-shadow);
-  opacity: var(--utils-tertiary-disabled-button-opacity);
+  background-color: var(--utils-tertiary-disabled-button-background-color, transparent);
+  border-color: var(--utils-tertiary-disabled-button-border-color, var(--BUTTON-TEXT-COLOR));
+  border-width: var(--utils-tertiary-disabled-button-border-width, 1px);
+  border-radius: var(--utils-tertiary-disabled-button-border-radius, var(--BUTTON-BORDER-RADIUS));
+  color: var(--utils-tertiary-disabled-button-font-color, var(--TERIARY-THEME-COLOR));
+  font-size: var(--utils-tertiary-disabled-button-font-size, var(--BODY-FONT-SIZE));
+  text-transform: var(--utils-tertiary-disabled-button-text-transform, var(--BUTTON-TEXT-TRANSFORM));
+  -webkit-text-decoration: var(--utils-tertiary-disabled-button-text-decoration, underline);
+          text-decoration: var(--utils-tertiary-disabled-button-text-decoration, underline);
+  padding: var(--utils-tertiary-disabled-button-padding, var(--BUTTON-TOPBOTTOM-PADDING) var(--BUTTON-RIGHTLEFT-PADDING));
+  box-shadow: var(--utils-tertiary-disabled-button-box-shadow, none);
+  opacity: var(--utils-tertiary-disabled-button-opacity, 0.6);
   cursor: default;
   pointer-events: none;
 }
@@ -469,19 +470,19 @@ html body .code,
 html body .preformatted-text,
 html body .preformatted,
 html body .pre-formatted {
-  font-family: var(--utils-preformatted-font-family);
-  font-size: var(--utils-preformatted-font-size);
-  line-height: var(--utils-preformatted-line-height);
-  background-color: var(--utils-preformatted-background-color);
-  padding: var(--utils-preformatted-padding);
-  letter-spacing: var(--utils-preformatted-letter-spacing);
+  font-family: var(--utils-preformatted-font-family, monospace);
+  font-size: var(--utils-preformatted-font-size, var(--BODY-FONT-SIZE));
+  line-height: var(--utils-preformatted-line-height, 1.2);
+  background-color: var(--utils-preformatted-background-color, var(--BODY-BACKGROUND-COLOR));
+  padding: var(--utils-preformatted-padding, 0.3em);
+  letter-spacing: var(--utils-preformatted-letter-spacing, -0.05em);
   white-space: pre;
   -webkit-box-decoration-break: clone;
           box-decoration-break: clone;
-  color: var(--utils-preformatted-font-color);
+  color: var(--utils-preformatted-font-color, var(--BODY-FONT-COLOR));
   overflow: auto;
-  max-width: var(--utils-preformatted-max-width);
-  min-width: var(--utils-preformatted-min-width);
+  max-width: var(--utils-preformatted-max-width, 100%);
+  min-width: var(--utils-preformatted-min-width, 100px);
 }
 html body .code-block .label-container,
 html body .code .label-container,
@@ -492,12 +493,12 @@ html body .pre-formatted .label-container {
 }
 html body .hr,
 html body .divider {
-  margin-top: var(--utils-divider-margin-top);
-  margin-bottom: var(--utils-divider-margin-bottom);
+  margin-top: var(--utils-divider-margin-top, 1.5rem);
+  margin-bottom: var(--utils-divider-margin-bottom, 1.5rem);
   border: 0;
-  border-bottom-width: var(--utils-divider-size);
+  border-bottom-width: var(--utils-divider-size, 1px);
   border-bottom-style: solid;
-  border-bottom-color: var(--utils-divider-color);
+  border-bottom-color: var(--utils-divider-color, var(--X-DARK-GREY));
   width: 100%;
 }
 html body .user-select,
@@ -5618,49 +5619,49 @@ html body .external a::after {
 html body .data-grid-container.broad > .table > tfoot > tr > td ul li a,
 html body .data-grid-container.broad > .table > tbody > tr > td,
 html body .data-grid-container.broad > .table > thead > tr > th {
-  padding: var(--utils-datagrid-broad-cellpadding);
-  font-size: var(--utils-datagrid-broad-font-size);
+  padding: var(--utils-datagrid-broad-cellpadding, 12px);
+  font-size: var(--utils-datagrid-broad-font-size, 16px);
 }
 html body .data-grid-container.broad .table[data-sortable] th a {
-  font-size: var(--utils-datagrid-broad-font-size);
+  font-size: var(--utils-datagrid-broad-font-size, 16px);
 }
 html body .data-grid-container.tight > .table > tfoot > tr > td ul li a,
 html body .data-grid-container.tight > .table > tbody > tr > td,
 html body .data-grid-container.tight > .table > thead > tr > th {
-  padding: var(--utils-datagrid-tight-cellpadding);
-  font-size: var(--utils-datagrid-tight-font-size);
+  padding: var(--utils-datagrid-tight-cellpadding, 6px);
+  font-size: var(--utils-datagrid-tight-font-size, 14px);
 }
 html body .data-grid-container.tight .table[data-sortable] th a {
-  font-size: calc(var(--utils-datagrid-tight-font-size) - 1px);
+  font-size: calc(var(--utils-datagrid-tight-font-size, 14px) - 1px);
   text-transform: capitalize;
 }
 html body .data-grid-container.light .table {
-  border: 1px solid var(--utils-datagrid-light-table-border-color);
+  border: 1px solid var(--utils-datagrid-light-table-border-color, var(--LIGHT-GREY));
 }
 html body .data-grid-container.light table.table-striped > tbody > tr:nth-of-type(even) {
-  background-color: var(--utils-datagrid-light-rows-background-color);
+  background-color: var(--utils-datagrid-light-rows-background-color, var(--CONTRAST-THEME-COLOR));
 }
 html body .data-grid-container.light table.table-striped > tbody > tr:nth-of-type(odd) {
-  background-color: var(--utils-datagrid-light-alternate-rows-background-color);
+  background-color: var(--utils-datagrid-light-alternate-rows-background-color, var(--LIGHT-GREY));
 }
 html body .data-grid-container.light .table > tbody > tr > td {
-  border-top: 1px solid var(--utils-datagrid-light-cell-border-color);
+  border-top: 1px solid var(--utils-datagrid-light-cell-border-color, var(--LIGHT-GREY));
 }
 html body .data-grid-container.light .table > thead > tr {
   border-bottom-width: 1px;
 }
 html body .data-grid-container.heavy .table {
-  border: 1px solid var(--utils-datagrid-heavy-table-border-color);
+  border: 1px solid var(--utils-datagrid-heavy-table-border-color, var(--X-DARK-GREY));
 }
 html body .data-grid-container.heavy table.table-striped > tbody > tr:nth-of-type(even) {
-  background-color: var(--utils-datagrid-heavy-rows-background-color);
+  background-color: var(--utils-datagrid-heavy-rows-background-color, var(--CONTRAST-THEME-COLOR));
 }
 html body .data-grid-container.heavy table.table-striped > tbody > tr:nth-of-type(odd) {
-  background-color: var(--utils-datagrid-heavy-alternate-rows-background-color);
+  background-color: var(--utils-datagrid-heavy-alternate-rows-background-color, var(--LIGHT-GREY));
 }
 html body .data-grid-container.heavy .table > tbody > tr > td {
-  border-top: 1px solid var(--utils-datagrid-heavy-cell-border-color);
-  border-right: 1px solid var(--utils-datagrid-heavy-cell-border-color);
+  border-top: 1px solid var(--utils-datagrid-heavy-cell-border-color, var(--X-DARK-GREY));
+  border-right: 1px solid var(--utils-datagrid-heavy-cell-border-color, var(--X-DARK-GREY));
 }
 html body .data-grid-container.heavy .table > tbody > tr > td:last-child {
   border-right: none;
@@ -5669,7 +5670,7 @@ html body .data-grid-container.heavy .table > tbody > tr:first-child > td {
   border-top: none;
 }
 html body .hoverable.data-grid-container table.table-striped > tbody > tr:hover {
-  background-color: var(--utils-datagrid-hover-background-color);
+  background-color: var(--utils-datagrid-hover-background-color, var(--BODY-BACKGROUND-COLOR));
 }
 html body .data-grid-container.fix-headers .table {
   overflow: auto;
@@ -5688,7 +5689,7 @@ html body nav.show-dividers a:has(.dropdown-item-text:empty) {
   padding-top: 0;
   padding-bottom: 0;
   margin: 0 20px;
-  background-color: var(--utils-menu-submenu-divider-color);
+  background-color: var(--utils-menu-submenu-divider-color, var(--CONTRAST-THEME-COLOR));
   height: 1px;
 }
 html body .hide-required-indicator:after,
@@ -5700,9 +5701,9 @@ html body .show-required-indicator {
 }
 html body .show-required-indicator:after {
   position: absolute;
-  top: var(--required-indicator-top-position);
-  right: var(--required-indicator-right-position);
-  content: var(--required-indicator-symbol);
-  color: var(--required-indicator-color);
-  font-size: var(--required-indicator-font-size);
+  top: var(--required-indicator-top-position, -5px);
+  right: var(--required-indicator-right-position, 2px);
+  content: var(--required-indicator-symbol, "✽");
+  color: var(--required-indicator-color, var(--VALIDATION-ERROR-FONT-COLOR));
+  font-size: var(--required-indicator-font-size, var(--BODY-FONT-SIZE));
 }
