@@ -1495,6 +1495,10 @@ Add to a parent container to display the children as a standard bulleted list
 list
 ```
 
+![](images/UnorderedListControls.png)
+
+![](images/UnorderdListContainerProperties.png)
+
 [Back to top](#table-of-contents)
 
 ### Unordered list tem
@@ -1539,6 +1543,8 @@ ordered-list
 ```css
 ol
 ```
+
+![](images/OrderedListControls.png)
 
 [Back to top](#table-of-contents)
 
