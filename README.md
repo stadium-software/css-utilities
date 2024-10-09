@@ -145,7 +145,6 @@ This module contains a set of CSS classes that can be added to the classes prope
   - [Required Indicator](#required-indicator)
     - [Hide Required Indicator](#hide-required-indicator)
     - [Show Required Indicator](#show-required-indicator)
-    - [Disable Mouse Clicks](#disable-mouse-clicks)
 
 # Setup
 
@@ -742,6 +741,9 @@ Prevents users from be able to click on links contained in the control
 **Class Name**
 ```css
 no-click
+```
+```css
+no-pointer-event
 ```
 
 [Back to top](#table-of-contents)
@@ -1898,12 +1900,3 @@ show-required-indicator
 
 [Back to top](#table-of-contents)
 
-### Disable Mouse Clicks
-Switches off pointer events
-
-**Class name**
-```css
-no-pointer-event
-```
-
-[Back to top](#table-of-contents)

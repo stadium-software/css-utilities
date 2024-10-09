@@ -34,7 +34,6 @@ html body {
   /*DATAGRIDS*/
   /*MENU*/
   /*REQUIRED INDICATOR*/
-  /*SWITCH OFF POINTER EVENTS*/
 }
 html body .h1 *:is(span, a, button, label, input, option),
 html body .h1 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover),
@@ -517,7 +516,9 @@ html body .click-none *:is(span, a, button, label, input, option),
 html body .no-click,
 html body .no-click *:is(span, a, button, label, input, option),
 html body .pointer-events-none,
-html body .pointer-events-none *:is(span, a, button, label, input, option) {
+html body .pointer-events-none *:is(span, a, button, label, input, option),
+html body .no-pointer-event,
+html body .no-pointer-event *:is(span, a, button, label, input, option) {
   pointer-events: none;
 }
 html body .cursor-pointer {
@@ -5707,7 +5708,4 @@ html body .show-required-indicator:after {
   content: var(--required-indicator-symbol, "✽");
   color: var(--required-indicator-color, var(--VALIDATION-ERROR-FONT-COLOR));
   font-size: var(--required-indicator-font-size, var(--BODY-FONT-SIZE));
-}
-html body .no-pointer-event * {
-  pointer-events: none;
 }
