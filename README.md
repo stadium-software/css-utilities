@@ -9,6 +9,8 @@ This module contains a set of CSS classes that can be added to the classes prope
 
 1.3 Added support for showing and hiding required indicator
 
+1.4 Added disabling mouse clicks class
+
 ## Table of Contents
 - [CSS Utilities](#css-utilities)
   - [Version](#version)
@@ -143,6 +145,7 @@ This module contains a set of CSS classes that can be added to the classes prope
   - [Required Indicator](#required-indicator)
     - [Hide Required Indicator](#hide-required-indicator)
     - [Show Required Indicator](#show-required-indicator)
+    - [Disable Mouse Clicks](#disable-mouse-clicks)
 
 # Setup
 
@@ -1895,3 +1898,12 @@ show-required-indicator
 
 [Back to top](#table-of-contents)
 
+### Disable Mouse Clicks
+Switches off pointer events
+
+**Class name**
+```css
+no-pointer-event
+```
+
+[Back to top](#table-of-contents)
