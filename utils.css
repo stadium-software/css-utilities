@@ -127,6 +127,9 @@ html body .captitalise {
 html body .text-uppercase *:is(span, a, button, label, input, option),
 html body .text-uppercase *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover),
 html body .text-uppercase,
+html body .upper-case *:is(span, a, button, label, input, option),
+html body .upper-case *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover),
+html body .upper-case,
 html body .uppercase *:is(span, a, button, label, input, option),
 html body .uppercase *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover),
 html body .uppercase {
@@ -135,6 +138,9 @@ html body .uppercase {
 html body .text-lowercase *:is(span, a, button, label, input, option),
 html body .text-lowercase *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover),
 html body .text-lowercase,
+html body .lower-case *:is(span, a, button, label, input, option),
+html body .lower-case *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover),
+html body .lower-case,
 html body .lowercase *:is(span, a, button, label, input, option),
 html body .lowercase *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover),
 html body .lowercase {
@@ -280,6 +286,12 @@ html body .break-words *:is(span, a, button, label, input, option) {
   word-break: break-word;
   -webkit-hyphens: auto;
           hyphens: auto;
+}
+html body .ellipsis,
+html body .ellipsis *:is(span, a, label) {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 html body .text-justify,
 html body .text-align-justify {

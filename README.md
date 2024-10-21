@@ -34,6 +34,7 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [Line height](#line-height)
     - [Text alignment](#text-alignment)
     - [Break words](#break-words)
+    - [Ellipsis](#ellipsis)
     - [Preformatted text](#preformatted-text)
   - [Colours](#colours)
     - [Text colour](#text-colour)
@@ -310,11 +311,11 @@ Text cas classes allow for changing the case of displayed text
 
 **Class name**
 ```css
-lower-case
+lowercase
 ```
 **Class name**
 ```css
-upper-case
+uppercase
 ```
 **Class name**
 ```css
@@ -403,6 +404,18 @@ Only works with width-restricted elements
 **Class name**
 ```css
 break-word
+```
+
+[Back to top](#table-of-contents)
+
+### Ellipsis
+This class cuts off text that exceeds the width of the container and displays three dots ...
+
+Only works with width-restricted elements
+
+**Class name**
+```css
+ellipsis
 ```
 
 [Back to top](#table-of-contents)
