@@ -287,6 +287,8 @@ html body .break-words *:is(span, a, button, label, input, option) {
   -webkit-hyphens: auto;
           hyphens: auto;
 }
+html body .text-ellipsis,
+html body .text-ellipsis *:is(span, a, label),
 html body .ellipsis,
 html body .ellipsis *:is(span, a, label) {
   white-space: nowrap;
