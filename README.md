@@ -11,6 +11,8 @@ This module contains a set of CSS classes that can be added to the classes prope
 
 1.4 Added disabling mouse clicks class
 
+1.5 Added box-shadow-bottom color variable
+
 ## Table of Contents
 - [CSS Utilities](#css-utilities)
   - [Version](#version)

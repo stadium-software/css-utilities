@@ -217,4 +217,6 @@
     --required-indicator-top-position: -5px;
     --required-indicator-right-position: 2px;
 
+    /*BOX SHADOWS*/
+    --box-shadow-bottom-color: rgba(149, 157, 165, 0.2);
 }

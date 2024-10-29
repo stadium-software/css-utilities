@@ -4722,7 +4722,7 @@ html body .box-shadow-none *:is(span:hover, a:hover, button:hover, label:hover, 
   box-shadow: none;
 }
 html body .box-shadow-bottom {
-  box-shadow: 0 4px 2px -2px rgba(149, 157, 165, 0.2);
+  box-shadow: 0 4px 2px -2px var(--box-shadow-bottom-color);
 }
 html body .box-shadow-0 {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
