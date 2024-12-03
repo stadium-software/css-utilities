@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* CSS Utils v1.3 https://github.com/stadium-software/css-utilities */
+/* CSS Utils https://github.com/stadium-software/css-utilities */
 html body {
   /*TYPOGRAPHY*/
   /*TEXT ALIGNMENT*/
@@ -5700,6 +5700,9 @@ html body .data-grid-container.fix-headers .table thead th {
 html body .data-grid-container .table[data-sortable] th:has(a:empty, button:empty),
 html body .data-grid-container .table[data-sortable] th *:empty {
   padding: 0;
+}
+html body .selectable.data-grid-container table.table-striped > tbody > tr:has(.select-row-check-box:checked) {
+  background-color: var(--utils-datagrid-selected-background-color, var(--BODY-BACKGROUND-COLOR));
 }
 html body nav.show-dividers a:has(.dropdown-item-text:empty) {
   padding-top: 0;

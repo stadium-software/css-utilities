@@ -1,4 +1,4 @@
-/* CSS Utils v1.3 https://github.com/stadium-software/css-utilities */
+/* CSS Utils https://github.com/stadium-software/css-utilities */
 :root {
     /*TITLES & HEADINGS*/
     --utils-h1-font-size: 32px;
@@ -206,6 +206,8 @@
     --utils-datagrid-heavy-alternate-rows-background-color: #f1f1f1;
 
     --utils-datagrid-hover-background-color: #ddd;
+
+    --utils-datagrid-selected-background-color: #ececec;
 
     /*MENU*/
     --utils-menu-submenu-divider-color: #ffffff;

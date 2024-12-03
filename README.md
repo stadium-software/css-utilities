@@ -13,6 +13,8 @@ This module contains a set of CSS classes that can be added to the classes prope
 
 1.5 Added box-shadow-bottom color variable
 
+1.6 Added selected DataGrid row background color
+
 ## Table of Contents
 - [CSS Utilities](#css-utilities)
   - [Version](#version)
@@ -142,6 +144,7 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [Light display](#light-display)
     - [Heavy display](#heavy-display)
     - [Row-level hover background](#row-level-hover-background)
+    - [Selected row background](#selected-row-background)
     - [Fix headers](#fix-headers)
   - [Menu styles](#menu-styles)
     - [Show submenu dividers](#show-submenu-dividers)
@@ -1855,6 +1858,20 @@ hoverable
 **hoverable customisations**
 ```css
 --utils-datagrid-hover-background-color: #ddd;
+```
+
+[Back to top](#table-of-contents)
+
+### Selected row background
+Selected rows (Selectable Data) have a background color
+
+**Class name**
+```css
+selectable
+```
+**hoverable customisations**
+```css
+--utils-datagrid-selected-background-color: #ececec;
 ```
 
 [Back to top](#table-of-contents)
