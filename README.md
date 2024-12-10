@@ -1896,6 +1896,10 @@ Add a horizontal scrollbar to a DataGrid
 ```css
 scroll-horizontal
 ```
+**padding customisation**
+```css
+--utils-datagrid-horizontal-scrolling-margin: 32px;
+```
 
 **It is not possible to make DataGrid headers stick to the top of the page AND also have a horizontal scrollbar using only CSS ([see](https://medium.com/neocoast/fixing-a-table-header-on-a-horizontally-scrolling-table-de3364610957))**
 
