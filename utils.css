@@ -5689,7 +5689,7 @@ html body .hoverable.data-grid-container table.table-striped > tbody > tr:hover 
   background-color: var(--utils-datagrid-hover-background-color, var(--BODY-BACKGROUND-COLOR));
 }
 html body .data-grid-container.fix-headers .table {
-  overflow: auto;
+  overflow-y: auto;
 }
 html body .data-grid-container.fix-headers .table thead th {
   position: sticky;
@@ -5700,6 +5700,10 @@ html body .data-grid-container.fix-headers .table thead th {
 html body .data-grid-container .table[data-sortable] th:has(a:empty, button:empty),
 html body .data-grid-container .table[data-sortable] th *:empty {
   padding: 0;
+}
+html body .data-grid-container.scroll-horizontal {
+  max-width: calc(100vw - var(--utils-datagrid-horizontal-scrolling-margin, 32px));
+  overflow-x: auto;
 }
 html body .selectable.data-grid-container table.table-striped > tbody > tr:has(.select-row-check-box:checked) {
   background-color: var(--utils-datagrid-selected-background-color, var(--BODY-BACKGROUND-COLOR));

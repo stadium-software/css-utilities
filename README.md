@@ -146,6 +146,7 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [Row-level hover background](#row-level-hover-background)
     - [Selected row background](#selected-row-background)
     - [Fix headers](#fix-headers)
+    - [Horizontal Scrolling](#horizontal-scrolling)
   - [Menu styles](#menu-styles)
     - [Show submenu dividers](#show-submenu-dividers)
   - [Required Indicator](#required-indicator)
@@ -1877,7 +1878,7 @@ selectable
 [Back to top](#table-of-contents)
 
 ### Fix headers
-Headers remain on the DataGrid when users scroll
+Headers stick to the top of the page when users scroll
 
 **Class name**
 ```css
@@ -1885,6 +1886,20 @@ fix-headers
 ```
 
 ![](images/fixed-headers.gif)
+
+[Back to top](#table-of-contents)
+
+### Horizontal Scrolling
+Add a horizontal scrollbar to a DataGrid
+
+**Class name**
+```css
+scroll-horizontal
+```
+
+**It is not possible to make DataGrid headers stick to the top of the page AND also have a horizontal scrollbar using only CSS ([see](https://medium.com/neocoast/fixing-a-table-header-on-a-horizontally-scrolling-table-de3364610957))**
+
+![](images/scroll-horizontal.gif)
 
 [Back to top](#table-of-contents)
 
