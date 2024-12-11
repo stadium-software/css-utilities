@@ -5697,6 +5697,12 @@ html body .data-grid-container.fix-headers .table thead th {
   z-index: 1;
   background-color: inherit;
 }
+html body:has(.environment-top-bar) .data-grid-container.fix-headers .table thead th {
+  top: var(--environment-bar-size, unset);
+}
+html body:has(.stadium-top-bar.fixed-top-bar) .data-grid-container.fix-headers .table thead th {
+  top: calc(var(--stadium-full-top-bar-fixed-bar-height, unset) + var(--stadium-full-top-bar-top-margin, unset));
+}
 html body .data-grid-container .table[data-sortable] th:has(a:empty, button:empty),
 html body .data-grid-container .table[data-sortable] th *:empty {
   padding: 0;

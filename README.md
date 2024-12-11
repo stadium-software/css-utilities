@@ -15,6 +15,8 @@ This module contains a set of CSS classes that can be added to the classes prope
 
 1.6 Added selected DataGrid row background color
 
+1.7 Added support for [Environment Identifyer](https://github.com/stadium-software/environment-identifier) and [Full-Width Top Bar](https://github.com/stadium-software/full-width-top-bar) repos
+
 ## Table of Contents
 - [CSS Utilities](#css-utilities)
   - [Version](#version)
@@ -181,6 +183,7 @@ To upgrade the CSS in this module, follow the [steps outlined in this repo](http
 1. Open the CSS file called [*utils-variables.css*](utils-variables.css) from this repo
 2. Adjust the variables in the *:root* element as you see fit
 3. Overwrite the file in the CSS folder of your application with the customised file
+4. Do not change any CSS other than the variables provided in the *-variables.css file
 
 [Back to top](#table-of-contents)
 
