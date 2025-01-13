@@ -211,6 +211,9 @@
 
     --utils-datagrid-horizontal-scrolling-margin: 32px;
 
+    --utils-datagrid-cellborder-width: 1px;
+    --utils-datagrid-cellborder-color: #ccc;
+
     /*MENU*/
     --utils-menu-submenu-divider-color: #ffffff;
 
@@ -223,4 +226,7 @@
 
     /*BOX SHADOWS*/
     --box-shadow-bottom-color: rgba(149, 157, 165, 0.2);
+
+    /*POPUPS*/
+    --popup-backdrop-color: rgba(0, 0, 0, 0.5);
 }

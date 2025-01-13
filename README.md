@@ -17,6 +17,8 @@ This module contains a set of CSS classes that can be added to the classes prope
 
 1.7 Added support for [Environment Identifyer](https://github.com/stadium-software/environment-identifier) and [Full-Width Top Bar](https://github.com/stadium-software/full-width-top-bar) repos
 
+1.8 Added DataGrid 'cell-border' class
+
 ## Table of Contents
 - [CSS Utilities](#css-utilities)
   - [Version](#version)
@@ -147,6 +149,7 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [Tight display](#tight-display)
     - [Light display](#light-display)
     - [Heavy display](#heavy-display)
+    - [Cell Borders](#cell-borders)
     - [Row-level hover background](#row-level-hover-background)
     - [Selected row background](#selected-row-background)
     - [Fix headers](#fix-headers)
@@ -1878,6 +1881,16 @@ heavy
 --utils-datagrid-heavy-cell-border-color: #adadad;
 --utils-datagrid-heavy-rows-background-color: #fff;
 --utils-datagrid-heavy-alternate-rows-background-color: #f1f1f1;
+```
+
+[Back to top](#table-of-contents)
+
+### Cell Borders
+Display borders on DataGrid cells
+
+**Class name**
+```css
+cell-border
 ```
 
 [Back to top](#table-of-contents)

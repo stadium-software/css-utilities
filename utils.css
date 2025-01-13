@@ -6069,7 +6069,15 @@ html body .data-grid-container.scroll-horizontal {
   overflow-x: auto;
 }
 html body .selectable.data-grid-container table.table-striped > tbody > tr:has(.select-row-check-box:checked) {
-  background-color: var(--utils-datagrid-selected-background-color, var(--BODY-BACKGROUND-COLOR));
+  background-color: var(--utils-datagrid-selected-background-color, var(--BODY-BACKGROUND-COLOR), #f6f6f6);
+}
+html body .data-grid-container.cell-borders td,
+html body .data-grid-container.cell-borders th {
+  border-right: var(--utils-datagrid-cellborder-width, 1px) solid var(--utils-datagrid-cellborder-color, var(--DATA-GRID-CELL-BORDER-COLOR, #ccc));
+}
+html body .data-grid-container.cell-borders td.last-visible-column,
+html body .data-grid-container.cell-borders th.last-visible-column {
+  border-right: none;
 }
 html body nav.show-dividers a:has(.dropdown-item-text:empty) {
   padding-top: 0;
