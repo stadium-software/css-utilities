@@ -142,6 +142,7 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [Transparent border](#transparent-border)
     - [Border styles](#border-styles)
     - [Border radius](#border-radius)
+    - [Cell Borders](#cell-borders)
   - [Link styles](#link-styles)
     - [External links](#external-links)
   - [DataGrid Display](#datagrid-display)
@@ -149,7 +150,7 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [Tight display](#tight-display)
     - [Light display](#light-display)
     - [Heavy display](#heavy-display)
-    - [Cell Borders](#cell-borders)
+    - [Cell Borders](#cell-borders-1)
     - [Row-level hover background](#row-level-hover-background)
     - [Selected row background](#selected-row-background)
     - [Fix headers](#fix-headers)
@@ -1801,6 +1802,16 @@ Add rounded corners to elements
 **Example for a 6px border radius**
 ```css
 border-radius-6
+```
+
+[Back to top](#table-of-contents)
+
+### Cell Borders
+Display borders on DataGrid cells
+
+**Class name**
+```css
+cell-borders
 ```
 
 [Back to top](#table-of-contents)
