@@ -1890,7 +1890,7 @@ Display borders on DataGrid cells
 
 **Class name**
 ```css
-cell-border
+cell-borders
 ```
 
 [Back to top](#table-of-contents)
