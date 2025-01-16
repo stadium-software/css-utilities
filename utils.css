@@ -36,7 +36,7 @@ html body {
   /*REQUIRED INDICATOR*/
 }
 html body .h1 *:is(span, a, .btn-default, label, input, option, select),
-html body .h1 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover),
+html body .h1 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover),
 html body .h1 {
   font-size: var(--utils-h1-font-size, var(--FONT-SIZE-XX-LARGE));
   font-weight: var(--utils-h1-font-weight, 600);
@@ -45,7 +45,7 @@ html body .h1 {
   margin-bottom: var(--utils-h1-margin-bottom, 0.2em);
 }
 html body .h2 *:is(span, a, .btn-default, label, input, option, select),
-html body .h2 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover),
+html body .h2 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover),
 html body .h2 {
   font-size: var(--utils-h2-font-size, var(--FONT-SIZE-X-LARGE));
   font-weight: var(--utils-h2-font-weight, 600);
@@ -54,7 +54,7 @@ html body .h2 {
   margin-bottom: var(--utils-h2-margin-bottom, 0.5em);
 }
 html body .h3 *:is(span, a, .btn-default, label, input, option, select),
-html body .h3 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover),
+html body .h3 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover),
 html body .h3 {
   font-size: var(--utils-h3-font-size, var(--FONT-SIZE-LARGE));
   font-weight: var(--utils-h3-font-weight, 600);
@@ -63,7 +63,7 @@ html body .h3 {
   margin-bottom: var(--utils-h3-margin-bottom, 0.5em);
 }
 html body .page-title *:is(span, a, .btn-default, label, input, option, select),
-html body .page-title *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover),
+html body .page-title *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover),
 html body .page-title {
   font-size: var(--utils-page-title-font-size, var(--FONT-SIZE-XX-LARGE));
   font-weight: var(--utils-page-title-font-weight, 600);
@@ -72,7 +72,7 @@ html body .page-title {
   margin-bottom: var(--utils-page-title-margin-bottom, 0.3em);
 }
 html body .subtitle *:is(span, a, .btn-default, label, input, option, select),
-html body .subtitle *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover),
+html body .subtitle *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover),
 html body .subtitle {
   font-size: var(--utils-subtitle-font-size, var(--FONT-SIZE-LARGE));
   font-weight: var(--utils-subtitle-font-weight, 600);
@@ -81,27 +81,27 @@ html body .subtitle {
   margin-bottom: var(--utils-subtitle-margin-bottom, 0.5em);
 }
 html body .large-text *:is(span, a, .btn-default, label, input, option, select),
-html body .large-text *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover),
+html body .large-text *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover),
 html body .large-text {
   font-size: large;
 }
 html body .medium-text *:is(span, a, .btn-default, label, input, option, select),
-html body .medium-text *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover),
+html body .medium-text *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover),
 html body .medium-text {
   font-size: medium;
 }
 html body .small-text *:is(span, a, .btn-default, label, input, option, select),
-html body .small-text *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover),
+html body .small-text *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover),
 html body .small-text {
   font-size: small;
 }
 html body .italic *:is(span, a, .btn-default, label, input, option, select),
-html body .italic *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover),
+html body .italic *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover),
 html body .italic {
   font-style: italic;
 }
 html body .bold *:is(span, a, .btn-default, label, input, option, select),
-html body .bold *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover),
+html body .bold *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover),
 html body .bold {
   font-weight: bold;
 }
@@ -111,38 +111,38 @@ html body .text-decoration-underline *:is(span, a, .btn-default, label, input, o
   text-decoration: underline;
 }
 html body .text-captitalise *:is(span, a, .btn-default, label, input, option, select),
-html body .text-captitalise *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover),
+html body .text-captitalise *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover),
 html body .text-captitalise,
 html body .text-captitalize *:is(span, a, .btn-default, label, input, option, select),
-html body .text-captitalize *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover),
+html body .text-captitalize *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover),
 html body .text-captitalize,
 html body .captitalize *:is(span, a, .btn-default, label, input, option, select),
-html body .captitalize *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover),
+html body .captitalize *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover),
 html body .captitalize,
 html body .captitalise *:is(span, a, .btn-default, label, input, option, select),
-html body .captitalise *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover),
+html body .captitalise *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover),
 html body .captitalise {
   text-transform: capitalize;
 }
 html body .text-uppercase *:is(span, a, .btn-default, label, input, option, select),
-html body .text-uppercase *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover),
+html body .text-uppercase *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover),
 html body .text-uppercase,
 html body .upper-case *:is(span, a, .btn-default, label, input, option, select),
-html body .upper-case *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover),
+html body .upper-case *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover),
 html body .upper-case,
 html body .uppercase *:is(span, a, .btn-default, label, input, option, select),
-html body .uppercase *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover),
+html body .uppercase *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover),
 html body .uppercase {
   text-transform: uppercase;
 }
 html body .text-lowercase *:is(span, a, .btn-default, label, input, option, select),
-html body .text-lowercase *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover),
+html body .text-lowercase *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover),
 html body .text-lowercase,
 html body .lower-case *:is(span, a, .btn-default, label, input, option, select),
-html body .lower-case *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover),
+html body .lower-case *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover),
 html body .lower-case,
 html body .lowercase *:is(span, a, .btn-default, label, input, option, select),
-html body .lowercase *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover),
+html body .lowercase *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover),
 html body .lowercase {
   text-transform: lowercase;
 }
@@ -5075,7 +5075,7 @@ html body .square *:is(a, span) {
 }
 html body .box-shadow-none,
 html body .box-shadow-none *:is(span, a, .btn-default, label, input, option, select),
-html body .box-shadow-none *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .box-shadow-none *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   box-shadow: none;
 }
 html body .box-shadow-bottom {
@@ -5189,7 +5189,7 @@ html body .border {
 }
 html body .border-none,
 html body .border-none *:is(span, a, .btn-default, label, input, option, select),
-html body .border-none *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .border-none *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-width: 1px;
   border-style: solid;
   border-color: transparent;
@@ -5364,452 +5364,452 @@ html body .border-style-double {
 }
 html body .color-none,
 html body .color-none *:is(span, a, .btn-default, label, input, option, select),
-html body .color-none *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .color-none *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   color: transparent;
 }
 html body .background-color-none,
 html body .background-color-none *:is(span, a, .btn-default, label, input, option, select),
-html body .background-color-none *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .background-color-none *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   background-color: transparent;
 }
 html body .border-color-none,
 html body .border-color-none *:is(span, a, .btn-default, label, input, option, select),
-html body .border-color-none *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .border-color-none *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: transparent;
 }
 html body .color-1,
 html body .color-1 *:is(span, a, .btn-default, label, input, option, select),
-html body .color-1 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .color-1 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   color: var(--utils-color-1);
 }
 html body .color-2,
 html body .color-2 *:is(span, a, .btn-default, label, input, option, select),
-html body .color-2 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .color-2 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   color: var(--utils-color-2);
 }
 html body .color-3,
 html body .color-3 *:is(span, a, .btn-default, label, input, option, select),
-html body .color-3 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .color-3 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   color: var(--utils-color-3);
 }
 html body .color-4,
 html body .color-4 *:is(span, a, .btn-default, label, input, option, select),
-html body .color-4 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .color-4 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   color: var(--utils-color-4);
 }
 html body .color-5,
 html body .color-5 *:is(span, a, .btn-default, label, input, option, select),
-html body .color-5 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .color-5 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   color: var(--utils-color-5);
 }
 html body .color-6,
 html body .color-6 *:is(span, a, .btn-default, label, input, option, select),
-html body .color-6 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .color-6 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   color: var(--utils-color-6);
 }
 html body .color-7,
 html body .color-7 *:is(span, a, .btn-default, label, input, option, select),
-html body .color-7 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .color-7 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   color: var(--utils-color-7);
 }
 html body .color-8,
 html body .color-8 *:is(span, a, .btn-default, label, input, option, select),
-html body .color-8 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .color-8 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   color: var(--utils-color-8);
 }
 html body .color-9,
 html body .color-9 *:is(span, a, .btn-default, label, input, option, select),
-html body .color-9 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .color-9 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   color: var(--utils-color-9);
 }
 html body .color-10,
 html body .color-10 *:is(span, a, .btn-default, label, input, option, select),
-html body .color-10 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .color-10 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   color: var(--utils-color-10);
 }
 html body .color-11,
 html body .color-11 *:is(span, a, .btn-default, label, input, option, select),
-html body .color-11 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .color-11 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   color: var(--utils-color-11);
 }
 html body .color-12,
 html body .color-12 *:is(span, a, .btn-default, label, input, option, select),
-html body .color-12 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .color-12 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   color: var(--utils-color-12);
 }
 html body .color-13,
 html body .color-13 *:is(span, a, .btn-default, label, input, option, select),
-html body .color-13 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .color-13 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   color: var(--utils-color-13);
 }
 html body .color-14,
 html body .color-14 *:is(span, a, .btn-default, label, input, option, select),
-html body .color-14 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .color-14 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   color: var(--utils-color-14);
 }
 html body .color-15,
 html body .color-15 *:is(span, a, .btn-default, label, input, option, select),
-html body .color-15 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .color-15 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   color: var(--utils-color-15);
 }
 html body .color-16,
 html body .color-16 *:is(span, a, .btn-default, label, input, option, select),
-html body .color-16 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .color-16 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   color: var(--utils-color-16);
 }
 html body .color-17,
 html body .color-17 *:is(span, a, .btn-default, label, input, option, select),
-html body .color-17 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .color-17 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   color: var(--utils-color-17);
 }
 html body .color-18,
 html body .color-18 *:is(span, a, .btn-default, label, input, option, select),
-html body .color-18 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .color-18 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   color: var(--utils-color-18);
 }
 html body .color-19,
 html body .color-19 *:is(span, a, .btn-default, label, input, option, select),
-html body .color-19 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .color-19 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   color: var(--utils-color-19);
 }
 html body .color-20,
 html body .color-20 *:is(span, a, .btn-default, label, input, option, select),
-html body .color-20 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .color-20 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   color: var(--utils-color-20);
 }
 html body .color-21,
 html body .color-21 *:is(span, a, .btn-default, label, input, option, select),
-html body .color-21 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .color-21 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   color: var(--utils-color-21);
 }
 html body .color-22,
 html body .color-22 *:is(span, a, .btn-default, label, input, option, select),
-html body .color-22 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .color-22 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   color: var(--utils-color-22);
 }
 html body .color-23,
 html body .color-23 *:is(span, a, .btn-default, label, input, option, select),
-html body .color-23 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .color-23 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   color: var(--utils-color-23);
 }
 html body .color-24,
 html body .color-24 *:is(span, a, .btn-default, label, input, option, select),
-html body .color-24 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .color-24 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   color: var(--utils-color-24);
 }
 html body .color-25,
 html body .color-25 *:is(span, a, .btn-default, label, input, option, select),
-html body .color-25 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .color-25 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   color: var(--utils-color-25);
 }
 html body .color-26,
 html body .color-26 *:is(span, a, .btn-default, label, input, option, select),
-html body .color-26 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .color-26 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   color: var(--utils-color-26);
 }
 html body .color-27,
 html body .color-27 *:is(span, a, .btn-default, label, input, option, select),
-html body .color-27 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .color-27 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   color: var(--utils-color-27);
 }
 html body .color-28,
 html body .color-28 *:is(span, a, .btn-default, label, input, option, select),
-html body .color-28 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .color-28 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   color: var(--utils-color-28);
 }
 html body .color-29,
 html body .color-29 *:is(span, a, .btn-default, label, input, option, select),
-html body .color-29 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .color-29 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   color: var(--utils-color-29);
 }
 html body .background-color-1,
 html body .background-color-1 *:is(span, a, .btn-default, label, input, option, select),
-html body .background-color-1 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .background-color-1 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   background-color: var(--utils-color-1);
 }
 html body .background-color-2,
 html body .background-color-2 *:is(span, a, .btn-default, label, input, option, select),
-html body .background-color-2 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .background-color-2 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   background-color: var(--utils-color-2);
 }
 html body .background-color-3,
 html body .background-color-3 *:is(span, a, .btn-default, label, input, option, select),
-html body .background-color-3 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .background-color-3 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   background-color: var(--utils-color-3);
 }
 html body .background-color-4,
 html body .background-color-4 *:is(span, a, .btn-default, label, input, option, select),
-html body .background-color-4 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .background-color-4 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   background-color: var(--utils-color-4);
 }
 html body .background-color-5,
 html body .background-color-5 *:is(span, a, .btn-default, label, input, option, select),
-html body .background-color-5 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .background-color-5 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   background-color: var(--utils-color-5);
 }
 html body .background-color-6,
 html body .background-color-6 *:is(span, a, .btn-default, label, input, option, select),
-html body .background-color-6 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .background-color-6 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   background-color: var(--utils-color-6);
 }
 html body .background-color-7,
 html body .background-color-7 *:is(span, a, .btn-default, label, input, option, select),
-html body .background-color-7 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .background-color-7 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   background-color: var(--utils-color-7);
 }
 html body .background-color-8,
 html body .background-color-8 *:is(span, a, .btn-default, label, input, option, select),
-html body .background-color-8 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .background-color-8 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   background-color: var(--utils-color-8);
 }
 html body .background-color-9,
 html body .background-color-9 *:is(span, a, .btn-default, label, input, option, select),
-html body .background-color-9 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .background-color-9 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   background-color: var(--utils-color-9);
 }
 html body .background-color-10,
 html body .background-color-10 *:is(span, a, .btn-default, label, input, option, select),
-html body .background-color-10 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .background-color-10 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   background-color: var(--utils-color-10);
 }
 html body .background-color-11,
 html body .background-color-11 *:is(span, a, .btn-default, label, input, option, select),
-html body .background-color-11 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .background-color-11 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   background-color: var(--utils-color-11);
 }
 html body .background-color-12,
 html body .background-color-12 *:is(span, a, .btn-default, label, input, option, select),
-html body .background-color-12 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .background-color-12 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   background-color: var(--utils-color-12);
 }
 html body .background-color-13,
 html body .background-color-13 *:is(span, a, .btn-default, label, input, option, select),
-html body .background-color-13 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .background-color-13 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   background-color: var(--utils-color-13);
 }
 html body .background-color-14,
 html body .background-color-14 *:is(span, a, .btn-default, label, input, option, select),
-html body .background-color-14 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .background-color-14 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   background-color: var(--utils-color-14);
 }
 html body .background-color-15,
 html body .background-color-15 *:is(span, a, .btn-default, label, input, option, select),
-html body .background-color-15 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .background-color-15 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   background-color: var(--utils-color-15);
 }
 html body .background-color-16,
 html body .background-color-16 *:is(span, a, .btn-default, label, input, option, select),
-html body .background-color-16 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .background-color-16 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   background-color: var(--utils-color-16);
 }
 html body .background-color-17,
 html body .background-color-17 *:is(span, a, .btn-default, label, input, option, select),
-html body .background-color-17 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .background-color-17 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   background-color: var(--utils-color-17);
 }
 html body .background-color-18,
 html body .background-color-18 *:is(span, a, .btn-default, label, input, option, select),
-html body .background-color-18 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .background-color-18 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   background-color: var(--utils-color-18);
 }
 html body .background-color-19,
 html body .background-color-19 *:is(span, a, .btn-default, label, input, option, select),
-html body .background-color-19 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .background-color-19 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   background-color: var(--utils-color-19);
 }
 html body .background-color-20,
 html body .background-color-20 *:is(span, a, .btn-default, label, input, option, select),
-html body .background-color-20 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .background-color-20 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   background-color: var(--utils-color-20);
 }
 html body .background-color-21,
 html body .background-color-21 *:is(span, a, .btn-default, label, input, option, select),
-html body .background-color-21 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .background-color-21 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   background-color: var(--utils-color-21);
 }
 html body .background-color-22,
 html body .background-color-22 *:is(span, a, .btn-default, label, input, option, select),
-html body .background-color-22 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .background-color-22 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   background-color: var(--utils-color-22);
 }
 html body .background-color-23,
 html body .background-color-23 *:is(span, a, .btn-default, label, input, option, select),
-html body .background-color-23 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .background-color-23 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   background-color: var(--utils-color-23);
 }
 html body .background-color-24,
 html body .background-color-24 *:is(span, a, .btn-default, label, input, option, select),
-html body .background-color-24 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .background-color-24 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   background-color: var(--utils-color-24);
 }
 html body .background-color-25,
 html body .background-color-25 *:is(span, a, .btn-default, label, input, option, select),
-html body .background-color-25 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .background-color-25 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   background-color: var(--utils-color-25);
 }
 html body .background-color-26,
 html body .background-color-26 *:is(span, a, .btn-default, label, input, option, select),
-html body .background-color-26 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .background-color-26 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   background-color: var(--utils-color-26);
 }
 html body .background-color-27,
 html body .background-color-27 *:is(span, a, .btn-default, label, input, option, select),
-html body .background-color-27 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .background-color-27 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   background-color: var(--utils-color-27);
 }
 html body .background-color-28,
 html body .background-color-28 *:is(span, a, .btn-default, label, input, option, select),
-html body .background-color-28 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .background-color-28 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   background-color: var(--utils-color-28);
 }
 html body .background-color-29,
 html body .background-color-29 *:is(span, a, .btn-default, label, input, option, select),
-html body .background-color-29 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .background-color-29 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   background-color: var(--utils-color-29);
 }
 html body .border-color-1,
 html body .border-color-1 *:is(span, a, .btn-default, label, input, option, select),
-html body .border-color-1 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .border-color-1 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-1);
 }
 html body .border-color-2,
 html body .border-color-2 *:is(span, a, .btn-default, label, input, option, select),
-html body .border-color-2 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .border-color-2 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-2);
 }
 html body .border-color-3,
 html body .border-color-3 *:is(span, a, .btn-default, label, input, option, select),
-html body .border-color-3 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .border-color-3 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-3);
 }
 html body .border-color-4,
 html body .border-color-4 *:is(span, a, .btn-default, label, input, option, select),
-html body .border-color-4 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .border-color-4 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-4);
 }
 html body .border-color-5,
 html body .border-color-5 *:is(span, a, .btn-default, label, input, option, select),
-html body .border-color-5 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .border-color-5 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-5);
 }
 html body .border-color-6,
 html body .border-color-6 *:is(span, a, .btn-default, label, input, option, select),
-html body .border-color-6 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .border-color-6 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-6);
 }
 html body .border-color-7,
 html body .border-color-7 *:is(span, a, .btn-default, label, input, option, select),
-html body .border-color-7 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .border-color-7 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-7);
 }
 html body .border-color-8,
 html body .border-color-8 *:is(span, a, .btn-default, label, input, option, select),
-html body .border-color-8 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .border-color-8 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-8);
 }
 html body .border-color-9,
 html body .border-color-9 *:is(span, a, .btn-default, label, input, option, select),
-html body .border-color-9 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .border-color-9 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-9);
 }
 html body .border-color-10,
 html body .border-color-10 *:is(span, a, .btn-default, label, input, option, select),
-html body .border-color-10 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .border-color-10 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-10);
 }
 html body .border-color-11,
 html body .border-color-11 *:is(span, a, .btn-default, label, input, option, select),
-html body .border-color-11 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .border-color-11 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-11);
 }
 html body .border-color-12,
 html body .border-color-12 *:is(span, a, .btn-default, label, input, option, select),
-html body .border-color-12 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .border-color-12 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-12);
 }
 html body .border-color-13,
 html body .border-color-13 *:is(span, a, .btn-default, label, input, option, select),
-html body .border-color-13 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .border-color-13 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-13);
 }
 html body .border-color-14,
 html body .border-color-14 *:is(span, a, .btn-default, label, input, option, select),
-html body .border-color-14 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .border-color-14 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-14);
 }
 html body .border-color-15,
 html body .border-color-15 *:is(span, a, .btn-default, label, input, option, select),
-html body .border-color-15 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .border-color-15 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-15);
 }
 html body .border-color-16,
 html body .border-color-16 *:is(span, a, .btn-default, label, input, option, select),
-html body .border-color-16 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .border-color-16 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-16);
 }
 html body .border-color-17,
 html body .border-color-17 *:is(span, a, .btn-default, label, input, option, select),
-html body .border-color-17 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .border-color-17 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-17);
 }
 html body .border-color-18,
 html body .border-color-18 *:is(span, a, .btn-default, label, input, option, select),
-html body .border-color-18 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .border-color-18 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-18);
 }
 html body .border-color-19,
 html body .border-color-19 *:is(span, a, .btn-default, label, input, option, select),
-html body .border-color-19 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .border-color-19 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-19);
 }
 html body .border-color-20,
 html body .border-color-20 *:is(span, a, .btn-default, label, input, option, select),
-html body .border-color-20 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .border-color-20 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-20);
 }
 html body .border-color-21,
 html body .border-color-21 *:is(span, a, .btn-default, label, input, option, select),
-html body .border-color-21 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .border-color-21 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-21);
 }
 html body .border-color-22,
 html body .border-color-22 *:is(span, a, .btn-default, label, input, option, select),
-html body .border-color-22 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .border-color-22 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-22);
 }
 html body .border-color-23,
 html body .border-color-23 *:is(span, a, .btn-default, label, input, option, select),
-html body .border-color-23 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .border-color-23 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-23);
 }
 html body .border-color-24,
 html body .border-color-24 *:is(span, a, .btn-default, label, input, option, select),
-html body .border-color-24 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .border-color-24 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-24);
 }
 html body .border-color-25,
 html body .border-color-25 *:is(span, a, .btn-default, label, input, option, select),
-html body .border-color-25 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .border-color-25 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-25);
 }
 html body .border-color-26,
 html body .border-color-26 *:is(span, a, .btn-default, label, input, option, select),
-html body .border-color-26 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .border-color-26 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-26);
 }
 html body .border-color-27,
 html body .border-color-27 *:is(span, a, .btn-default, label, input, option, select),
-html body .border-color-27 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .border-color-27 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-27);
 }
 html body .border-color-28,
 html body .border-color-28 *:is(span, a, .btn-default, label, input, option, select),
-html body .border-color-28 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .border-color-28 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-28);
 }
 html body .border-color-29,
 html body .border-color-29 *:is(span, a, .btn-default, label, input, option, select),
-html body .border-color-29 *:is(span:hover, a:hover, button:hover, label:hover, input:hover, option:hover) {
+html body .border-color-29 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-29);
 }
 html body .font-size-0 *:is(span, a, .btn-default, label, input, option, select),
