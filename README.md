@@ -19,6 +19,8 @@ This module contains a set of CSS classes that can be added to the classes prope
 
 1.8 Added DataGrid 'cell-border' class
 
+1.9 Bug fix: button styling not overridden
+
 ## Table of Contents
 - [CSS Utilities](#css-utilities)
   - [Version](#version)
