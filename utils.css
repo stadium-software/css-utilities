@@ -295,9 +295,12 @@ html body .ellipsis *:is(span, a, label) {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+html body .preserve-line-break,
 html body .preserve-line-breaks,
 html body .show-newline,
-html body .show-line-break {
+html body .show-newlines,
+html body .show-line-break,
+html body .show-line-breaks {
   white-space-collapse: preserve;
 }
 html body .text-justify,
