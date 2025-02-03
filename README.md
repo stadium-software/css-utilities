@@ -44,6 +44,7 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [Line height](#line-height)
     - [Text alignment](#text-alignment)
     - [Break words](#break-words)
+    - [Show line breaks (\\n)](#show-line-breaks-n)
     - [Ellipsis](#ellipsis)
     - [Preformatted text](#preformatted-text)
   - [Colours](#colours)
@@ -421,6 +422,17 @@ Only works with width-restricted elements
 **Class name**
 ```css
 break-word
+```
+
+[Back to top](#table-of-contents)
+
+### Show line breaks (\n)
+These classes causes text line breaks in text (\n) to be preserved
+
+**Class name**
+```css
+show-line-breaks
+show-newlines
 ```
 
 [Back to top](#table-of-contents)
