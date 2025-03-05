@@ -375,6 +375,10 @@ html body .primary-button.disabled .btn-default:hover {
   cursor: default;
   pointer-events: none;
 }
+html body .secondary,
+html body .secondary:hover {
+  background-color: inherit;
+}
 html body .secondary .btn-default,
 html body .secondary-button .btn-default,
 html body .secondary .btn-default:focus,
