@@ -6091,6 +6091,18 @@ html body .data-grid-container.cell-borders td.last-visible-column,
 html body .data-grid-container.cell-borders th.last-visible-column {
   border-right: none;
 }
+html body .data-grid-container.ellipsis-200 .grid-cell-display-ellipsis {
+  max-width: 200px;
+}
+html body .data-grid-container.ellipsis-300 .grid-cell-display-ellipsis {
+  max-width: 300px;
+}
+html body .data-grid-container.ellipsis-400 .grid-cell-display-ellipsis {
+  max-width: 400px;
+}
+html body .data-grid-container.ellipsis-500 .grid-cell-display-ellipsis {
+  max-width: 500px;
+}
 html body nav.show-dividers a:has(.dropdown-item-text:empty) {
   padding-top: 0;
   padding-bottom: 0;

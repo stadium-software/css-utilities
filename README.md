@@ -158,6 +158,7 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [Selected row background](#selected-row-background)
     - [Fix headers](#fix-headers)
     - [Horizontal Scrolling](#horizontal-scrolling)
+    - [Custom Width Ellipsis Column](#custom-width-ellipsis-column)
   - [Menu styles](#menu-styles)
     - [Show submenu dividers](#show-submenu-dividers)
   - [Required Indicator](#required-indicator)
@@ -438,9 +439,9 @@ show-newlines
 [Back to top](#table-of-contents)
 
 ### Ellipsis
-This class cuts off text that exceeds the width of the container and displays three dots ...
+This class cuts off text that exceeds the width of the container and displays three dots ... 
 
-Only works with width-restricted elements
+Only works with width-restricted elements. Use the [width](#width) or the [maxwidth](#maximum-width) classes above to define the maximum width of the control. 
 
 **Class name**
 ```css
@@ -1977,6 +1978,17 @@ scroll-horizontal
 ![](images/scroll-horizontal.gif)
 
 [Back to top](#table-of-contents)
+
+### Custom Width Ellipsis Column
+
+When the "Cell Display" option of DataGrid columns is set to "Ellipsis" the cells will be 100px wide by default. Add a class from the options below to the DataGrid control classes property to make them wider. 
+
+```css
+ellipsis-200
+ellipsis-300
+ellipsis-400
+ellipsis-500
+```
 
 ## Menu styles
 
