@@ -1,40 +1,5 @@
+/* CSS Utils 2.0 https://github.com/stadium-software/css-utilities */
 @charset "UTF-8";
-/* CSS Utils https://github.com/stadium-software/css-utilities */
-html body {
-  /*TYPOGRAPHY*/
-  /*TEXT ALIGNMENT*/
-  /*BUTTONS*/
-  /*PREFORMATTED TEXT*/
-  /*DIVIDER*/
-  /*CURSORS & USER INTERACTIONS*/
-  /*POSITION*/
-  /*Z-INDEX*/
-  /*LAYOUTS*/
-  /*GRID & FLEXBOX CHILD ALIGNMENT*/
-  /*HEIGHT & WIDTH*/
-  /*OPACITY*/
-  /*OVERFLOW*/
-  /*PADDING*/
-  /*PADDING-TOP*/
-  /*PADDING-RIGHT*/
-  /*PADDING-BOTTOM*/
-  /*PADDING-LEFT*/
-  /*MARGIN*/
-  /*MARGIN-TOP*/
-  /*MARGIN-RIGHT*/
-  /*MARGIN-BOTTOM*/
-  /*MARGIN-LEFT*/
-  /*GAP*/
-  /*LISTS*/
-  /*BOX-SHADOWS*/
-  /*BORDERS*/
-  /*COLOURS*/
-  /*FONT-SIZES*/
-  /*LINKS*/
-  /*DATAGRIDS*/
-  /*MENU*/
-  /*REQUIRED INDICATOR*/
-}
 html body .h1 *:is(span, a, .btn-default, label, input, option, select),
 html body .h1 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover),
 html body .h1 {
