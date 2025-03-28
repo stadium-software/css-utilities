@@ -21,6 +21,8 @@ This module contains a set of CSS classes that can be added to the classes prope
 
 1.9 Bug fix: button styling not overridden
 
+2.0 Converted pixel to rem (1rem = 10px)
+
 ## Table of Contents
 - [CSS Utilities](#css-utilities)
   - [Version](#version)
@@ -35,8 +37,8 @@ This module contains a set of CSS classes that can be added to the classes prope
   - [Typography](#typography)
     - [Titles \& headings](#titles--headings)
     - [Large \& small text](#large--small-text)
-    - [Font size 0px](#font-size-0px)
-    - [Font sizes from 9px to 50px](#font-sizes-from-9px-to-50px)
+    - [Font size 0](#font-size-0)
+    - [Font sizes from 0.9rem (9px) to 5rem (50px)](#font-sizes-from-09rem-9px-to-5rem-50px)
     - [Text styles](#text-styles)
     - [Text casing](#text-casing)
     - [Word spacing](#word-spacing)
@@ -216,11 +218,11 @@ h1
 ```
 **h1 customisations**
 ```css
---utils-h1-font-size: 32px;
+--utils-h1-font-size: 3.2rem;
 --utils-h1-font-weight: 600;
 --utils-h1-line-height: 1.5;
 --utils-h1-margin-top: 1em;
---utils-h1-margin-bottom: .5em;
+--utils-h1-margin-bottom: 0.5em;
 ```
 
 **Class name**
@@ -229,11 +231,11 @@ h2
 ```
 **h2 customisations**
 ```css
---utils-h2-font-size: 24px;
+--utils-h2-font-size: 2.4rem;
 --utils-h2-font-weight: 600;
 --utils-h2-line-height: 1.5;
 --utils-h2-margin-top: 1em;
---utils-h2-margin-bottom: .5em;
+--utils-h2-margin-bottom: 0.5em;
 ```
 
 **Class name**
@@ -242,11 +244,11 @@ h3
 ```
 **h3 customisations**
 ```css
---utils-h3-font-size: 18px;
+--utils-h3-font-size: 1.8rem;
 --utils-h3-font-weight: 600;
 --utils-h3-line-height: 1.5;
 --utils-h3-margin-top: 1em;
---utils-h3-margin-bottom: .5em;
+--utils-h3-margin-bottom: 0.5em;
 ```
 
 **Class name**
@@ -255,11 +257,11 @@ page-title
 ```
 **page-title customisations**
 ```css
---utils-page-title-font-size: 22px;
+--utils-page-title-font-size: 2.2rem;
 --utils-page-title-font-weight: 600;
 --utils-page-title-line-height: 1.5;
 --utils-page-title-margin-top: 1em;
---utils-page-title-margin-bottom: .5em;
+--utils-page-title-margin-bottom: 0.5em;
 ```
 
 **Class name**
@@ -268,11 +270,11 @@ subtitle
 ```
 **subtitle customisations**
 ```css
---utils-subtitle-font-size: 18px;
+--utils-subtitle-font-size: 1.8rem;
 --utils-subtitle-font-weight: 600;
 --utils-subtitle-line-height: 1.5;
 --utils-subtitle-margin-top: 1em;
---utils-subtitle-margin-bottom: .5em;
+--utils-subtitle-margin-bottom: 0.5em;
 ```
 
 [Back to top](#table-of-contents)
@@ -291,7 +293,7 @@ small-text
 
 [Back to top](#table-of-contents)
 
-### Font size 0px
+### Font size 0
 
 **Class name**
 ```css
@@ -300,13 +302,13 @@ font-size-0
 
 [Back to top](#table-of-contents)
 
-### Font sizes from 9px to 50px
+### Font sizes from 0.9rem (9px) to 5rem (50px)
 
 1. Append a number between 9 and 50 to the base class name
 2. Increments by 1 (9, 10, 11, etc.)
-3. The number will become a pixel value
+3. The number will become a rem value (1rem = 10px)
 
-**Example for a 20px font size**
+**Example for a 2rem (20px) font size**
 ```css
 font-size-20
 ```
@@ -354,13 +356,13 @@ Word spacing classes allow for increasing or decreasing the spaces between words
 
 1. Append a number between -3 and 10 to the base class name
 2. Increments by 1 (-1, 0, 1, etc.)
-3. The number will become a pixel value
+3. The number will become a rem value (1rem = 10px)
 
-**Example class for 'word-spacing: 3px;'**
+**Example class for 'word-spacing: 0.3rem;'**
 ```css
 word-spacing-3
 ```
-**Example class for 'word-spacing: -1px;'**
+**Example class for 'word-spacing: -0.1rem;'**
 ```css
 word-spacing--1
 ```
@@ -369,14 +371,14 @@ word-spacing--1
 
 ### Letter spacing
 Letter spacing classes allow for increasing or decreasing the spaces between letters
-1. Append a pixel value to the base class name between -3 and 3
+1. Append a rem value (1rem = 10px) to the base class name between -3 and 3
 2. Increment by 1 (-1, 0, 1, etc.)
 
-**Example class for 'letter-spacing: 4px;'**
+**Example class for 'letter-spacing: 0.4rem;'**
 ```css
 letter-spacing-4
 ```
-**Example class for 'letter-spacing: -1px;'**
+**Example class for 'letter-spacing: -0.1rem;'**
 ```css
 letter-spacing--1
 ```
@@ -468,10 +470,10 @@ preformatted
 --utils-preformatted-font-family: monospace;
 --utils-preformatted-background-color: #ddd;
 --utils-preformatted-font-color: #333;
---utils-preformatted-font-size: 14px;
+--utils-preformatted-font-size: 1.4rem;
 --utils-preformatted-max-width: 100%;
---utils-preformatted-min-width: 100px;
---utils-preformatted-padding: .3em;
+--utils-preformatted-min-width: 10rem;
+--utils-preformatted-padding: 0.3em;
 --utils-preformatted-line-height: 1.2;
 --utils-preformatted-letter-spacing: -0.05em;
 ```
@@ -597,27 +599,27 @@ primary
 ```css
 --utils-primary-button-background-color: #3399ff;
 --utils-primary-button-border-color: #2196f3;
---utils-primary-button-border-width: 1px;
---utils-primary-button-border-radius: 3px;
+--utils-primary-button-border-width: 0.1rem;
+--utils-primary-button-border-radius: 0.3rem;
 --utils-primary-button-font-color: white;
---utils-primary-button-font-size: 14px;
+--utils-primary-button-font-size: 1.4rem;
 --utils-primary-button-text-transform: uppercase;
 --utils-primary-button-text-decoration: none;
---utils-primary-button-padding: 10px 16px;
---utils-primary-button-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+--utils-primary-button-padding: 1rem 1.6rem;
+--utils-primary-button-box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.23);
 --utils-primary-button-outline-color: white;
---utils-primary-button-outline-width: 1px;
+--utils-primary-button-outline-width: 0.1rem;
 
 --utils-primary-hover-button-background-color: #1976d2;
 --utils-primary-hover-button-border-color: #2196f3;
---utils-primary-hover-button-border-width: 1px;
---utils-primary-hover-button-border-radius: 3px;
+--utils-primary-hover-button-border-width: 0.1rem;
+--utils-primary-hover-button-border-radius: 0.3rem;
 --utils-primary-hover-button-font-color: #fff;
---utils-primary-hover-button-font-size: 14px;
+--utils-primary-hover-button-font-size: 1.4rem;
 --utils-primary-hover-button-text-transform: uppercase;
 --utils-primary-hover-button-text-decoration: none;
---utils-primary-hover-button-padding: 10px 16px;
---utils-primary-hover-button-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+--utils-primary-hover-button-padding: 1rem 1.6rem;
+--utils-primary-hover-button-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.19), 0 0.6rem 0.6rem rgba(0, 0, 0, 0.23);
 ```
 
 **Class names**
@@ -628,13 +630,13 @@ primary disabled
 ```css
 --utils-primary-disabled-button-background-color: #1976d2;
 --utils-primary-disabled-button-border-color: #2196f3;
---utils-primary-disabled-button-border-width: 1px;
---utils-primary-disabled-button-border-radius: 3px;
+--utils-primary-disabled-button-border-width: 0.1rem;
+--utils-primary-disabled-button-border-radius: 0.3rem;
 --utils-primary-disabled-button-font-color: #fff;
---utils-primary-disabled-button-font-size: 14px;
+--utils-primary-disabled-button-font-size: 1.4rem;
 --utils-primary-disabled-button-text-transform: uppercase;
 --utils-primary-disabled-button-text-decoration: none;
---utils-primary-disabled-button-padding: 10px 16px;
+--utils-primary-disabled-button-padding: 1rem 1.6rem;
 --utils-primary-disabled-button-box-shadow: none;
 --utils-primary-disabled-button-opacity: 0.6;
 ```
@@ -652,27 +654,27 @@ secondary
 ```css
 --utils-secondary-button-background-color: rgb(255, 255, 255);
 --utils-secondary-button-border-color: #2196f3;
---utils-secondary-button-border-width: 1px;
---utils-secondary-button-border-radius: 3px;
+--utils-secondary-button-border-width: 0.1rem;
+--utils-secondary-button-border-radius: 0.3rem;
 --utils-secondary-button-font-color: #3399ff;
---utils-secondary-button-font-size: 14px;
+--utils-secondary-button-font-size: 1.4rem;
 --utils-secondary-button-text-transform: uppercase;
 --utils-secondary-button-text-decoration: none;
---utils-secondary-button-padding: 10px 16px;
---utils-secondary-button-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+--utils-secondary-button-padding: 1rem 1.6rem;
+--utils-secondary-button-box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.23);
 --utils-secondary-button-outline-color: white;
---utils-secondary-button-outline-width: 1px;
+--utils-secondary-button-outline-width: 0.1rem;
 
 --utils-secondary-hover-button-background-color: rgba(255,255,255,.8);
 --utils-secondary-hover-button-border-color: #2196f3;
---utils-secondary-hover-button-border-width: 1px;
---utils-secondary-hover-button-border-radius: 3px;
+--utils-secondary-hover-button-border-width: 0.1rem;
+--utils-secondary-hover-button-border-radius: 0.3rem;
 --utils-secondary-hover-button-font-color: #3399ff;
---utils-secondary-hover-button-font-size: 14px;
+--utils-secondary-hover-button-font-size: 1.4rem;
 --utils-secondary-hover-button-text-transform: uppercase;
 --utils-secondary-hover-button-text-decoration: none;
---utils-secondary-hover-button-padding: 10px 16px;
---utils-secondary-hover-button-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+--utils-secondary-hover-button-padding: 1rem 1.6rem;
+--utils-secondary-hover-button-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.19), 0 0.6rem 0.6rem rgba(0, 0, 0, 0.23);
 ```
 
 **Class names**
@@ -683,13 +685,13 @@ secondary disabled
 ```css
 --utils-secondary-disabled-button-background-color: rgba(255,255,255,.8);
 --utils-secondary-disabled-button-border-color: #2196f3;
---utils-secondary-disabled-button-border-width: 1px;
---utils-secondary-disabled-button-border-radius: 3px;
+--utils-secondary-disabled-button-border-width: 0.1rem;
+--utils-secondary-disabled-button-border-radius: 0.3rem;
 --utils-secondary-disabled-button-font-color: #3399ff;
---utils-secondary-disabled-button-font-size: 14px;
+--utils-secondary-disabled-button-font-size: 1.4rem;
 --utils-secondary-disabled-button-text-transform: uppercase;
 --utils-secondary-disabled-button-text-decoration: none;
---utils-secondary-disabled-button-padding: 10px 16px;
+--utils-secondary-disabled-button-padding: 1rem 1.6rem;
 --utils-secondary-disabled-button-box-shadow: none;
 --utils-secondary-disabled-button-opacity: 0.6;
 ```
@@ -707,26 +709,26 @@ tertiary
 ```css
 --utils-tertiary-button-background-color: transparent;
 --utils-tertiary-button-border-color: white;
---utils-tertiary-button-border-width: 1px;
---utils-tertiary-button-border-radius: 3px;
+--utils-tertiary-button-border-width: 0.1rem;
+--utils-tertiary-button-border-radius: 0.3rem;
 --utils-tertiary-button-font-color: #3399ff;
---utils-tertiary-button-font-size: 14px;
+--utils-tertiary-button-font-size: 1.4rem;
 --utils-tertiary-button-text-transform: uppercase;
 --utils-tertiary-button-text-decoration: none;
---utils-tertiary-button-padding: 10px 16px;
+--utils-tertiary-button-padding: 1rem 1.6rem;
 --utils-tertiary-button-box-shadow: none;
 --utils-tertiary-button-outline-color: white;
---utils-tertiary-button-outline-width: 1px;
+--utils-tertiary-button-outline-width: 0.1rem;
 
 --utils-tertiary-hover-button-background-color: transparent;
 --utils-tertiary-hover-button-border-color: white;
---utils-tertiary-hover-button-border-width: 1px;
---utils-tertiary-hover-button-border-radius: 3px;
+--utils-tertiary-hover-button-border-width: 0.1rem;
+--utils-tertiary-hover-button-border-radius: 0.3rem;
 --utils-tertiary-hover-button-font-color: #2196f3;
---utils-tertiary-hover-button-font-size: 14px;
+--utils-tertiary-hover-button-font-size: 1.4rem;
 --utils-tertiary-hover-button-text-transform: uppercase;
 --utils-tertiary-hover-button-text-decoration: underline;
---utils-tertiary-hover-button-padding: 10px 16px;
+--utils-tertiary-hover-button-padding: 1rem 1.6rem;
 --utils-tertiary-hover-button-box-shadow: none;
 ```
 
@@ -738,13 +740,13 @@ tertiary disabled
 ```css
 --utils-tertiary-disabled-button-background-color: transparent;
 --utils-tertiary-disabled-button-border-color: white;
---utils-tertiary-disabled-button-border-width: 1px;
---utils-tertiary-disabled-button-border-radius: 3px;
+--utils-tertiary-disabled-button-border-width: 0.1rem;
+--utils-tertiary-disabled-button-border-radius: 0.3rem;
 --utils-tertiary-disabled-button-font-color: #2196f3;
---utils-tertiary-disabled-button-font-size: 14px;
+--utils-tertiary-disabled-button-font-size: 1.4rem;
 --utils-tertiary-disabled-button-text-transform: uppercase;
 --utils-tertiary-disabled-button-text-decoration: underline;
---utils-tertiary-disabled-button-padding: 10px 16px;
+--utils-tertiary-disabled-button-padding: 1rem 1.6rem;
 --utils-tertiary-disabled-button-box-shadow: none;
 --utils-tertiary-disabled-button-opacity: 0.6;
 ```
@@ -761,7 +763,7 @@ divider
 **Divider customisations**
 ```css
 --utils-divider-color: #aaa;
---utils-divider-size: 1px;
+--utils-divider-size: 0.1rem;
 --utils-divider-margin-top: 1.5rem;
 --utils-divider-margin-bottom: 1.5rem;
 ```
@@ -927,14 +929,14 @@ position-fixed
 ### Top
 Changes the top position of elements that are absolutely or relatively positioned
 
-1. Append a pixel value to the base class name between -10 and 10
+1. Append a rem value (1rem = 10px) to the base class name between -10 and 10
 2. Increments by 1 (-1, 0, 1, etc.)
 
-**Example class for 'top: 3px;'**
+**Example class for 'top: 0.3rem;'**
 ```css
 top-3
 ```
-**Example class for 'top: -3px;'**
+**Example class for 'top: -0.3rem;'**
 ```css
 top--3
 ```
@@ -944,10 +946,10 @@ top--3
 ### Right
 Changes the right position of elements that are absolutely or relatively positioned
 
-1. Append a pixel value to the base class name between -10 and 10
+1. Append a rem value (1rem = 10px) to the base class name between -10 and 10
 2. Increments by 1 (-1, 0, 1, etc.)
 
-**Example class for 'right: 3px;'**
+**Example class for 'right: 0.3rem;'**
 ```css
 right-3
 ```
@@ -961,14 +963,14 @@ right--3
 ### Bottom
 Changes the bottom position of elements that are absolutely or relatively positioned
 
-1. Append a pixel value to the base class name between -10 and 10
+1. Append a rem value (1rem = 10px) to the base class name between -10 and 10
 2. Increments by 1 (-1, 0, 1, etc.)
 
-**Example class for 'bottom: 3px;'**
+**Example class for 'bottom: 0.3rem;'**
 ```css
 bottom-3
 ```
-**Example class for 'bottom: -3px;'**
+**Example class for 'bottom: -0.3rem;'**
 ```css
 bottom--3
 ```
@@ -978,14 +980,14 @@ bottom--3
 ### Left
 Changes the left position of elements that are absolutely or relatively positioned
 
-1. Append a pixel value to the base class name between -10 and 10
+1. Append a rem value (1rem = 10px) to the base class name between -10 and 10
 2. Increments by 1 (-1, 0, 1, etc.)
 
-**Example class for 'left: 3px;'**
+**Example class for 'left: 0.3rem;'**
 ```css
 left-3
 ```
-**Example class for 'left: -3px;'**
+**Example class for 'left: -0.3rem;'**
 ```css
 left--3
 ```
@@ -999,7 +1001,7 @@ Elements with higher z-index are shown in front of elements with a lower z-index
 
 By default all elements have an initial stack order of 0 unless a higher z-index is inherited from a parent element. 
 
-1. Append a pixel value to the base class name between -1 and 100
+1. Append a rem value (1rem = 10px) to the base class name between -1 and 100
 2. Increments by 1 (-1, 0, 1, etc.)
 
 **Example class for 'z-index: 3;'**
@@ -1153,9 +1155,9 @@ The gap value is applied between rows and columns in Grid and Flexbox displays
 
 1. Append a number between 0 and 50 to the base class name
 2. Increments by 1 (7, 8, 9 etc.)
-3. The number will turned into a pixel value
+3. The number will turned into a rem value (1rem = 10px)
 
-**Example for a gap of 20px between elements**
+**Example for a gap of 2rem between elements**
 ```css
 gap-20
 ```
@@ -1167,9 +1169,9 @@ The gap value is applied between columns in Grid and Flexbox displays
 
 1. Append a number between 0 and 50 to the base class name
 2. Increments by 1 (7, 8, 9 etc.)
-3. The number will turned into a pixel value
+3. The number will turned into a rem value (1rem = 10px)
 
-**Example for a gap of 20px between elements**
+**Example for a gap of 2rem between elements**
 ```css
 column-gap-20
 ```
@@ -1181,9 +1183,9 @@ The gap value is applied between rows in Grid and Flexbox displays
 
 1. Append a number between 0 and 50 to the base class name
 2. Increments by 1 (7, 8, 9 etc.)
-3. The number will turned into a pixel value
+3. The number will turned into a rem value (1rem = 10px)
 
-**Example for a gap of 20px between elements**
+**Example for a gap of 2rem between elements**
 ```css
 row-gap-20
 ```
@@ -1192,14 +1194,14 @@ row-gap-20
 
 ## Heights and widths
 
-Sett fixed element heights, widths, maximum heights and maximum widths in pixel, percent and viewport height or width
+Set fixed element heights, widths, maximum heights and maximum widths in rem (1rem = 10px), percent and viewport height or width
 
 ### Height
 
 1. Append a value to the base class name from 0 to 200
 2. Increments by 10 (0, 10, 20, 30, 40, etc.)
 
-**Example class for a height of 140px**
+**Example class for a height of 14rem**
 ```css
 height-140
 ```
@@ -1211,7 +1213,7 @@ height-140
 1. Append a value to the base class name from 0 to 200
 2. Increments by 10 (0, 10, 20, 30, 40, etc.)
 
-**Example class for a width of 140px**
+**Example class for a width of 14rem**
 ```css
 width-140
 ```
@@ -1299,7 +1301,7 @@ width-25
 1. Append a value to the base class name from 0 to 200
 2. Increments by 10 (0, 10, 20, 30, 40, etc.)
 
-**Example class for a maximum height of 140px**
+**Example class for a maximum height of 14rem**
 ```css
 max-height-140
 ```
@@ -1311,7 +1313,7 @@ max-height-140
 1. Append a value to the base class name from 0 to 200
 2. Increments by 10 (0, 10, 20, 30, 40, etc.)
 
-**Example class for a maximum width of 140px**
+**Example class for a maximum width of 14rem**
 ```css
 max-width-140
 ```
@@ -1496,9 +1498,9 @@ Padding is space added between the contents of an element and the border of that
 
 1. Append a number between 0 and 30 to the base class name
 2. Increments by 1 (7, 8, 9 etc.)
-3. The number will turned into a pixel value
+3. The number will turned into a rem value (1rem = 10px)
 
-**Example for padding 4px**
+**Example for padding 0.4rem**
 ```css
 padding-4
 ```
@@ -1509,9 +1511,9 @@ padding-4
 
 1. Append a number between 0 and 30 to the base class name
 2. Increments by 1 (7, 8, 9 etc.)
-3. The number will turned into a pixel value
+3. The number will turned into a rem value (1rem = 10px)
 
-**Example for top padding 4px**
+**Example for top padding 0.4rem**
 ```css
 padding-top-4
 ```
@@ -1522,9 +1524,9 @@ padding-top-4
 
 1. Append a number between 0 and 30 to the base class name
 2. Increments by 1 (7, 8, 9 etc.)
-3. The number will turned into a pixel value
+3. The number will turned into a rem value (1rem = 10px)
 
-**Example for padding 4px**
+**Example for padding 0.4rem**
 ```css
 padding-right-4
 ```
@@ -1535,9 +1537,9 @@ padding-right-4
 
 1. Append a number between 0 and 30 to the base class name
 2. Increments by 1 (7, 8, 9 etc.)
-3. The number will turned into a pixel value
+3. The number will turned into a rem value (1rem = 10px)
 
-**Example for bottom padding 4px**
+**Example for bottom padding 0.4rem**
 ```css
 padding-bottom-4
 ```
@@ -1548,9 +1550,9 @@ padding-bottom-4
 
 1. Append a number between 0 and 30 to the base class name
 2. Increments by 1 (7, 8, 9 etc.)
-3. The number will turned into a pixel value
+3. The number will turned into a rem value (1rem = 10px)
 
-**Example for left padding 4px**
+**Example for left padding 0.4rem**
 ```css
 padding-left-4
 ```
@@ -1565,9 +1567,9 @@ Margin is space added between the border of an element and the next element.
 
 1. Append a number between 0 and 30 to the base class name
 2. Increments by 1 (7, 8, 9 etc.)
-3. The number will turned into a pixel value
+3. The number will turned into a rem value (1rem = 10px)
 
-**Example for margin 4px**
+**Example for margin 0.4rem**
 ```css
 margin-4
 ```
@@ -1578,9 +1580,9 @@ margin-4
 
 1. Append a number between 0 and 30 to the base class name
 2. Increments by 1 (7, 8, 9 etc.)
-3. The number will turned into a pixel value
+3. The number will turned into a rem value (1rem = 10px)
 
-**Example for top margin 4px**
+**Example for top margin 0.4rem**
 ```css
 margin-top-4
 ```
@@ -1591,9 +1593,9 @@ margin-top-4
 
 1. Append a number between 0 and 30 to the base class name
 2. Increments by 1 (7, 8, 9 etc.)
-3. The number will turned into a pixel value
+3. The number will turned into a rem value (1rem = 10px)
 
-**Example for margin 4px**
+**Example for margin 0.4rem**
 ```css
 margin-right-4
 ```
@@ -1604,9 +1606,9 @@ margin-right-4
 
 1. Append a number between 0 and 30 to the base class name
 2. Increments by 1 (7, 8, 9 etc.)
-3. The number will turned into a pixel value
+3. The number will turned into a rem value (1rem = 10px)
 
-**Example for bottom margin 4px**
+**Example for bottom margin 0.4rem**
 ```css
 margin-bottom-4
 ```
@@ -1617,9 +1619,9 @@ margin-bottom-4
 
 1. Append a number between 0 and 30 to the base class name
 2. Increments by 1 (7, 8, 9 etc.)
-3. The number will turned into a pixel value
+3. The number will turned into a rem value (1rem = 10px)
 
-**Example for left margin 4px**
+**Example for left margin 0.4rem**
 ```css
 margin-left-4
 ```
@@ -1731,7 +1733,7 @@ Add or remov borders from elements
 
 ### Border on all sides
 
-Adds a 1px solid border in the default color your browser implements. Add a [border color](#set-a-border-colour) class to change the colour
+Adds a 0.1rem solid border in the default color your browser implements. Add a [border color](#set-a-border-colour) class to change the colour
 
 **Class name**
 ```css
@@ -1742,10 +1744,10 @@ border
 
 ### Border width
 
-1. Append a pixel value to the base class name between 0 and 3
+1. Append a rem value (1rem = 10px) to the base class name between 0 and 3
 2. Increments by 1 (1, 2, etc.)
 
-**Example for a border of 3px width**
+**Example for a border of 0.3rem width**
 ```css
 border-3
 ```
@@ -1754,7 +1756,7 @@ border-3
 
 ### Top border
 
-Adds a 1px solid top border in the default color your browser implements. Add a [color](#colours) class to change the colour
+Adds a 0.1rem solid top border in the default color your browser implements. Add a [color](#colours) class to change the colour
 
 **Class name**
 ```css
@@ -1765,10 +1767,10 @@ border-top
 
 ### Top border width
 
-1. Append a pixel value to the base class name between 0 and 3
+1. Append a rem value (1rem = 10px) to the base class name between 0 and 3
 2. Increments by 1 (1, 2, etc.)
 
-**Example for a top border of 3px width**
+**Example for a top border of 0.3rem width**
 ```css
 border-top-3
 ```
@@ -1777,7 +1779,7 @@ border-top-3
 
 ### Right border
 
-Adds a 1px solid right border in the default color your browser implements. Add a [color](#colours) class to change the colour
+Adds a 0.1rem solid right border in the default color your browser implements. Add a [color](#colours) class to change the colour
 
 **Class name**
 ```css
@@ -1788,10 +1790,10 @@ border-right
 
 ### Right border width
 
-1. Append a pixel value to the base class name between 0 and 3
+1. Append a rem value (1rem = 10px) to the base class name between 0 and 3
 2. Increments by 1 (1, 2, etc.)
 
-**Example for a right border of 3px width**
+**Example for a right border of 0.3rem width**
 ```css
 border-right-3
 ```
@@ -1800,7 +1802,7 @@ border-right-3
 
 ### Bottom border
 
-Adds a 1px solid bottom border in the default color your browser implements. Add a [color](#colours) class to change the colour
+Adds a 0.1rem solid bottom border in the default color your browser implements. Add a [color](#colours) class to change the colour
 
 **Class name**
 ```css
@@ -1811,10 +1813,10 @@ border-bottom
 
 ### Bottom border width
 
-1. Append a pixel value to the base class name between 0 and 3
+1. Append a rem value (1rem = 10px) to the base class name between 0 and 3
 2. Increments by 1 (1, 2, etc.)
 
-**Example for a bottom border of 3px width**
+**Example for a bottom border of 0.3rem width**
 ```css
 border-bottom-3
 ```
@@ -1823,7 +1825,7 @@ border-bottom-3
 
 ### Left border
 
-Adds a 1px solid left border in the default color your browser implements. Add a [color](#border-colours) class to change the colour
+Adds a 0.1rem solid left border in the default color your browser implements. Add a [color](#border-colours) class to change the colour
 
 **Class name**
 ```css
@@ -1834,10 +1836,10 @@ border-left
 
 ### Left border width
 
-1. Append a pixel value to the base class name between 0 and 3
+1. Append a rem value (1rem = 10px) to the base class name between 0 and 3
 2. Increments by 1 (1, 2, etc.)
 
-**Example for a left border of 3px width**
+**Example for a left border of 0.3rem width**
 ```css
 border-left-3
 ```
@@ -1845,7 +1847,7 @@ border-left-3
 [Back to top](#table-of-contents)
 
 ### Transparent border
-Turns any border into a transparent 1px border
+Turns any border into a transparent 0.1rem border
 
 **Class name**
 ```css
@@ -1878,9 +1880,9 @@ border-style-double
 Add rounded corners to elements
 
 1. Append a value to the base class name from 0 to 20
-2. Will become a pixel value
+2. Will become a rem value (1rem = 10px)
 
-**Example for a 6px border radius**
+**Example for a 0.6rem border radius**
 ```css
 border-radius-6
 ```
@@ -1922,8 +1924,8 @@ broad
 ```
 **broad customisations**
 ```css
---utils-datagrid-broad-cellpadding: 12px;
---utils-datagrid-broad-font-size: 16px;
+--utils-datagrid-broad-cellpadding: 1.2rem;
+--utils-datagrid-broad-font-size: 1.6rem;
 ```
 
 [Back to top](#table-of-contents)
@@ -1937,8 +1939,8 @@ tight
 ```
 **tight customisations**
 ```css
---utils-datagrid-tight-cellpadding: 6px;
---utils-datagrid-tight-font-size: 14px;
+--utils-datagrid-tight-cellpadding: 0.6rem;
+--utils-datagrid-tight-font-size: 1.4rem;
 ```
 
 [Back to top](#table-of-contents)
@@ -2036,7 +2038,7 @@ scroll-horizontal
 ```
 **padding customisation**
 ```css
---utils-datagrid-horizontal-scrolling-margin: 32px;
+--utils-datagrid-horizontal-scrolling-margin: 3.2rem;
 ```
 
 **It is not possible to make DataGrid headers stick to the top of the page AND also have a horizontal scrollbar using only CSS ([see](https://medium.com/neocoast/fixing-a-table-header-on-a-horizontally-scrolling-table-de3364610957))**
@@ -2047,7 +2049,7 @@ scroll-horizontal
 
 ### Custom Width Ellipsis Column
 
-When the "Cell Display" option of DataGrid columns is set to "Ellipsis" the cells will be 100px wide by default. Add a class from the options below to the DataGrid control classes property to make them wider. 
+When the "Cell Display" option of DataGrid columns is set to "Ellipsis" the cells will be 10rem (100px) wide by default. Add a class from the options below to the DataGrid control classes property to make them wider. 
 
 ```css
 ellipsis-200
