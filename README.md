@@ -108,8 +108,14 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [Third and quarter maximum widths as percentage of parent](#third-and-quarter-maximum-widths-as-percentage-of-parent)
   - [Overflow](#overflow)
     - [Overflow hidden](#overflow-hidden)
+    - [Horizontal overflow hidden](#horizontal-overflow-hidden)
+    - [Vertical overflow hidden](#vertical-overflow-hidden)
     - [Overflow auto](#overflow-auto)
+    - [Horizontal overflow auto](#horizontal-overflow-auto)
+    - [Vertical overflow auto](#vertical-overflow-auto)
     - [Overflow scroll](#overflow-scroll)
+    - [Horizontal overflow scroll](#horizontal-overflow-scroll)
+    - [Vertical overflow scroll](#vertical-overflow-scroll)
   - [Padding](#padding)
     - [Paddings all sides](#paddings-all-sides)
     - [Top padding](#top-padding)
@@ -177,7 +183,7 @@ This module contains a set of CSS classes that can be added to the classes prope
 ```html
 <link rel="stylesheet" href="{EmbeddedFiles}/CSS/utils.css">
 <link rel="stylesheet" href="{EmbeddedFiles}/CSS/utils-variables.css">
-``` 
+```
 
 ## Upgrading the module
 To upgrade the CSS in this module, follow the [steps outlined in this repo](https://github.com/stadium-software/samples-upgrading)
@@ -1402,6 +1408,26 @@ overflow-hidden
 
 [Back to top](#table-of-contents)
 
+### Horizontal overflow hidden
+For non-scroll elements with horizontal (right / left) overflow hidden
+
+**Class name**
+```css
+horizontal-overflow-hidden
+```
+
+[Back to top](#table-of-contents)
+
+### Vertical overflow hidden
+For non-scroll elements with vertical (up / down) hidden overflow
+
+**Class name**
+```css
+vertical-overflow-hidden
+```
+
+[Back to top](#table-of-contents)
+
 ### Overflow auto
 For elements that will scroll when the contents exceeds the container
 
@@ -1412,12 +1438,52 @@ overflow-auto
 
 [Back to top](#table-of-contents)
 
+### Horizontal overflow auto
+For elements that will scroll when the contents horizontally (right / left) exceeds the container
+
+**Class name**
+```css
+horizontal-overflow-auto
+```
+
+[Back to top](#table-of-contents)
+
+### Vertical overflow auto
+For elements that will scroll when the contents vertically (up / down) exceeds the container
+
+**Class name**
+```css
+vertical-overflow-auto
+```
+
+[Back to top](#table-of-contents)
+
 ### Overflow scroll
 For elements that will always have scrollbars
 
 **Class name**
 ```css
 overflow-scroll
+```
+
+[Back to top](#table-of-contents)
+
+### Horizontal overflow scroll
+For elements that will always have horizontal (right / left) scrollbars
+
+**Class name**
+```css
+horizontal-overflow-scroll
+```
+
+[Back to top](#table-of-contents)
+
+### Vertical overflow scroll
+For elements that will always have vertical (up / down) scrollbars
+
+**Class name**
+```css
+vertical-overflow-scroll
 ```
 
 [Back to top](#table-of-contents)

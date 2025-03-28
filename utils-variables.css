@@ -1,31 +1,31 @@
 /* CSS Utils https://github.com/stadium-software/css-utilities */
 :root {
     /*TITLES & HEADINGS*/
-    --utils-h1-font-size: 32px;
+    --utils-h1-font-size: 3.2rem;
     --utils-h1-font-weight: 600;
     --utils-h1-line-height: 1.5;
     --utils-h1-margin-top: .4em;
     --utils-h1-margin-bottom: .2em;
     
-    --utils-h2-font-size: 24px;
+    --utils-h2-font-size: 2.4rem;
     --utils-h2-font-weight: 600;
     --utils-h2-line-height: 1.5;
     --utils-h2-margin-top: 1em;
     --utils-h2-margin-bottom: .5em;
 
-    --utils-h3-font-size: 18px;
+    --utils-h3-font-size: 1.8rem;
     --utils-h3-font-weight: 600;
     --utils-h3-line-height: 1.5;
     --utils-h3-margin-top: 1em;
     --utils-h3-margin-bottom: .5em;
 
-    --utils-page-title-font-size: 36px;
+    --utils-page-title-font-size: 3.6rem;
     --utils-page-title-font-weight: 600;
     --utils-page-title-line-height: 1.2;
     --utils-page-title-margin-top: .6em;
     --utils-page-title-margin-bottom: .3em;
 
-    --utils-subtitle-font-size: 18px;
+    --utils-subtitle-font-size: 1.8rem;
     --utils-subtitle-font-weight: 600;
     --utils-subtitle-line-height: 1.5;
     --utils-subtitle-margin-top: 1em;
@@ -35,9 +35,9 @@
     --utils-preformatted-font-family: monospace;
     --utils-preformatted-background-color: #ddd;
     --utils-preformatted-font-color: #333;
-    --utils-preformatted-font-size: 14px;
+    --utils-preformatted-font-size: 1.4rem;
     --utils-preformatted-max-width: 100%;
-    --utils-preformatted-min-width: 100px;
+    --utils-preformatted-min-width: 10rem;
     --utils-preformatted-padding: .3em;
     --utils-preformatted-line-height: 1.2;
     --utils-preformatted-letter-spacing: -0.05em;
@@ -76,124 +76,124 @@
     /*BUTTONS*/
     --utils-primary-button-background-color: #3399ff;
     --utils-primary-button-border-color: #2196f3;
-    --utils-primary-button-border-width: 1px;
-    --utils-primary-button-border-radius: 3px;
+    --utils-primary-button-border-width: 0.1rem;
+    --utils-primary-button-border-radius: 0.3rem;
     --utils-primary-button-font-color: white;
-    --utils-primary-button-font-size: 14px;
+    --utils-primary-button-font-size: 1.4rem;
     --utils-primary-button-text-transform: uppercase;
     --utils-primary-button-text-decoration: none;
-    --utils-primary-button-padding: 10px 16px;
-    --utils-primary-button-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    --utils-primary-button-padding: 1rem 1.6rem;
+    --utils-primary-button-box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.23);
     --utils-primary-button-outline-color: white;
-    --utils-primary-button-outline-width: 1px;
+    --utils-primary-button-outline-width: 0.1rem;
 
     --utils-primary-hover-button-background-color: #1976d2;
     --utils-primary-hover-button-border-color: #2196f3;
-    --utils-primary-hover-button-border-width: 1px;
-    --utils-primary-hover-button-border-radius: 3px;
+    --utils-primary-hover-button-border-width: 0.1rem;
+    --utils-primary-hover-button-border-radius: 0.3rem;
     --utils-primary-hover-button-font-color: #fff;
-    --utils-primary-hover-button-font-size: 14px;
+    --utils-primary-hover-button-font-size: 1.4rem;
     --utils-primary-hover-button-text-transform: uppercase;
     --utils-primary-hover-button-text-decoration: none;
-    --utils-primary-hover-button-padding: 10px 16px;
-    --utils-primary-hover-button-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    --utils-primary-hover-button-padding: 1rem 1.6rem;
+    --utils-primary-hover-button-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.19), 0 0.6rem 0.6rem rgba(0, 0, 0, 0.23);
 
     --utils-primary-disabled-button-background-color: #1976d2;
     --utils-primary-disabled-button-border-color: #2196f3;
-    --utils-primary-disabled-button-border-width: 1px;
-    --utils-primary-disabled-button-border-radius: 3px;
+    --utils-primary-disabled-button-border-width: 0.1rem;
+    --utils-primary-disabled-button-border-radius: 0.3rem;
     --utils-primary-disabled-button-font-color: #fff;
-    --utils-primary-disabled-button-font-size: 14px;
+    --utils-primary-disabled-button-font-size: 1.4rem;
     --utils-primary-disabled-button-text-transform: uppercase;
     --utils-primary-disabled-button-text-decoration: none;
-    --utils-primary-disabled-button-padding: 10px 16px;
+    --utils-primary-disabled-button-padding: 1rem 1.6rem;
     --utils-primary-disabled-button-box-shadow: none;
     --utils-primary-disabled-button-opacity: 0.6;
 
     --utils-secondary-button-background-color: rgb(255, 255, 255);
     --utils-secondary-button-border-color: #2196f3;
-    --utils-secondary-button-border-width: 1px;
-    --utils-secondary-button-border-radius: 3px;
+    --utils-secondary-button-border-width: 0.1rem;
+    --utils-secondary-button-border-radius: 0.3rem;
     --utils-secondary-button-font-color: #3399ff;
-    --utils-secondary-button-font-size: 14px;
+    --utils-secondary-button-font-size: 1.4rem;
     --utils-secondary-button-text-transform: uppercase;
     --utils-secondary-button-text-decoration: none;
-    --utils-secondary-button-padding: 10px 16px;
-    --utils-secondary-button-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    --utils-secondary-button-padding: 1rem 1.6rem;
+    --utils-secondary-button-box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.23);
     --utils-secondary-button-outline-color: white;
-    --utils-secondary-button-outline-width: 1px;
+    --utils-secondary-button-outline-width: 0.1rem;
 
     --utils-secondary-hover-button-background-color: rgba(255,255,255,.8);
     --utils-secondary-hover-button-border-color: #2196f3;
-    --utils-secondary-hover-button-border-width: 1px;
-    --utils-secondary-hover-button-border-radius: 3px;
+    --utils-secondary-hover-button-border-width: 0.1rem;
+    --utils-secondary-hover-button-border-radius: 0.3rem;
     --utils-secondary-hover-button-font-color: #3399ff;
-    --utils-secondary-hover-button-font-size: 14px;
+    --utils-secondary-hover-button-font-size: 1.4rem;
     --utils-secondary-hover-button-text-transform: uppercase;
     --utils-secondary-hover-button-text-decoration: none;
-    --utils-secondary-hover-button-padding: 10px 16px;
-    --utils-secondary-hover-button-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    --utils-secondary-hover-button-padding: 1rem 1.6rem;
+    --utils-secondary-hover-button-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.19), 0 0.6rem 0.6rem rgba(0, 0, 0, 0.23);
 
     --utils-secondary-disabled-button-background-color: rgba(255,255,255,.8);
     --utils-secondary-disabled-button-border-color: #2196f3;
-    --utils-secondary-disabled-button-border-width: 1px;
-    --utils-secondary-disabled-button-border-radius: 3px;
+    --utils-secondary-disabled-button-border-width: 0.1rem;
+    --utils-secondary-disabled-button-border-radius: 0.3rem;
     --utils-secondary-disabled-button-font-color: #3399ff;
-    --utils-secondary-disabled-button-font-size: 14px;
+    --utils-secondary-disabled-button-font-size: 1.4rem;
     --utils-secondary-disabled-button-text-transform: uppercase;
     --utils-secondary-disabled-button-text-decoration: none;
-    --utils-secondary-disabled-button-padding: 10px 16px;
+    --utils-secondary-disabled-button-padding: 1rem 1.6rem;
     --utils-secondary-disabled-button-box-shadow: none;
     --utils-secondary-disabled-button-opacity: 0.6;
 
     --utils-tertiary-button-background-color: transparent;
     --utils-tertiary-button-border-color: white;
-    --utils-tertiary-button-border-width: 1px;
-    --utils-tertiary-button-border-radius: 3px;
+    --utils-tertiary-button-border-width: 0.1rem;
+    --utils-tertiary-button-border-radius: 0.3rem;
     --utils-tertiary-button-font-color: #3399ff;
-    --utils-tertiary-button-font-size: 14px;
+    --utils-tertiary-button-font-size: 1.4rem;
     --utils-tertiary-button-text-transform: uppercase;
     --utils-tertiary-button-text-decoration: none;
-    --utils-tertiary-button-padding: 10px 16px;
+    --utils-tertiary-button-padding: 1rem 1.6rem;
     --utils-tertiary-button-box-shadow: none;
     --utils-tertiary-button-outline-color: white;
-    --utils-tertiary-button-outline-width: 1px;
+    --utils-tertiary-button-outline-width: 0.1rem;
 
     --utils-tertiary-hover-button-background-color: transparent;
     --utils-tertiary-hover-button-border-color: white;
-    --utils-tertiary-hover-button-border-width: 1px;
-    --utils-tertiary-hover-button-border-radius: 3px;
+    --utils-tertiary-hover-button-border-width: 0.1rem;
+    --utils-tertiary-hover-button-border-radius: 0.3rem;
     --utils-tertiary-hover-button-font-color: #2196f3;
-    --utils-tertiary-hover-button-font-size: 14px;
+    --utils-tertiary-hover-button-font-size: 1.4rem;
     --utils-tertiary-hover-button-text-transform: uppercase;
     --utils-tertiary-hover-button-text-decoration: underline;
-    --utils-tertiary-hover-button-padding: 10px 16px;
+    --utils-tertiary-hover-button-padding: 1rem 1.6rem;
     --utils-tertiary-hover-button-box-shadow: none;
 
     --utils-tertiary-disabled-button-background-color: transparent;
     --utils-tertiary-disabled-button-border-color: white;
-    --utils-tertiary-disabled-button-border-width: 1px;
-    --utils-tertiary-disabled-button-border-radius: 3px;
+    --utils-tertiary-disabled-button-border-width: 0.1rem;
+    --utils-tertiary-disabled-button-border-radius: 0.3rem;
     --utils-tertiary-disabled-button-font-color: #2196f3;
-    --utils-tertiary-disabled-button-font-size: 14px;
+    --utils-tertiary-disabled-button-font-size: 1.4rem;
     --utils-tertiary-disabled-button-text-transform: uppercase;
     --utils-tertiary-disabled-button-text-decoration: underline;
-    --utils-tertiary-disabled-button-padding: 10px 16px;
+    --utils-tertiary-disabled-button-padding: 1rem 1.6rem;
     --utils-tertiary-disabled-button-box-shadow: none;
     --utils-tertiary-disabled-button-opacity: 0.6;
 
     /*DIVIDER*/
     --utils-divider-color: #aaa;
-    --utils-divider-size: 1px;
+    --utils-divider-size: 0.1rem;
     --utils-divider-margin-top: 1.5rem;
     --utils-divider-margin-bottom: 1.5rem;
 
     /*DATAGRIDS*/
-    --utils-datagrid-broad-cellpadding: 12px;
-    --utils-datagrid-broad-font-size: 16px;
+    --utils-datagrid-broad-cellpadding: 1.2rem
+    --utils-datagrid-broad-font-size: 1.6rem;
 
-    --utils-datagrid-tight-cellpadding: 6px;
-    --utils-datagrid-tight-font-size: 14px;
+    --utils-datagrid-tight-cellpadding: 0.6rem;
+    --utils-datagrid-tight-font-size: 1.4rem;
 
     --utils-datagrid-light-table-border-color: #f1f1f1;
     --utils-datagrid-light-cell-border-color: #f1f1f1;
@@ -209,9 +209,9 @@
 
     --utils-datagrid-selected-background-color: #ececec;
 
-    --utils-datagrid-horizontal-scrolling-margin: 32px;
+    --utils-datagrid-horizontal-scrolling-margin: 3.2rem;
 
-    --utils-datagrid-cellborder-width: 1px;
+    --utils-datagrid-cellborder-width: 0.1rem;
     --utils-datagrid-cellborder-color: #ccc;
 
     /*MENU*/
@@ -219,10 +219,10 @@
 
     /*REQUIRED INDICATOR*/
     --required-indicator-color: #ee7166;
-    --required-indicator-font-size: 14px;
+    --required-indicator-font-size: 1.4rem;
     --required-indicator-symbol: "✽";
-    --required-indicator-top-position: -5px;
-    --required-indicator-right-position: 2px;
+    --required-indicator-top-position: -0.5rem;
+    --required-indicator-right-position: 0.2rem;
 
     /*BOX SHADOWS*/
     --box-shadow-bottom-color: rgba(149, 157, 165, 0.2);
