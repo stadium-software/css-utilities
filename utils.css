@@ -6106,7 +6106,7 @@ html body .data-grid-container.heavy .table > tbody > tr:first-child > td {
   border-top: none;
 }
 html body .hoverable.data-grid-container table.table-striped > tbody > tr:hover {
-  background-color: var(--utils-datagrid-hover-background-color, var(--BODY-BACKGROUND-COLOR));
+  background-color: var(--utils-datagrid-hover-background-color, var(--DARKER-GREY));
 }
 html body .data-grid-container.fix-headers .table {
   overflow-y: auto;
