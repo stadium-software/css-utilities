@@ -229,4 +229,19 @@
 
     /*POPUPS*/
     --popup-backdrop-color: rgba(0, 0, 0, 0.5);
+
+    /*MESSAGE BOX*/
+    --message-box-button-alignment: end; /*start, end, left, right, flex-end, flex-start*/
+    
+    --message-box-font-size: 1.4rem;
+    --message-box-font-color: #6f6f6f;
+    --message-box-font-weight: normal;
+    --message-box-text-align: inherit;
+
+    --message-box-background-color: inherit;
+    --message-box-border-radius: 0;
+    --message-box-border-color: #fff;
+    --message-box-box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.23);
+    --message-box-max-height: 90vh;
+    --message-box-overflow: auto;
 }

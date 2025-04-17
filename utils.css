@@ -34,6 +34,7 @@ html body {
   /*DATAGRIDS*/
   /*MENU*/
   /*REQUIRED INDICATOR*/
+  /* MESSAGE BOX */
 }
 html body .h1 *:is(span, a, .btn-default, label, input, option, select),
 html body .h1 *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover),
@@ -6175,6 +6176,25 @@ html body .show-required-indicator:after {
   content: var(--required-indicator-symbol, "✽");
   color: var(--required-indicator-color, var(--VALIDATION-ERROR-FONT-COLOR));
   font-size: var(--required-indicator-font-size, var(--BODY-FONT-SIZE));
+}
+html body .modal-footer > div > div {
+  display: flex;
+  justify-content: var(--message-box-button-alignment, flex-end);
+}
+html body .modal-content {
+  background-color: var(--message-box-background-color, var(--MODAL-CONTENT-BACKGROUND-COLOR, #fff));
+  border-radius: var(--message-box-border-radius, 0);
+  border-color: var(--message-box-border-color, var(--MODAL-CONTENT-BORDER-COLOR, inherit));
+  box-shadow: var(--message-box-box-shadow, 0 0.3rem 0.6rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.23));
+  max-height: var(--message-box-max-height, 90vh);
+}
+html body .modal-body .dialog-message {
+  font-size: var(--message-box-font-size, var(--BODY-FONT-SIZE, 1.4rem));
+  color: var(--message-box-font-color, var(--BODY-FONT-COLOR, #6f6f6f));
+  font-weight: var(--message-box-font-weight, var(--BODY-FONT-WEIGHT, normal));
+  text-align: var(--message-box-text-align, inherit);
+  max-height: calc(var(--message-box-max-height, 90vh) - 10rem);
+  overflow: var(--message-box-overflow, auto);
 }
 
 html {

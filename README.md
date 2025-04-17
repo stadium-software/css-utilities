@@ -23,6 +23,8 @@ This module contains a set of CSS classes that can be added to the classes prope
 
 2.0 Converted pixel to rem (1rem = 10px)
 
+2.1 Added Message Box styles
+
 ## Table of Contents
 - [CSS Utilities](#css-utilities)
   - [Version](#version)
@@ -172,6 +174,18 @@ This module contains a set of CSS classes that can be added to the classes prope
   - [Required Indicator](#required-indicator)
     - [Hide Required Indicator](#hide-required-indicator)
     - [Show Required Indicator](#show-required-indicator)
+  - [Message Box](#message-box)
+    - [Message Box Button Alignment](#message-box-button-alignment)
+    - [Message Box Font Size](#message-box-font-size)
+    - [Message Box Font Color](#message-box-font-color)
+    - [Message Box Font Weight](#message-box-font-weight)
+    - [Message Box Text Align](#message-box-text-align)
+    - [Message Box Background Colour](#message-box-background-colour)
+    - [Message Box Border Radius](#message-box-border-radius)
+    - [Message Box Border Colour](#message-box-border-colour)
+    - [Message Box Shadow](#message-box-shadow)
+    - [Message Box Maximum Allowable Height](#message-box-maximum-allowable-height)
+    - [Message Box Scrollbars](#message-box-scrollbars)
 
 # Setup
 
@@ -2099,6 +2113,120 @@ show-required-indicator
 *Display*
 
 ![](images/Required-Indicator.png)
+
+[Back to top](#table-of-contents)
+
+## Message Box
+To change the message box styling, you must include the *utils-variables.css* file (see [Apply the module](#apply-the-module)) and change any of the variables listed here
+
+### Message Box Button Alignment
+Allows for changing the button alignment inside of message boxes
+
+**Variable**
+```css
+--message-box-button-alignment
+```
+
+Allowable values
+```
+start, end, left, right, flex-end, flex-start
+```
+
+[Back to top](#table-of-contents)
+
+### Message Box Font Size
+
+**Variable**
+```css
+--message-box-font-size
+```
+
+[Back to top](#table-of-contents)
+
+### Message Box Font Color
+
+**Variable**
+```css
+--message-box-font-color
+```
+
+[Back to top](#table-of-contents)
+
+### Message Box Font Weight
+
+**Variable**
+```css
+--message-box-font-weight
+```
+
+[Back to top](#table-of-contents)
+
+### Message Box Text Align
+Change the alignment of the text
+
+**Variable**
+```css
+--message-box-text-align
+```
+
+[Back to top](#table-of-contents)
+
+### Message Box Background Colour
+
+**Variable**
+```css
+--message-box-background-color
+```
+
+[Back to top](#table-of-contents)
+
+### Message Box Border Radius
+
+**Variable**
+```css
+--message-box-border-radius
+```
+
+[Back to top](#table-of-contents)
+
+### Message Box Border Colour
+
+**Variable**
+```css
+--message-box-border-color
+```
+
+[Back to top](#table-of-contents)
+
+### Message Box Shadow
+
+**Variable**
+```css
+--message-box-box-shadow
+```
+
+[Back to top](#table-of-contents)
+
+### Message Box Maximum Allowable Height
+
+**Variable**
+```css
+--message-box-max-height
+```
+
+[Back to top](#table-of-contents)
+
+### Message Box Scrollbars
+
+**Variable**
+```css
+--message-box-overflow
+```
+
+Allowable values
+```
+auto, scroll, hidden
+```
 
 [Back to top](#table-of-contents)
 
