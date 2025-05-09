@@ -4,20 +4,20 @@
     --utils-h1-font-size: 3.2rem;
     --utils-h1-font-weight: 600;
     --utils-h1-line-height: 1.5;
-    --utils-h1-margin-top: .4em;
-    --utils-h1-margin-bottom: .2em;
+    --utils-h1-margin-top: .4rem;
+    --utils-h1-margin-bottom: .2rem;
     
     --utils-h2-font-size: 2.4rem;
     --utils-h2-font-weight: 600;
     --utils-h2-line-height: 1.5;
-    --utils-h2-margin-top: 1em;
-    --utils-h2-margin-bottom: .5em;
+    --utils-h2-margin-top: 1rem;
+    --utils-h2-margin-bottom: .5rem;
 
     --utils-h3-font-size: 1.8rem;
     --utils-h3-font-weight: 600;
     --utils-h3-line-height: 1.5;
-    --utils-h3-margin-top: 1em;
-    --utils-h3-margin-bottom: .5em;
+    --utils-h3-margin-top: 1rem;
+    --utils-h3-margin-bottom: .5rem;
 
     --utils-page-title-font-size: 3.6rem;
     --utils-page-title-font-weight: 600;
@@ -28,8 +28,8 @@
     --utils-subtitle-font-size: 1.8rem;
     --utils-subtitle-font-weight: 600;
     --utils-subtitle-line-height: 1.5;
-    --utils-subtitle-margin-top: 1em;
-    --utils-subtitle-margin-bottom: .5em;
+    --utils-subtitle-margin-top: 1rem;
+    --utils-subtitle-margin-bottom: .5rem;
 
     /*PREFORMATTED TEXT*/
     --utils-preformatted-font-family: monospace;
@@ -38,9 +38,9 @@
     --utils-preformatted-font-size: 1.4rem;
     --utils-preformatted-max-width: 100%;
     --utils-preformatted-min-width: 10rem;
-    --utils-preformatted-padding: .3em;
+    --utils-preformatted-padding: .3rem;
     --utils-preformatted-line-height: 1.2;
-    --utils-preformatted-letter-spacing: -0.05em;
+    --utils-preformatted-letter-spacing: -0.05rem;
 
     /*COLOURS*/
     --utils-color-1: #333;
