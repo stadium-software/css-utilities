@@ -25,6 +25,8 @@ This module contains a set of CSS classes that can be added to the classes prope
 
 2.1 Added Message Box styles
 
+2.2 Added multiline class for displaying text for preserving line breaks in text
+
 ## Table of Contents
 - [CSS Utilities](#css-utilities)
   - [Version](#version)
