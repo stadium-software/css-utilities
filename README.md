@@ -53,6 +53,7 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [Show line breaks (\\n)](#show-line-breaks-n)
     - [Ellipsis](#ellipsis)
     - [Preformatted text](#preformatted-text)
+    - [Multiline text](#multiline-text)
   - [Colours](#colours)
     - [Text colour](#text-colour)
     - [Background colour](#background-colour)
