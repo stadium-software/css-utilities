@@ -498,7 +498,7 @@ preformatted
 [Back to top](#table-of-contents)
 
 ### Multiline text
-Preserving line breaks in text requires the addition of \n in the text. Format the property as an expression to preserve this value. When used directly in a property, Stadium will escape the \ character and the line breaks will not show
+Preserving line breaks in text requires the addition of \n in the text. Format the property as an expression to preserve this value. When adding text directly in a property (not as an expression), Stadium will escape the \ character and line breaks will not show. 
 
 **Class name**
 ```css
