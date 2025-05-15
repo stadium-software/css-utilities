@@ -494,6 +494,16 @@ preformatted
 
 [Back to top](#table-of-contents)
 
+### Multiline text
+Preserving line breaks in text requires the addition of \n in the text. Format the property as an expression to preserve this value. When used directly in a property, Stadium will escape the \ character and the line breaks will not show
+
+**Class name**
+```css
+multiline
+```
+
+[Back to top](#table-of-contents)
+
 ## Colours
 
 Customisable and reusable colours for text, backgrounds and borders. Text and background colours can be applied to labels, links buttons, form inputs and drop-downs. 

@@ -320,6 +320,23 @@ html body .text-align-center,
 html body .text-center {
   text-align: center;
 }
+html body .button-container.multiline button,
+html body .label-container.multiline span,
+html body .data-grid-container.multiline-cells td,
+html body .data-grid-container.multiline-headings th a,
+html body .menu-container.multiline a,
+html body .link-container.multiline a,
+html body .check-box-list-container.multiline .checkbox label,
+html body .radio-button-list-container.multiline .radio label {
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  max-width: 100vw;
+}
+html body .dialog-message {
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  max-width: 100vw;
+}
 html body .primary .btn-default,
 html body .primary-button .btn-default,
 html body .primary .btn-default:focus,
