@@ -510,15 +510,28 @@ html body .preformatted *:is(span, a, .btn-default) .label-container,
 html body .pre-formatted *:is(span, a, .btn-default) .label-container {
   margin-top: 0;
 }
-html body .hr,
-html body .divider {
+html body .container .control-container.hr,
+html body .container .control-container.divider {
+  display: block;
+  width: 100%;
   margin-top: var(--utils-divider-margin-top, 1.5rem);
   margin-bottom: var(--utils-divider-margin-bottom, 1.5rem);
   border: 0;
   border-bottom-width: var(--utils-divider-size, 0.1rem);
   border-bottom-style: solid;
   border-bottom-color: var(--utils-divider-color, var(--X-DARK-GREY));
-  width: 100%;
+}
+html body .hr.double,
+html body .divider.double {
+  border-bottom-style: double;
+}
+html body .hr.dashed,
+html body .divider.dashed {
+  border-bottom-style: dashed;
+}
+html body .hr.dotted,
+html body .divider.dotted {
+  border-bottom-style: dotted;
 }
 html body .user-select *:is(span, a, .btn-default, label, input, option, select, td, th),
 html body .no-select *:is(span, a, .btn-default, label, input, option, select, td, th),
@@ -5276,6 +5289,7 @@ html body .box-shadow-32:hover:is(.container-layout:hover, .grid-layout:hover, .
 html body .border {
   border-width: 0.1rem;
   border-style: solid;
+  border-color: var(--BODY-FONT-COLOR, #6f6f6f);
 }
 html body .border-none:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .border-none:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
@@ -5289,144 +5303,168 @@ html body .border-0:not(.container-layout, .grid-layout, .flexbox-layout, .panel
 html body .border-0:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-width: 0rem;
   border-style: solid;
+  border-color: var(--BODY-FONT-COLOR, #6f6f6f);
 }
 html body .border-1:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .border-1:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .border-1:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-width: 0.1rem;
   border-style: solid;
+  border-color: var(--BODY-FONT-COLOR, #6f6f6f);
 }
 html body .border-2:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .border-2:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .border-2:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-width: 0.2rem;
   border-style: solid;
+  border-color: var(--BODY-FONT-COLOR, #6f6f6f);
 }
 html body .border-3:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .border-3:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .border-3:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-width: 0.3rem;
   border-style: solid;
+  border-color: var(--BODY-FONT-COLOR, #6f6f6f);
 }
 html body .border-top:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .border-top:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .border-top:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-top-width: 0.1rem;
   border-top-style: solid;
+  border-color: var(--BODY-FONT-COLOR, #6f6f6f);
 }
 html body .border-top-0:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .border-top-0:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .border-top-0:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-top-width: 0rem;
   border-top-style: solid;
+  border-color: var(--BODY-FONT-COLOR, #6f6f6f);
 }
 html body .border-top-1:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .border-top-1:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .border-top-1:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-top-width: 0.1rem;
   border-top-style: solid;
+  border-color: var(--BODY-FONT-COLOR, #6f6f6f);
 }
 html body .border-top-2:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .border-top-2:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .border-top-2:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-top-width: 0.2rem;
   border-top-style: solid;
+  border-color: var(--BODY-FONT-COLOR, #6f6f6f);
 }
 html body .border-top-3:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .border-top-3:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .border-top-3:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-top-width: 0.3rem;
   border-top-style: solid;
+  border-color: var(--BODY-FONT-COLOR, #6f6f6f);
 }
 html body .border-right:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .border-right:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .border-right:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-right-width: 0.1rem;
   border-right-style: solid;
+  border-color: var(--BODY-FONT-COLOR, #6f6f6f);
 }
 html body .border-right-0:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .border-right-0:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .border-right-0:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-right-width: 0rem;
   border-right-style: solid;
+  border-color: var(--BODY-FONT-COLOR, #6f6f6f);
 }
 html body .border-right-1:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .border-right-1:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .border-right-1:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-right-width: 0.1rem;
   border-right-style: solid;
+  border-color: var(--BODY-FONT-COLOR, #6f6f6f);
 }
 html body .border-right-2:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .border-right-2:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .border-right-2:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-right-width: 0.2rem;
   border-right-style: solid;
+  border-color: var(--BODY-FONT-COLOR, #6f6f6f);
 }
 html body .border-right-3:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .border-right-3:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .border-right-3:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-right-width: 0.3rem;
   border-right-style: solid;
+  border-color: var(--BODY-FONT-COLOR, #6f6f6f);
 }
 html body .border-bottom:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .border-bottom:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .border-bottom:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-bottom-width: 0.1rem;
   border-bottom-style: solid;
+  border-color: var(--BODY-FONT-COLOR, #6f6f6f);
 }
 html body .border-bottom-0:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .border-bottom-0:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .border-bottom-0:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-bottom-width: 0rem;
   border-bottom-style: solid;
+  border-color: var(--BODY-FONT-COLOR, #6f6f6f);
 }
 html body .border-bottom-1:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .border-bottom-1:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .border-bottom-1:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-bottom-width: 0.1rem;
   border-bottom-style: solid;
+  border-color: var(--BODY-FONT-COLOR, #6f6f6f);
 }
 html body .border-bottom-2:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .border-bottom-2:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .border-bottom-2:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-bottom-width: 0.2rem;
   border-bottom-style: solid;
+  border-color: var(--BODY-FONT-COLOR, #6f6f6f);
 }
 html body .border-bottom-3:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .border-bottom-3:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .border-bottom-3:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-bottom-width: 0.3rem;
   border-bottom-style: solid;
+  border-color: var(--BODY-FONT-COLOR, #6f6f6f);
 }
 html body .border-left:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .border-left:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .border-left:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-left-width: 0.1rem;
   border-left-style: solid;
+  border-color: var(--BODY-FONT-COLOR, #6f6f6f);
 }
 html body .border-left-0:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .border-left-0:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .border-left-0:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-left-width: 0rem;
   border-left-style: solid;
+  border-color: var(--BODY-FONT-COLOR, #6f6f6f);
 }
 html body .border-left-1:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .border-left-1:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .border-left-1:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-left-width: 0.1rem;
   border-left-style: solid;
+  border-color: var(--BODY-FONT-COLOR, #6f6f6f);
 }
 html body .border-left-2:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .border-left-2:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .border-left-2:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-left-width: 0.2rem;
   border-left-style: solid;
+  border-color: var(--BODY-FONT-COLOR, #6f6f6f);
 }
 html body .border-left-3:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .border-left-3:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .border-left-3:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-left-width: 0.3rem;
   border-left-style: solid;
+  border-color: var(--BODY-FONT-COLOR, #6f6f6f);
 }
 html body .border-radius-0:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .border-radius-0:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select) {
@@ -5827,119 +5865,148 @@ html body .background-color-29:not(.container-layout, .grid-layout, .flexbox-lay
   background-color: var(--utils-color-29);
 }
 html body .border-color-1:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
-html body .border-color-1:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select) .border-color-1:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
+html body .border-color-1:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select),
+html body .border-color-1:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-1);
 }
 html body .border-color-2:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
-html body .border-color-2:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select) .border-color-2:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
+html body .border-color-2:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select),
+html body .border-color-2:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-2);
 }
 html body .border-color-3:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
-html body .border-color-3:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select) .border-color-3:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
+html body .border-color-3:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select),
+html body .border-color-3:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-3);
 }
 html body .border-color-4:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
-html body .border-color-4:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select) .border-color-4:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
+html body .border-color-4:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select),
+html body .border-color-4:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-4);
 }
 html body .border-color-5:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
-html body .border-color-5:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select) .border-color-5:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
+html body .border-color-5:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select),
+html body .border-color-5:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-5);
 }
 html body .border-color-6:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
-html body .border-color-6:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select) .border-color-6:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
+html body .border-color-6:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select),
+html body .border-color-6:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-6);
 }
 html body .border-color-7:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
-html body .border-color-7:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select) .border-color-7:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
+html body .border-color-7:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select),
+html body .border-color-7:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-7);
 }
 html body .border-color-8:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
-html body .border-color-8:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select) .border-color-8:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
+html body .border-color-8:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select),
+html body .border-color-8:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-8);
 }
 html body .border-color-9:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
-html body .border-color-9:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select) .border-color-9:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
+html body .border-color-9:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select),
+html body .border-color-9:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-9);
 }
 html body .border-color-10:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
-html body .border-color-10:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select) .border-color-10:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
+html body .border-color-10:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select),
+html body .border-color-10:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-10);
 }
 html body .border-color-11:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
-html body .border-color-11:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select) .border-color-11:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
+html body .border-color-11:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select),
+html body .border-color-11:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-11);
 }
 html body .border-color-12:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
-html body .border-color-12:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select) .border-color-12:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
+html body .border-color-12:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select),
+html body .border-color-12:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-12);
 }
 html body .border-color-13:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
-html body .border-color-13:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select) .border-color-13:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
+html body .border-color-13:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select),
+html body .border-color-13:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-13);
 }
 html body .border-color-14:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
-html body .border-color-14:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select) .border-color-14:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
+html body .border-color-14:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select),
+html body .border-color-14:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-14);
 }
 html body .border-color-15:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
-html body .border-color-15:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select) .border-color-15:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
+html body .border-color-15:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select),
+html body .border-color-15:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-15);
 }
 html body .border-color-16:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
-html body .border-color-16:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select) .border-color-16:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
+html body .border-color-16:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select),
+html body .border-color-16:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-16);
 }
 html body .border-color-17:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
-html body .border-color-17:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select) .border-color-17:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
+html body .border-color-17:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select),
+html body .border-color-17:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-17);
 }
 html body .border-color-18:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
-html body .border-color-18:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select) .border-color-18:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
+html body .border-color-18:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select),
+html body .border-color-18:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-18);
 }
 html body .border-color-19:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
-html body .border-color-19:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select) .border-color-19:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
+html body .border-color-19:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select),
+html body .border-color-19:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-19);
 }
 html body .border-color-20:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
-html body .border-color-20:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select) .border-color-20:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
+html body .border-color-20:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select),
+html body .border-color-20:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-20);
 }
 html body .border-color-21:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
-html body .border-color-21:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select) .border-color-21:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
+html body .border-color-21:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select),
+html body .border-color-21:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-21);
 }
 html body .border-color-22:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
-html body .border-color-22:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select) .border-color-22:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
+html body .border-color-22:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select),
+html body .border-color-22:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-22);
 }
 html body .border-color-23:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
-html body .border-color-23:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select) .border-color-23:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
+html body .border-color-23:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select),
+html body .border-color-23:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-23);
 }
 html body .border-color-24:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
-html body .border-color-24:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select) .border-color-24:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
+html body .border-color-24:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select),
+html body .border-color-24:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-24);
 }
 html body .border-color-25:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
-html body .border-color-25:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select) .border-color-25:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
+html body .border-color-25:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select),
+html body .border-color-25:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-25);
 }
 html body .border-color-26:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
-html body .border-color-26:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select) .border-color-26:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
+html body .border-color-26:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select),
+html body .border-color-26:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-26);
 }
 html body .border-color-27:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
-html body .border-color-27:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select) .border-color-27:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
+html body .border-color-27:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select),
+html body .border-color-27:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-27);
 }
 html body .border-color-28:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
-html body .border-color-28:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select) .border-color-28:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
+html body .border-color-28:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select),
+html body .border-color-28:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-28);
 }
 html body .border-color-29:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
-html body .border-color-29:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select) .border-color-29:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
+html body .border-color-29:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, option, select),
+html body .border-color-29:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span:hover, a:hover, .btn-default:hover, label:hover, input:hover, option:hover) {
   border-color: var(--utils-color-29);
 }
 html body .font-size-0 > *:is(span, a, .btn-default, label, input, option, select) {

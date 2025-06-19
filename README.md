@@ -29,6 +29,8 @@ This module contains a set of CSS classes that can be added to the classes prope
 
 2.3 Various fixes
 
+2.4 Added divider / hr styles; set default border color to font-color
+
 ## Table of Contents
 - [CSS Utilities](#css-utilities)
   - [Version](#version)
@@ -68,6 +70,7 @@ This module contains a set of CSS classes that can be added to the classes prope
     - [Secondary](#secondary)
     - [Tertiary](#tertiary)
   - [Divider](#divider)
+    - [Divider styles](#divider-styles)
   - [User Interactions \& Cursors](#user-interactions--cursors)
     - [Prevent text selection](#prevent-text-selection)
     - [Prevent clicking](#prevent-clicking)
@@ -783,7 +786,7 @@ tertiary disabled
 [Back to top](#table-of-contents)
 
 ## Divider
-A divider is represented as a horizontal line
+A divider is represented as a solid horizontal line
 
 **Class name**
 ```css
@@ -795,6 +798,26 @@ divider
 --utils-divider-size: 0.1rem;
 --utils-divider-margin-top: 1.5rem;
 --utils-divider-margin-bottom: 1.5rem;
+```
+
+[Back to top](#table-of-contents)
+
+### Divider styles
+Add a class to change the divider style
+
+**Class name**
+```css
+dashed
+```
+
+**Class name**
+```css
+dotted
+```
+
+**Class name**
+```css
+double
 ```
 
 [Back to top](#table-of-contents)
@@ -1762,7 +1785,7 @@ Add or remov borders from elements
 
 ### Border on all sides
 
-Adds a 0.1rem solid border in the default color your browser implements. Add a [border color](#set-a-border-colour) class to change the colour
+Adds a 0.1rem solid border in the theme font color. Add a [border color](#set-a-border-colour) class to change the colour
 
 **Class name**
 ```css
