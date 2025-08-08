@@ -31,6 +31,8 @@ This module contains a set of CSS classes that can be added to the classes prope
 
 2.4 Added divider / hr styles; set default border color to font-color
 
+2.5 Fixed fix-headers bug when page also contains an environment indicator or a fixed stadium header
+
 ## Table of Contents
 - [CSS Utilities](#css-utilities)
   - [Version](#version)
