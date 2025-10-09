@@ -35,6 +35,7 @@ html body {
   /*MENU*/
   /*REQUIRED INDICATOR*/
   /* MESSAGE BOX */
+  /*BUTTON CLICK ANIMATION*/
 }
 html body .h1 *:is(span, a, .btn-default),
 html body .h1 *:is(span:hover, a:hover, .btn-default:hover) {
@@ -5116,172 +5117,274 @@ html body .box-shadow-bottom:is(.container-layout, .grid-layout, .flexbox-layout
 html body .box-shadow-bottom:hover:is(.container-layout:hover, .grid-layout:hover, .flexbox-layout:hover, .panel-container:hover) {
   box-shadow: 0 0.4rem 0.2rem -0.2rem var(--box-shadow-bottom-color);
 }
-html body .box-shadow-0:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
+html body .box-shadow-0:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout,
+.grid-layout,
+.flexbox-layout,
+.panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .box-shadow-0:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .box-shadow-0:hover:is(.container-layout:hover, .grid-layout:hover, .flexbox-layout:hover, .panel-container:hover) {
   box-shadow: rgba(149, 157, 165, 0.2) 0 0.8rem 2.4rem;
 }
-html body .box-shadow-1:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
+html body .box-shadow-1:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout,
+.grid-layout,
+.flexbox-layout,
+.panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .box-shadow-1:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .box-shadow-1:hover:is(.container-layout:hover, .grid-layout:hover, .flexbox-layout:hover, .panel-container:hover) {
   box-shadow: rgba(100, 100, 111, 0.2) 0 0.7rem 2.9rem 0;
 }
-html body .box-shadow-2:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
+html body .box-shadow-2:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout,
+.grid-layout,
+.flexbox-layout,
+.panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .box-shadow-2:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .box-shadow-2:hover:is(.container-layout:hover, .grid-layout:hover, .flexbox-layout:hover, .panel-container:hover) {
   box-shadow: rgba(0, 0, 0, 0.15) 0.195rem 0.195rem 0.26rem;
 }
-html body .box-shadow-3:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
+html body .box-shadow-3:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout,
+.grid-layout,
+.flexbox-layout,
+.panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .box-shadow-3:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .box-shadow-3:hover:is(.container-layout:hover, .grid-layout:hover, .flexbox-layout:hover, .panel-container:hover) {
   box-shadow: rgba(0, 0, 0, 0.35) 0 0.5rem 1.5rem;
 }
-html body .box-shadow-4:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
+html body .box-shadow-4:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout,
+.grid-layout,
+.flexbox-layout,
+.panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .box-shadow-4:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .box-shadow-4:hover:is(.container-layout:hover, .grid-layout:hover, .flexbox-layout:hover, .panel-container:hover) {
   box-shadow: rgba(0, 0, 0, 0.16) 0 0.1rem 0.4rem;
 }
-html body .box-shadow-5:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
+html body .box-shadow-5:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout,
+.grid-layout,
+.flexbox-layout,
+.panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .box-shadow-5:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .box-shadow-5:hover:is(.container-layout:hover, .grid-layout:hover, .flexbox-layout:hover, .panel-container:hover) {
   box-shadow: rgba(0, 0, 0, 0.24) 0 0.3rem 0.8rem;
 }
-html body .box-shadow-6:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
+html body .box-shadow-6:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout,
+.grid-layout,
+.flexbox-layout,
+.panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .box-shadow-6:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .box-shadow-6:hover:is(.container-layout:hover, .grid-layout:hover, .flexbox-layout:hover, .panel-container:hover) {
   box-shadow: rgba(99, 99, 99, 0.2) 0 0.2rem 0.8rem 0;
 }
-html body .box-shadow-7:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
+html body .box-shadow-7:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout,
+.grid-layout,
+.flexbox-layout,
+.panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .box-shadow-7:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .box-shadow-7:hover:is(.container-layout:hover, .grid-layout:hover, .flexbox-layout:hover, .panel-container:hover) {
   box-shadow: rgba(0, 0, 0, 0.16) 0 0.1rem 0.4rem, rgb(51, 51, 51) 0 0 0 0.3rem;
 }
-html body .box-shadow-8:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
+html body .box-shadow-8:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout,
+.grid-layout,
+.flexbox-layout,
+.panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .box-shadow-8:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .box-shadow-8:hover:is(.container-layout:hover, .grid-layout:hover, .flexbox-layout:hover, .panel-container:hover) {
   box-shadow: rgba(0, 0, 0, 0.02) 0 0.1rem 0.3rem 0, rgba(27, 31, 35, 0.15) 0 0 0 0.1rem;
 }
-html body .box-shadow-9:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
+html body .box-shadow-9:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout,
+.grid-layout,
+.flexbox-layout,
+.panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .box-shadow-9:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .box-shadow-9:hover:is(.container-layout:hover, .grid-layout:hover, .flexbox-layout:hover, .panel-container:hover) {
   box-shadow: rgba(0, 0, 0, 0.1) 0 0.4rem 1.2rem;
 }
-html body .box-shadow-10:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
+html body .box-shadow-10:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout,
+.grid-layout,
+.flexbox-layout,
+.panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .box-shadow-10:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .box-shadow-10:hover:is(.container-layout:hover, .grid-layout:hover, .flexbox-layout:hover, .panel-container:hover) {
   box-shadow: rgba(0, 0, 0, 0.25) 0 5.4rem 5.5rem, rgba(0, 0, 0, 0.12) 0 -1.2rem 3rem, rgba(0, 0, 0, 0.12) 0 0.4rem 0.6rem, rgba(0, 0, 0, 0.17) 0 1.2rem 1.3rem, rgba(0, 0, 0, 0.09) 0 -0.3rem 0.5rem;
 }
-html body .box-shadow-11:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
+html body .box-shadow-11:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout,
+.grid-layout,
+.flexbox-layout,
+.panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .box-shadow-11:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .box-shadow-11:hover:is(.container-layout:hover, .grid-layout:hover, .flexbox-layout:hover, .panel-container:hover) {
   box-shadow: rgba(0, 0, 0, 0.05) 0 0.6rem 2.4rem 0, rgba(0, 0, 0, 0.08) 0 0 0 0.1rem;
 }
-html body .box-shadow-12:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
+html body .box-shadow-12:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout,
+.grid-layout,
+.flexbox-layout,
+.panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .box-shadow-12:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .box-shadow-12:hover:is(.container-layout:hover, .grid-layout:hover, .flexbox-layout:hover, .panel-container:hover) {
   box-shadow: rgba(0, 0, 0, 0.16) 0 1rem 3.6rem 0, rgba(0, 0, 0, 0.06) 0 0 0 0.1rem;
 }
-html body .box-shadow-13:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
+html body .box-shadow-13:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout,
+.grid-layout,
+.flexbox-layout,
+.panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .box-shadow-13:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .box-shadow-13:hover:is(.container-layout:hover, .grid-layout:hover, .flexbox-layout:hover, .panel-container:hover) {
   box-shadow: rgba(17, 12, 46, 0.15) 0 4.8rem 10rem 0;
 }
-html body .box-shadow-14:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
+html body .box-shadow-14:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout,
+.grid-layout,
+.flexbox-layout,
+.panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .box-shadow-14:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .box-shadow-14:hover:is(.container-layout:hover, .grid-layout:hover, .flexbox-layout:hover, .panel-container:hover) {
   box-shadow: rgba(50, 50, 93, 0.25) 0 5rem 10rem -2rem, rgba(0, 0, 0, 0.3) 0 3rem 6rem -3rem, rgba(10, 37, 64, 0.35) 0 -0.2rem 0.6rem 0 inset;
 }
-html body .box-shadow-15:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
+html body .box-shadow-15:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout,
+.grid-layout,
+.flexbox-layout,
+.panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .box-shadow-15:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .box-shadow-15:hover:is(.container-layout:hover, .grid-layout:hover, .flexbox-layout:hover, .panel-container:hover) {
   box-shadow: rgba(255, 255, 255, 0.1) 0 0.1rem 0.1rem 0 inset, rgba(50, 50, 93, 0.25) 0 5rem 10rem -2rem, rgba(0, 0, 0, 0.3) 0 3rem 6rem -3rem;
 }
-html body .box-shadow-16:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
+html body .box-shadow-16:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout,
+.grid-layout,
+.flexbox-layout,
+.panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .box-shadow-16:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .box-shadow-16:hover:is(.container-layout:hover, .grid-layout:hover, .flexbox-layout:hover, .panel-container:hover) {
   box-shadow: rgba(50, 50, 93, 0.25) 0 5rem 10rem -2rem, rgba(0, 0, 0, 0.3) 0 3rem 6rem -3rem;
 }
-html body .box-shadow-17:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
+html body .box-shadow-17:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout,
+.grid-layout,
+.flexbox-layout,
+.panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .box-shadow-17:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .box-shadow-17:hover:is(.container-layout:hover, .grid-layout:hover, .flexbox-layout:hover, .panel-container:hover) {
   box-shadow: rgba(50, 50, 93, 0.25) 0 5rem 10rem -2rem, rgba(0, 0, 0, 0.3) 0 3rem 6rem -3rem;
 }
-html body .box-shadow-18:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
+html body .box-shadow-18:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout,
+.grid-layout,
+.flexbox-layout,
+.panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .box-shadow-18:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .box-shadow-18:hover:is(.container-layout:hover, .grid-layout:hover, .flexbox-layout:hover, .panel-container:hover) {
   box-shadow: rgba(50, 50, 93, 0.25) 0 1.3rem 2.7rem -0.5rem, rgba(0, 0, 0, 0.3) 0 0.8rem 1.6rem -0.8rem;
 }
-html body .box-shadow-19:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
+html body .box-shadow-19:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout,
+.grid-layout,
+.flexbox-layout,
+.panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .box-shadow-19:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .box-shadow-19:hover:is(.container-layout:hover, .grid-layout:hover, .flexbox-layout:hover, .panel-container:hover) {
   box-shadow: rgba(50, 50, 93, 0.25) 0 0.2rem 0.5rem -0.1rem, rgba(0, 0, 0, 0.3) 0 0.1rem 0.3rem -0.1rem;
 }
-html body .box-shadow-20:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
+html body .box-shadow-20:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout,
+.grid-layout,
+.flexbox-layout,
+.panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .box-shadow-20:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .box-shadow-20:hover:is(.container-layout:hover, .grid-layout:hover, .flexbox-layout:hover, .panel-container:hover) {
   box-shadow: rgb(38, 57, 77) 0 2rem 3rem -1rem;
 }
-html body .box-shadow-21:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
+html body .box-shadow-21:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout,
+.grid-layout,
+.flexbox-layout,
+.panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .box-shadow-21:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .box-shadow-21:hover:is(.container-layout:hover, .grid-layout:hover, .flexbox-layout:hover, .panel-container:hover) {
   box-shadow: rgba(6, 24, 44, 0.4) 0 0 0 0.2rem, rgba(6, 24, 44, 0.65) 0 0.4rem 0.6rem -0.1rem, rgba(255, 255, 255, 0.08) 0 0.1rem 0 inset;
 }
-html body .box-shadow-22:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
+html body .box-shadow-22:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout,
+.grid-layout,
+.flexbox-layout,
+.panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .box-shadow-22:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .box-shadow-22:hover:is(.container-layout:hover, .grid-layout:hover, .flexbox-layout:hover, .panel-container:hover) {
   box-shadow: rgba(50, 50, 93, 0.25) 0 0.6rem 1.2rem -0.2rem, rgba(0, 0, 0, 0.3) 0 0.3rem 0.7rem -0.3rem;
 }
-html body .box-shadow-23:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
+html body .box-shadow-23:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout,
+.grid-layout,
+.flexbox-layout,
+.panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .box-shadow-23:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .box-shadow-23:hover:is(.container-layout:hover, .grid-layout:hover, .flexbox-layout:hover, .panel-container:hover) {
   box-shadow: rgba(50, 50, 93, 0.25) 0 1.3rem 2.7rem -0.5rem, rgba(0, 0, 0, 0.3) 0 0.8rem 1.6rem -0.8rem;
 }
-html body .box-shadow-24:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
+html body .box-shadow-24:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout,
+.grid-layout,
+.flexbox-layout,
+.panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .box-shadow-24:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .box-shadow-24:hover:is(.container-layout:hover, .grid-layout:hover, .flexbox-layout:hover, .panel-container:hover) {
   box-shadow: rgba(50, 50, 93, 0.25) 0 3rem 6rem -1.2rem, rgba(0, 0, 0, 0.3) 0 1.8rem 3.6rem -1.8rem;
 }
-html body .box-shadow-4:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
+html body .box-shadow-4:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout,
+.grid-layout,
+.flexbox-layout,
+.panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .box-shadow-4:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .box-shadow-4:hover:is(.container-layout:hover, .grid-layout:hover, .flexbox-layout:hover, .panel-container:hover) {
   box-shadow: rgba(50, 50, 93, 0.25) 0 3rem 6rem -1.2rem inset, rgba(0, 0, 0, 0.3) 0 1.8rem 3.6rem -1.8rem inset;
 }
-html body .box-shadow-25:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
+html body .box-shadow-25:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout,
+.grid-layout,
+.flexbox-layout,
+.panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .box-shadow-25:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .box-shadow-25:hover:is(.container-layout:hover, .grid-layout:hover, .flexbox-layout:hover, .panel-container:hover) {
   box-shadow: rgba(50, 50, 93, 0.25) 0 5rem 10rem -2rem, rgba(0, 0, 0, 0.3) 0 3rem 6rem -3rem;
 }
-html body .box-shadow-26:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
+html body .box-shadow-26:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout,
+.grid-layout,
+.flexbox-layout,
+.panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .box-shadow-26:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .box-shadow-26:hover:is(.container-layout:hover, .grid-layout:hover, .flexbox-layout:hover, .panel-container:hover) {
   box-shadow: rgba(0, 0, 0, 0.12) 0 0.1rem 0.3rem, rgba(0, 0, 0, 0.24) 0 0.1rem 0.2rem;
 }
-html body .box-shadow-27:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
+html body .box-shadow-27:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout,
+.grid-layout,
+.flexbox-layout,
+.panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .box-shadow-27:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .box-shadow-27:hover:is(.container-layout:hover, .grid-layout:hover, .flexbox-layout:hover, .panel-container:hover) {
   box-shadow: rgba(0, 0, 0, 0.16) 0 0.3rem 0.6rem, rgba(0, 0, 0, 0.23) 0 0.3rem 0.6rem;
 }
-html body .box-shadow-28:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
+html body .box-shadow-28:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout,
+.grid-layout,
+.flexbox-layout,
+.panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .box-shadow-28:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .box-shadow-28:hover:is(.container-layout:hover, .grid-layout:hover, .flexbox-layout:hover, .panel-container:hover) {
   box-shadow: rgba(0, 0, 0, 0.19) 0 1rem 2rem, rgba(0, 0, 0, 0.23) 0 0.6rem 0.6rem;
 }
-html body .box-shadow-29:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
+html body .box-shadow-29:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout,
+.grid-layout,
+.flexbox-layout,
+.panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .box-shadow-29:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .box-shadow-29:hover:is(.container-layout:hover, .grid-layout:hover, .flexbox-layout:hover, .panel-container:hover) {
   box-shadow: rgba(0, 0, 0, 0.25) 0 1.4rem 2.8rem, rgba(0, 0, 0, 0.22) 0 1rem 1rem;
 }
-html body .box-shadow-30:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
+html body .box-shadow-30:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout,
+.grid-layout,
+.flexbox-layout,
+.panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .box-shadow-30:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .box-shadow-30:hover:is(.container-layout:hover, .grid-layout:hover, .flexbox-layout:hover, .panel-container:hover) {
   box-shadow: rgba(0, 0, 0, 0.3) 0 1.9rem 3.8rem, rgba(0, 0, 0, 0.22) 0 1.5rem 1.2rem;
 }
-html body .box-shadow-31:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
+html body .box-shadow-31:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout,
+.grid-layout,
+.flexbox-layout,
+.panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .box-shadow-31:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .box-shadow-31:hover:is(.container-layout:hover, .grid-layout:hover, .flexbox-layout:hover, .panel-container:hover) {
   box-shadow: rgba(60, 64, 67, 0.3) 0 0.1rem 0.2rem 0, rgba(60, 64, 67, 0.15) 0 0.2rem 0.6rem 0.2rem;
 }
-html body .box-shadow-32:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout, .grid-layout, .flexbox-layout, .panel-container) > *:is(span, a, .btn-default, label, input, select),
+html body .box-shadow-32:not(.container-layout, .grid-layout, .flexbox-layout, .panel-container):not(.container-layout,
+.grid-layout,
+.flexbox-layout,
+.panel-container) > *:is(span, a, .btn-default, label, input, select),
 html body .box-shadow-32:is(.container-layout, .grid-layout, .flexbox-layout, .panel-container),
 html body .box-shadow-32:hover:is(.container-layout:hover, .grid-layout:hover, .flexbox-layout:hover, .panel-container:hover) {
   box-shadow: rgba(60, 64, 67, 0.3) 0 0.1rem 0.2rem 0, rgba(168, 198, 221, 0.15) 0 0.1rem 0.3rem 0.1rem;
@@ -6327,6 +6430,14 @@ html body .modal-body .dialog-message {
   text-align: var(--message-box-text-align, inherit);
   max-height: calc(var(--message-box-max-height, 90vh) - 10rem);
   overflow: var(--message-box-overflow, auto);
+}
+html body .btn-default {
+  transition-property: opacity, transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0.15s;
+}
+html body .btn-default:active {
+  transform: scale(0.97);
 }
 
 html {
