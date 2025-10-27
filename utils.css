@@ -313,9 +313,7 @@ html body .dialog-message {
   overflow-wrap: break-word;
   max-width: 100vw;
 }
-html body .primary .btn-default,
 html body .primary-button .btn-default,
-html body .primary .btn-default:focus,
 html body .primary-button .btn-default:focus {
   background-color: var(--utils-primary-button-background-color, var(--BUTTON-BACKGROUND-COLOR));
   border-color: var(--utils-primary-button-border-color, var(--BUTTON-BORDER-COLOR));
@@ -329,12 +327,10 @@ html body .primary-button .btn-default:focus {
   padding: var(--utils-primary-button-padding, var(--BUTTON-TOPBOTTOM-PADDING) var(--BUTTON-RIGHTLEFT-PADDING));
   box-shadow: var(--utils-primary-button-box-shadow, var(--BUTTON-BOX-SHADOW));
 }
-html body .primary .btn-default:focus,
 html body .primary-button .btn-default:focus {
   outline-color: var(--utils-primary-button-outline-color, var(--CONTRAST-THEME-COLOR));
   outline-width: var(--utils-primary-button-outline-width, 0.1rem);
 }
-html body .primary .btn-default:hover,
 html body .primary-button .btn-default:hover {
   background-color: var(--utils-primary-hover-button-background-color, var(--BUTTON-HOVER-BACKGROUND-COLOR));
   border-color: var(--utils-primary-hover-button-border-color, var(--BUTTON-BORDER-COLOR));
@@ -348,11 +344,8 @@ html body .primary-button .btn-default:hover {
   padding: var(--utils-primary-hover-button-padding, var(--BUTTON-TOPBOTTOM-PADDING) var(--BUTTON-RIGHTLEFT-PADDING));
   box-shadow: var(--utils-primary-hover-button-box-shadow, var(--BUTTON-HOVER-BOX-SHADOW));
 }
-html body .primary.disabled .btn-default,
 html body .primary-button.disabled .btn-default,
-html body .primary.disabled .btn-default:focus,
 html body .primary-button.disabled .btn-default:focus,
-html body .primary.disabled .btn-default:hover,
 html body .primary-button.disabled .btn-default:hover {
   background-color: var(--utils-primary-disabled-button-background-color, var(--BUTTON-BACKGROUND-COLOR));
   border-color: var(--utils-primary-disabled-button-border-color, var(--TERIARY-THEME-COLOR));
@@ -369,13 +362,11 @@ html body .primary-button.disabled .btn-default:hover {
   cursor: default;
   pointer-events: none;
 }
-html body .secondary,
-html body .secondary:hover {
+html body .secondary-button,
+html body .secondary-button:hover {
   background-color: inherit;
 }
-html body .secondary .btn-default,
 html body .secondary-button .btn-default,
-html body .secondary .btn-default:focus,
 html body .secondary-button .btn-default:focus {
   background-color: var(--utils-secondary-button-background-color, var(--BUTTON-TEXT-COLOR));
   border-color: var(--utils-secondary-button-border-color, var(--BUTTON-BORDER-COLOR));
@@ -389,12 +380,10 @@ html body .secondary-button .btn-default:focus {
   padding: var(--utils-secondary-button-padding, var(--BUTTON-TOPBOTTOM-PADDING) var(--BUTTON-RIGHTLEFT-PADDING));
   box-shadow: var(--utils-secondary-button-box-shadow, var(--BUTTON-BOX-SHADOW));
 }
-html body .secondary .btn-default:focus,
 html body .secondary-button .btn-default:focus {
   outline-color: var(--utils-secondary-button-outline-color, var(--BUTTON-TEXT-COLOR));
   outline-width: var(--utils-secondary-button-outline-width, 0.1rem);
 }
-html body .secondary .btn-default:hover,
 html body .secondary-button .btn-default:hover {
   background-color: var(--utils-secondary-hover-button-background-color, rgba(255, 255, 255, 0.8));
   border-color: var(--utils-secondary-hover-button-border-color, var(--BUTTON-BORDER-COLOR));
@@ -408,11 +397,8 @@ html body .secondary-button .btn-default:hover {
   padding: var(--utils-secondary-hover-button-padding, var(--BUTTON-TOPBOTTOM-PADDING) var(--BUTTON-RIGHTLEFT-PADDING));
   box-shadow: var(--utils-secondary-hover-button-box-shadow, var(--BUTTON-HOVER-BOX-SHADOW));
 }
-html body .secondary.disabled .btn-default,
 html body .secondary-button.disabled .btn-default,
-html body .secondary.disabled .btn-default:focus,
 html body .secondary-button.disabled .btn-default:focus,
-html body .secondary.disabled .btn-default:hover,
 html body .secondary-button.disabled .btn-default:hover {
   background-color: var(--utils-secondary-disabled-button-background-color, rgba(255, 255, 255, 0.8));
   border-color: var(--utils-secondary-disabled-button-border-color, var(--BUTTON-BORDER-COLOR));
@@ -429,9 +415,7 @@ html body .secondary-button.disabled .btn-default:hover {
   cursor: default;
   pointer-events: none;
 }
-html body .tertiary .btn-default,
 html body .tertiary-button .btn-default,
-html body .tertiary .btn-default:focus,
 html body .tertiary-button .btn-default:focus {
   background-color: var(--utils-tertiary-button-background-color, transparent);
   border-color: var(--utils-tertiary-button-border-color, var(--BUTTON-TEXT-COLOR));
@@ -445,12 +429,10 @@ html body .tertiary-button .btn-default:focus {
   padding: var(--utils-tertiary-button-padding, var(--BUTTON-TOPBOTTOM-PADDING) var(--BUTTON-RIGHTLEFT-PADDING));
   box-shadow: var(--utils-tertiary-button-box-shadow, none);
 }
-html body .tertiary .btn-default:focus,
 html body .tertiary-button .btn-default:focus {
   outline-color: var(--utils-tertiary-button-outline-color, var(--BUTTON-TEXT-COLOR));
   outline-width: var(--utils-tertiary-button-outline-width, 0.1rem);
 }
-html body .tertiary .btn-default:hover,
 html body .tertiary-button .btn-default:hover {
   background-color: var(--utils-tertiary-hover-button-background-color, transparent);
   border-color: var(--utils-tertiary-hover-button-border-color, var(--BUTTON-TEXT-COLOR));
@@ -464,11 +446,8 @@ html body .tertiary-button .btn-default:hover {
   padding: var(--utils-tertiary-hover-button-padding, var(--BUTTON-TOPBOTTOM-PADDING) var(--BUTTON-RIGHTLEFT-PADDING));
   box-shadow: var(--utils-tertiary-hover-button-box-shadow, none);
 }
-html body .tertiary.disabled .btn-default,
 html body .tertiary-button.disabled .btn-default,
-html body .tertiary.disabled .btn-default:focus,
 html body .tertiary-button.disabled .btn-default:focus,
-html body .tertiary.disabled .btn-default:hover,
 html body .tertiary-button.disabled .btn-default:hover {
   background-color: var(--utils-tertiary-disabled-button-background-color, transparent);
   border-color: var(--utils-tertiary-disabled-button-border-color, var(--BUTTON-TEXT-COLOR));

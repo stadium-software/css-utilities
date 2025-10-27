@@ -35,6 +35,8 @@ This module contains a set of CSS classes that can be added to the classes prope
 
 2.6 Added general button transform
 
+2.7 Added -button suffix to button type class names
+
 ## Table of Contents
 1. [CSS Utilities](#css-utilities)
    1. [Version](#version)
@@ -628,7 +630,7 @@ Primary buttons
 
 **Class name**
 ```css
-primary
+primary-button
 ```
 
 **Primary button customisations**
@@ -660,7 +662,7 @@ primary
 
 **Class names**
 ```css
-primary disabled
+primary-button disabled
 ```
 **Disabled primary button customisations**
 ```css
@@ -684,7 +686,7 @@ Secondary buttons
 
 **Class name**
 ```css
-secondary
+secondary-button
 ```
 **Secondary button customisations**
 ```css
@@ -715,7 +717,7 @@ secondary
 
 **Class names**
 ```css
-secondary disabled
+secondary-button disabled
 ```
 **Disabled secondary button customisations**
 ```css
@@ -739,7 +741,7 @@ Tertiary buttons
 
 **Class name**
 ```css
-tertiary
+tertiary-button
 ```
 **Tertiary button customisations**
 ```css
@@ -770,7 +772,7 @@ tertiary
 
 **Class names**
 ```css
-tertiary disabled
+tertiary-button disabled
 ```
 **Disabled tertiary button customisations**
 ```css
